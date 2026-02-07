@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "com.unascribed.unsup.json"
+hash = "46cf6f9767c2a261de88a2b7dbd49f2f582134b0b461843b61740250dd9f7ef9"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "6003299fd97cb6b383ca3df88a2a676c565585799b1e14bb2987617ee189c7c2"
 
@@ -97902,3 +97906,7 @@ hash = "ae75cd5e8c7d574a0ad2442da0032ea02fc4e752ff330d66f15a00b657ec1ed4"
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.5.1 + EuphoriaPatches_1.6.5/supportedMods.md"
 hash = "968f11832bd6aa39806b3037ba587e0c9da04e0ad5ac8233e7bb7e9ed74ec1d4"
+
+[[files]]
+file = "unsup.ini"
+hash = "adaa36e8cfae6a75ff99387240eff3ab4fbd1d400c0ded174425680cb20d5cb3"
