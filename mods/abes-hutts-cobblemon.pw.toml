@@ -1,0 +1,13 @@
+name = "Abes Hutt's Cobblemon"
+filename = "Abes-Hutts-Cobblemon-1.21.1-1.7.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0811570a51c9d770a20bd1f1d776db047229d42"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7428394
+project-id = 1421286

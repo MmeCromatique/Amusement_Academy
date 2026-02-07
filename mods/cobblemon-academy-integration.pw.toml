@@ -1,0 +1,13 @@
+name = "Cobblemon Academy Integration"
+filename = "academy-mc1.21.1-v2.2.0+build.532-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9cfb197caf2f6ac84e76d597ec9bf74c68fc942"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7500192
+project-id = 1330130
