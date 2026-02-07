@@ -37169,7 +37169,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me.pw.toml"
-hash = "2894cd1e059882c485555f3119626500ce2074a0fe8a72d1d18c0065cd519af4"
+hash = "f79f6df265ef15f8e646613139bae1cc07e5f5b655a9e5663d39fdb022b32fce"
 metafile = true
 
 [[files]]
@@ -37184,12 +37184,12 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "077c132f1c6a9e5799cd5cf4673d27502f041323b0d8421f315cdfbb968b1a81"
+hash = "e48d0ce711c1f19ce6a0107ad413d889445331039d4fabab66d76b9158a548a2"
 metafile = true
 
 [[files]]
 file = "mods/chat-plus.pw.toml"
-hash = "8f933505a0db49c72f908ca8fce17b22b6b41daf8f2f047e61cc9079557a233b"
+hash = "620d7f20a5d8a8b57ece182fbbc98cff2c19f0f38c5b0e07eae47b22b7cac34e"
 metafile = true
 
 [[files]]
@@ -37499,7 +37499,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-structures.pw.toml"
-hash = "bed7f53b4371db16890cf68ed7a4dd42e286e9902c5b9c5776f396b5f23633be"
+hash = "1d27d4554499ba53120579972d9c174687502c6695e84516c0824abb58efa0ed"
 metafile = true
 
 [[files]]
@@ -37719,7 +37719,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonrise.pw.toml"
-hash = "c6dfdf498b8a46893b0cb51f0d77afe2b19293afb150f101bf7e9faca890d62b"
+hash = "16e8070d865a33d05e233ef84580ad1f8b119d634527ddc908e7eb2a7b155bbc"
 metafile = true
 
 [[files]]
@@ -37789,7 +37789,7 @@ metafile = true
 
 [[files]]
 file = "mods/observable.pw.toml"
-hash = "98208ae2415431239a9b1d7cd97854cb19941a28189d2e887671d48e9b652761"
+hash = "aa60ab8fbabd761c8852cf2b1c0a5c79cc6809595c9ca52e3c57b7d34aca7698"
 metafile = true
 
 [[files]]
@@ -38029,7 +38029,7 @@ metafile = true
 
 [[files]]
 file = "mods/starter-structure.pw.toml"
-hash = "218387d84a3680285d17bec68c16527d0d54edf792adf32b8b94c51c1d93b462"
+hash = "e0f1f1b08a59f671798b2075c2543eacb4ba62ffab30e2bb5fbdcf9e08f84be0"
 metafile = true
 
 [[files]]
@@ -38084,7 +38084,7 @@ metafile = true
 
 [[files]]
 file = "mods/the-open-sauce-toast-killer.pw.toml"
-hash = "b168e6d372023e8c3b1b7ab442bc11340b799822dc0b40ab37e2a880aaca2327"
+hash = "2f608c86cb8c820a8953ed75faac6cee661b03dcea348bf64617c437067d1e44"
 metafile = true
 
 [[files]]
@@ -38159,7 +38159,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "c960d1c479e8fbbb241ff6043b164ca5622f637ee2c017293b556b3acb7b5d53"
+hash = "7e2e155bc1910edead2dd171749eff4767b8aa84ae70def39b7d8ed19fdbbb7a"
 metafile = true
 
 [[files]]
@@ -97914,4 +97914,8 @@ hash = "968f11832bd6aa39806b3037ba587e0c9da04e0ad5ac8233e7bb7e9ed74ec1d4"
 
 [[files]]
 file = "unsup.ini"
-hash = "adaa36e8cfae6a75ff99387240eff3ab4fbd1d400c0ded174425680cb20d5cb3"
+hash = "086d3f8e12945c6072d4d71753c8b2d2728086b0f02cf20c02a93b7f1661c0df"
+
+[[files]]
+file = "unsup.toml"
+hash = "f3a06fef9c824e1e84493ef134ec5bfc9f7937aa693956290c5dd7c4c7eeacb6"
