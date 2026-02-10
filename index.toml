@@ -722,7 +722,7 @@ hash = "cf9c7b4071dfecb97274c0497ecdcfa7de4efc82e792015cb14c78b41b3e647a"
 
 [[files]]
 file = "config/fancymenu/assets/nighttimecooking.ogg"
-hash = "06e8735d39b463f8f4982cafc40777b80f79b97f7e152e78b1ea8bf576acafc1"
+hash = "9f78d2de212fd226ccd5df9d6ff36455ee4049001803902f7e75a529074b8f2b"
 
 [[files]]
 file = "config/fancymenu/assets/options.png"
@@ -1262,7 +1262,7 @@ hash = "7d333e800dc72310b2ddf1d33d2fd14beed53e0ed84c47ea3f0d0b6c4f591c00"
 
 [[files]]
 file = "config/fancymenu/slideshows/exposure1x/images/fufu9545_14640943.png"
-hash = "548187ff987602d06bf91d8cb4eb32eba68917b3e679df6bac113e99275d4cf2"
+hash = "f8e2d8ceef4faeb8ce7a4eaf9cf28bc94d0ebd3a2417a2f04728bbb6af76b327"
 
 [[files]]
 file = "config/fancymenu/slideshows/exposure1x/images/fufu9545_6421348.png"
@@ -13874,7 +13874,7 @@ hash = "5cb8c250893f2f4815e80a497a7adb41abd0ebcc75c79e27937bf4c1c498ecfe"
 
 [[files]]
 file = "datapacks/CCC_1.9.2/permissions/Permissions - Imgur (13).png"
-hash = "5052847414e10c32162c155fd2af99f837d29e7548d1def8200f021cb48020c3"
+hash = "3f7ef37a41c1c3e3090b8eba492f4ab755151518d07a4e8c7f035c73c5f00096"
 
 [[files]]
 file = "datapacks/CCC_1.9.2/permissions/Permissions - Imgur (14).png"
@@ -13894,7 +13894,7 @@ hash = "d41c691438d36d01eadfda90d2fb101f64f60d3f2b44baa50c7534810ec2fc28"
 
 [[files]]
 file = "datapacks/CCC_1.9.2/permissions/Permissions - Imgur (18).png"
-hash = "4928ce3a9d67c403c5a9c4bb3ac140853859218622d6d759354bc911da4f1645"
+hash = "7a0d483077003ddf6ec1189316be98b487802f6bd0f11886bcc5e4c19726da12"
 
 [[files]]
 file = "datapacks/CCC_1.9.2/permissions/Permissions - Imgur (2).jpg"
@@ -38199,7 +38199,7 @@ hash = "02c44b8a338be696448616f915d0a3741c882bfeaee6680e31b34fd2816365da"
 
 [[files]]
 file = "resourcepacks/Academy/assets/academy/sounds/aurora_moon.ogg"
-hash = "29671666df4be415bc0ea46faa9984913aa150868c8f04cdb694897c3ff5dc25"
+hash = "89976a9c8476c6901d47525715ac16a3e6dd7b217666412d3daae073f4158e89"
 
 [[files]]
 file = "resourcepacks/Academy/assets/academy/sounds/blood_moon.ogg"
@@ -56171,7 +56171,7 @@ hash = "5cb8c250893f2f4815e80a497a7adb41abd0ebcc75c79e27937bf4c1c498ecfe"
 
 [[files]]
 file = "resourcepacks/CCC_1.9.2/permissions/Permissions - Imgur (13).png"
-hash = "5052847414e10c32162c155fd2af99f837d29e7548d1def8200f021cb48020c3"
+hash = "3f7ef37a41c1c3e3090b8eba492f4ab755151518d07a4e8c7f035c73c5f00096"
 
 [[files]]
 file = "resourcepacks/CCC_1.9.2/permissions/Permissions - Imgur (14).png"
@@ -56191,7 +56191,7 @@ hash = "d41c691438d36d01eadfda90d2fb101f64f60d3f2b44baa50c7534810ec2fc28"
 
 [[files]]
 file = "resourcepacks/CCC_1.9.2/permissions/Permissions - Imgur (18).png"
-hash = "4928ce3a9d67c403c5a9c4bb3ac140853859218622d6d759354bc911da4f1645"
+hash = "7a0d483077003ddf6ec1189316be98b487802f6bd0f11886bcc5e4c19726da12"
 
 [[files]]
 file = "resourcepacks/CCC_1.9.2/permissions/Permissions - Imgur (2).jpg"
@@ -62419,11 +62419,11 @@ hash = "1477885543449225413d97b70379a0f1ca9da4d9bf93fd4a5fe71022505c4b46"
 
 [[files]]
 file = "resourcepacks/Radiants/assets/cobblemon/textures/pokemon/0095_onix/onix_radiant.png"
-hash = "d670703f7fa2d88e385fb157cec4641fa4fef1f103d38f0e3986df092bdc004b"
+hash = "17e5180699586c1e3be2444526bdaae9b08b6da04c9a815dae444bdf7ab893ae"
 
 [[files]]
 file = "resourcepacks/Radiants/assets/cobblemon/textures/pokemon/0095_onix/onix_shiny_radiant.png"
-hash = "1535bf5a1ba253f9b72f6935b40e1cf595190b8f302508206a003481d87f6157"
+hash = "6520eb79799b05ef5ba0258754a79e3261900afcc665abffcd09f99f22f4940c"
 
 [[files]]
 file = "resourcepacks/Radiants/assets/cobblemon/textures/pokemon/0096_drowzee/drowzee_radiant.png"
