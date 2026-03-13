@@ -34522,11 +34522,6 @@ hash = "520371a447ddcecaf1132fde27f23d22f203ded75fb1599db91f3fef09473b0b"
 metafile = true
 
 [[files]]
-file = "mods/rei-enchantment-info.pw.toml"
-hash = "beaa8047e4e060593e36bd393f110cbc95cc9a1f5587d9081a76c431f3e3276c"
-metafile = true
-
-[[files]]
 file = "mods/rei.pw.toml"
 hash = "d22546ad55b555931eb527f163b3564e00c12c7dc8101378b87447dfcc8e0652"
 metafile = true
