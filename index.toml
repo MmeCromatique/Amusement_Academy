@@ -570,7 +570,7 @@ hash = "9c641640a0c34b2ff15fbad286a0c5268d4c9abc256196340f11e13a27c892f5"
 
 [[files]]
 file = "config/fancymenu/assets/buttons.pdn"
-hash = "534a346c784fac814cad521247bb22906d0e15817e681caa5eabb2072af2f88f"
+hash = "b2d0a72fb3cbba3f60c57625467235a40e04eb965966d3a74b4adde6189f786f"
 
 [[files]]
 file = "config/fancymenu/assets/buttons.png"
@@ -578,7 +578,7 @@ hash = "09412156d0ddfc2f2e759cd66c631110dd7be8707939659da4f430eb657c48f7"
 
 [[files]]
 file = "config/fancymenu/assets/buttons2.pdn"
-hash = "2ac6a24f56fbe124373100d7e9d7e44ad510e0196d0cf1ad76b76d474ebec550"
+hash = "dcce09807cbd9fd340a4789da6afd643116ab4174d06377afca4351829d4f62b"
 
 [[files]]
 file = "config/fancymenu/assets/buttontoggle.png"
@@ -622,7 +622,7 @@ hash = "bfd35c576b958f0d81809c85fd6593c4600cd57f48911e54ed688380c106302d"
 
 [[files]]
 file = "config/fancymenu/assets/emeraldeyes.ogg"
-hash = "655d7ce48507b2900d0834314f817728e2f5001d92715de777e2e65cf0387f07"
+hash = "c59f8f137a09448816fc4639e8f03fb1fba5b2b2fe491dc95786a4336a31585a"
 
 [[files]]
 file = "config/fancymenu/assets/ftbquestsbook2.png"
@@ -634,7 +634,7 @@ hash = "d7791f3aa9a1afab6a409ccf573688c2bb9c3a05f76639bb161d97ac54ec2e2d"
 
 [[files]]
 file = "config/fancymenu/assets/icon32.icns"
-hash = "a9a309e15b7f0e1acff2487c1af0fa13e734306debc9a85e68415f7b41f052e0"
+hash = "a4d3557d5068001d4b240202ba16000c2ded5fa5f04eee65a3d25e4ee4d049a6"
 
 [[files]]
 file = "config/fancymenu/assets/icon32.png"
@@ -694,15 +694,15 @@ hash = "016dc4d0f660fccafcae08dd9691a0c3a3fd19c26a75c059b9b4f52cf4a59e52"
 
 [[files]]
 file = "config/fancymenu/assets/lostinacave.ogg"
-hash = "e5cbe6a8099f4103594779789f22bda226f9aff8ee470df3d904244e95b4bc2c"
+hash = "e044f55ce147ca87f86366d61edb837c978d736e07e29564b7a96c00ae765a16"
 
 [[files]]
 file = "config/fancymenu/assets/menuani.gif"
-hash = "f1d5e6251a266c92276796119ff2210465fde77bb5cfb041d05075389ccdf137"
+hash = "61d99cfefad19ad84b4642837dfcaf67331a222a93d599eb0e52d19f575070a3"
 
 [[files]]
 file = "config/fancymenu/assets/menuani2.gif"
-hash = "45d3f9785f9511ded9ce85d94da8fd1cf12d537fae07df42cc984373175145cd"
+hash = "c3c365774445a0603ea2a25a377c6234f2065be0da441ae8d7c5cb05be180dc6"
 
 [[files]]
 file = "config/fancymenu/assets/mods.png"
@@ -722,7 +722,7 @@ hash = "0affd986e90f9bca733030535bb1c3782b15c23ad350a1f00fdc64044c35deab"
 
 [[files]]
 file = "config/fancymenu/assets/nighttimecooking.ogg"
-hash = "acf1a84d97154415945937947f68a919255a2d200deef61fa5d58752286a57ff"
+hash = "06e8735d39b463f8f4982cafc40777b80f79b97f7e152e78b1ea8bf576acafc1"
 
 [[files]]
 file = "config/fancymenu/assets/options.png"
