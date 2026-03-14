@@ -2,4 +2,7 @@
 * text eol=lf
 *.ini text eol=lf
 *.png binary
+*.gif binary
+*.ogg binary
+*.pnd binary
 autocrlf=false
