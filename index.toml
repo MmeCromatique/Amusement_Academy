@@ -39352,11 +39352,6 @@ hash = "4eac5acc79c1dbf32c4cd6241c956b96f451c0c2501ada660147a1f8357e6903"
 metafile = true
 
 [[files]]
-file = "mods/bisecthosting-server-integration-menu-fabric.pw.toml"
-hash = "6ac5a2c003a178157560c304143f5026afd30cb5a233b7e22afc2a84f24183e9"
-metafile = true
-
-[[files]]
 file = "mods/blur-fabric.pw.toml"
 hash = "7200f9097697e0103fb13c190c953645e5d88fd06f61e3da041474cf6c389a33"
 metafile = true
