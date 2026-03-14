@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ironthorns', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('ironthorns', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('ironthorns', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('ironthorns', 'recoil')",
+    "special": "q.bedrock_primary('ironthorns', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('ironthorns', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.11,
+  "portraitTranslation": [-0.75, 5.48, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('ironthorns', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('ironthorns', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('ironthorns', 'ground_idle')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.34,
+  "profileTranslation": [-0.08, 1.29, 0]
+}

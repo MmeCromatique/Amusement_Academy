@@ -1,0 +1,31 @@
+{
+  "order": 1,
+  "species": "cobblemon:lunala",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0792_lunala/lunala_emissive.png",
+          "translucent": false
+        }
+      ],
+      "model": "cobblemon:lunala.geo",
+      "poser": "cobblemon:lunala",
+      "texture": "cobblemon:textures/pokemon/0792_lunala/lunala.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0792_lunala/lunala_shiny_emissive.png",
+          "translucent": false
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0792_lunala/lunala_shiny.png"
+    }
+  ]
+}

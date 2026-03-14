@@ -1,0 +1,24 @@
+{
+  "order": 0,
+  "species": "cobblemon:passimian",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:passimian.geo",
+      "poser": "cobblemon:passimian",
+      "texture": "cobblemon:textures/pokemon/0766_passimian/passimian.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0766_passimian/passimian_shiny.png"
+    },
+    {
+      "aspects": ["red-leaf"],
+      "texture": "cobblemon:textures/pokemon/0766_passimian/passimian_red.png"
+    },
+    {
+      "aspects": ["shiny", "red-leaf"],
+      "texture": "cobblemon:textures/pokemon/0766_passimian/passimian_shiny_red.png"
+    }
+  ]
+}

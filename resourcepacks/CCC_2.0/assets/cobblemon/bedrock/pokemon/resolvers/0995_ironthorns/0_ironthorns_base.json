@@ -1,0 +1,29 @@
+{
+  "order": 0,
+  "species": "cobblemon:ironthorns",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0995_ironthorns/ironthorns_emissive.png"
+        }
+      ],
+      "model": "cobblemon:ironthorns.geo",
+      "poser": "cobblemon:ironthorns",
+      "texture": "cobblemon:textures/pokemon/0995_ironthorns/ironthorns.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0995_ironthorns/ironthorns_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0995_ironthorns/ironthorns_shiny.png"
+    }
+  ]
+}

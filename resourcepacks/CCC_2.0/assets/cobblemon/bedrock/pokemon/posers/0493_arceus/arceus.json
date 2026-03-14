@@ -1,0 +1,54 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('arceus', 'cry')",
+    "recoil": "q.bedrock_stateful('arceus', 'recoil')"
+  },
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "head": "head",
+  "portraitScale": 1.4,
+  "portraitTranslation": [-1.4, 5.6, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": [
+        "q.bedrock_quirk('arceus', 'blink')",
+        "q.bedrock_primary_quirk('arceus', q.array('quirk_battle_idle'), 20, 40, 1, q.curve('symmetrical'))"
+      ]
+    },
+    "fly": {
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'air_fly')"],
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    },
+    "hover": {
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'air_idle')"],
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('arceus', 'ground_walk')"],
+      "poseTypes": ["WALK", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('arceus', 'blink')"]
+    }
+  },
+  "profileScale": 0.29,
+  "profileTranslation": [0.1, 1.39, 0],
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 1.5, 1],
+    "seat_1_reverse": [0, 1, 0]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 1, 1],
+    "seat_1_reverse": [0, 1, 0]
+  }
+}

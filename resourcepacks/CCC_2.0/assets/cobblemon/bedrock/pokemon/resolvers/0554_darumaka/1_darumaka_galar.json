@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "species": "cobblemon:darumaka",
+  "variations": [
+    {
+      "aspects": ["galarian"],
+      "layers": [],
+      "model": "cobblemon:darumaka_galar.geo",
+      "poser": "cobblemon:darumaka",
+      "texture": "cobblemon:textures/pokemon/0554_darumaka/darumaka_galar.png"
+    }, {
+      "aspects": ["shiny", "galarian"],
+      "texture": "cobblemon:textures/pokemon/0554_darumaka/darumaka_galar_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('bounsweet', 'cry')"
+  },
+  "head": "head",
+  "portraitScale": 2.75,
+  "portraitTranslation": [0, -2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('bounsweet', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('bounsweet', 'ground_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('bounsweet', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('bounsweet', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('bounsweet', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 1.2,
+  "profileTranslation": [0, 0, 0]
+}

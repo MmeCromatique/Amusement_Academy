@@ -1,0 +1,52 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('snover', 'cry')",
+    "faint": "q.bedrock_primary('snover', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('snover', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('snover', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1,
+  "portraitTranslation": [0, 0.3, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(snover, battle_idle)"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "transformTicks": 10
+    },
+    "floating": {
+      "animations": ["bedrock(snover, ground_idle)"],
+      "poseName": "floating",
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(snover, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(snover, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["bedrock(snover, ground_walk)"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(snover, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0.3, 0]
+}

@@ -1,0 +1,41 @@
+{
+  "animations": {},
+  "portraitScale": 1.53,
+  "portraitTranslation": [-1.83, 2.45, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('neck')", "q.bedrock('necrozma_duskmane', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "fly": {
+      "animations": ["q.look('neck')", "q.bedrock('necrozma_duskmane', 'ground_run')"],
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('neck')", "q.bedrock('necrozma_duskmane', 'ground_idle')"],
+      "poseTypes": ["HOVER", "FLOAT"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('neck')", "q.bedrock('necrozma_duskmane', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('neck')", "q.bedrock('necrozma_duskmane', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('neck')", "q.bedrock('necrozma_duskmane', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.26, 0]
+}

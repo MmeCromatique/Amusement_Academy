@@ -1,0 +1,31 @@
+{
+  "order": 1,
+  "species": "cobblemon:moltres",
+  "variations": [
+    {
+      "aspects": ["galarian"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0146_moltres/moltres_galarian_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:moltres_galarian.geo",
+      "poser": "cobblemon:moltres_galarian",
+      "texture": "cobblemon:textures/pokemon/0146_moltres/moltres_galarian.png"
+    }, {
+      "aspects": ["galarian", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0146_moltres/moltres_galarian_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0146_moltres/moltres_galarian_shiny.png"
+    }
+  ]
+}

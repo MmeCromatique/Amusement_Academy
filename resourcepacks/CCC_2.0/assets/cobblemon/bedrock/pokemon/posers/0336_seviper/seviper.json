@@ -1,0 +1,36 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('seviper', 'cry')",
+    "physical": "q.bedrock_primary('seviper', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('seviper', 'recoil')",
+    "special": "q.bedrock_primary('seviper', 'special', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [-0.4, -0.25, 0],
+  "poses": {
+    "sleeping": {
+      "animations": ["q.bedrock('seviper', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('seviper', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('seviper', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('seviper', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('seviper', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.5, 0],
+  "rootBone": "seviper"
+}

@@ -1,0 +1,39 @@
+{
+  "order": 2,
+  "species": "cobblemon:terapagos",
+  "variations": [
+    {
+      "aspects": ["stellar-form"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png"
+        }, {
+          "emissive": true,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_translucent.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:terapagos_stellar.geo",
+      "poser": "cobblemon:terapagos_stellar",
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar.png"
+    }, {
+      "aspects": ["stellar-form", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_shiny.png"
+        }, {
+          "emissive": true,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_translucent.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_stellar_shiny.png"
+    }
+  ]
+}

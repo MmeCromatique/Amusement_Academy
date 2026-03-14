@@ -1,0 +1,35 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 1,
+  "species": "cobblemon:coalossal",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0839_coalossal/coalossal_emissive.png"
+        }
+      ],
+      "model": "cobblemon:coalossal.geo",
+      "poser": "cobblemon:coalossal",
+      "texture": "cobblemon:textures/pokemon/0839_coalossal/coalossal.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0839_coalossal/coalossal_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0839_coalossal/coalossal_shiny.png"
+    }
+  ]
+}

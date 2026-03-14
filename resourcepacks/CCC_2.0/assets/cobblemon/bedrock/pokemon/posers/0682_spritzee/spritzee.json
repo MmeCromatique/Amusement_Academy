@@ -1,0 +1,40 @@
+{
+  "animations": {
+    "faint": "q.bedrock_primary('spritzee', 'ground_idle', q.curve('one'))"
+  },
+  "portraitScale": 1.75,
+  "portraitTranslation": [0, -0.6, 0],
+  "poses": {
+    "battle": {
+      "animations": ["q.look('head')", "q.bedrock('spritzee', 'ground_idle')"],
+      "isBattle": true,
+      "poseName": "battle_idle",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('spritzee', 'blink')"],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('spritzee', 'ground_idle')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('spritzee', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('spritzee', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('spritzee', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('spritzee', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0.4, 0]
+}

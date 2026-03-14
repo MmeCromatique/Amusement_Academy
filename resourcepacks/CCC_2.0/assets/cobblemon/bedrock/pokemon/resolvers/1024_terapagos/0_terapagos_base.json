@@ -1,0 +1,15 @@
+{
+  "order": 0,
+  "species": "cobblemon:terapagos",
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:terapagos.geo",
+      "poser": "cobblemon:terapagos",
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/1024_terapagos/terapagos_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+name = "Straw Statues"
+filename = "StrawStatues-v21.1.0-1.21.1-Fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c048e25d69fbd8b1fd95efbcd9346fbfb0209047"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5732770
+project-id = 682564

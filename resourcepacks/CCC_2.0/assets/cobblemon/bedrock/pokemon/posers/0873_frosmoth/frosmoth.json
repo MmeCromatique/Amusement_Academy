@@ -1,0 +1,34 @@
+{
+  "faint": "bedrock(frosmoth, sleep)",
+  "head": "head",
+  "portraitScale": 2.75,
+  "portraitTranslation": [-0.25, 0.75, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(frosmoth, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(frosmoth, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(frosmoth, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(frosmoth, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.0, 0]
+}

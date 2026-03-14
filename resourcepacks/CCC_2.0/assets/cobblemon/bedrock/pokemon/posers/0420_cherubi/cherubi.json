@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('cherubi', 'cry')"
+  },
+  "head": "body",
+  "portraitScale": 2,
+  "portraitTranslation": [0, -1.2, 0],
+  "poses": {
+    "sleep": {
+      "animations": ["q.bedrock('cherubi', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('cherubi', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('cherubi', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('cherubi', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('cherubi', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0]
+}

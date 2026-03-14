@@ -1,0 +1,23 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 1,
+  "species": "cobblemon:uxie",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:uxie.geo",
+      "poser": "cobblemon:uxie",
+      "texture": "cobblemon:textures/pokemon/0480_uxie/uxie.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0480_uxie/uxie_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('bombirdier', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [0, 0.3, 0],
+  "poses": {
+    "fly": {
+      "animations": ["q.bedrock('bombirdier', 'ground_walk')"],
+      "poseName": "fly",
+      "poseTypes": ["FLY", "SWIM"]
+    },
+    "hover": {
+      "animations": ["q.bedrock('bombirdier', 'ground_walk')"],
+      "poseName": "hover",
+      "poseTypes": ["HOVER", "FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('bombirdier', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('bombirdier', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1.0,
+  "profileTranslation": [0, 0.6, 0]
+}

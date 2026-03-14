@@ -1,0 +1,40 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('kommo-o', 'cry')",
+    "faint": "q.bedrock_primary('kommo-o', 'fainttemp', q.curve('one'))",
+    "physical": "q.bedrock_stateful('kommo-o', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_stateful('kommo-o', 'physical', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('kommo-o', 'cry')"
+  },
+  "head": "head",
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.7, 3.1, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('kommo-o', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('kommo-o', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('kommo-o', 'ground_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('kommo-o', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('kommo-o', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('kommo-o', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('kommo-o', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.38,
+  "profileTranslation": [0, 1.1, 0]
+}

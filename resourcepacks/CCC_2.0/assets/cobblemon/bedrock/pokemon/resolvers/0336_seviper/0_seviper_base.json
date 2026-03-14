@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:seviper",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [{}],
+      "model": "cobblemon:seviper.geo",
+      "poser": "cobblemon:seviper",
+      "texture": "cobblemon:textures/pokemon/0336_seviper/seviper.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [{}],
+      "texture": "cobblemon:textures/pokemon/0336_seviper/seviper_shiny.png"
+    }
+  ]
+}

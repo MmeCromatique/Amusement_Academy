@@ -1,0 +1,21 @@
+{
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [0, 0.6, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(lokix, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(lokix, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.75, 0]
+}

@@ -1,0 +1,67 @@
+{
+  "animations": {
+    "cry": "bedrock('chienpao', 'cry')",
+    "physical": "q.bedrock_stateful('chienpao', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('chienpao', 'recoil')",
+    "special": "q.bedrock_stateful('chienpao', 'physical', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('chienpao', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.3,
+  "portraitTranslation": [-1.0, 0.1, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('chienpao', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('chienpao', 'ear_flick_left')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('chienpao', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "leftshoulder": {
+      "animations": ["bedrock(chienpao, shoulder_left)"],
+      "poseName": "leftshoulder",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(chienpao, ear_flick_left)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "rightshoulder": {
+      "animations": ["bedrock(chienpao, shoulder_right)"],
+      "poseName": "rightshoulder",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(chienpao, ear_flick_left)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "animations": ["q.bedrock('chienpao', 'ground_idle')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('chienpao', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('chienpao', 'ear_flick_right')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('chienpao', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('chienpao', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.6, 0]
+}

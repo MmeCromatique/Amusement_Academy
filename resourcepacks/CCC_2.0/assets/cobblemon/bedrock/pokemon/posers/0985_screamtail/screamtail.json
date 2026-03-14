@@ -1,0 +1,71 @@
+{
+  "animations": {
+    "cry": "bedrock('screamtail', 'cry')",
+    "physical": "q.bedrock_primary('screamtail', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('screamtail', 'recoil')",
+    "special": "q.bedrock_primary('screamtail', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('screamtail', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.4, 0, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('screamtail', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(screamtail, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(screamtail, ear_flick)"],
+          "name": "quirk"
+        }
+      ]
+    },
+    "float": {
+      "animations": ["q.bedrock('screamtail', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('screamtail', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('screamtail', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(screamtail, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(screamtail, ear_flick)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(screamtail, cry)"],
+          "name": "quirk2"
+        }
+      ]
+    },
+    "swim": {
+      "animations": ["q.bedrock('screamtail', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('screamtail', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(screamtail, blink)"],
+          "name": "blink"
+        }
+      ]
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.6, -1.8]
+}

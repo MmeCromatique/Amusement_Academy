@@ -1,0 +1,47 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('volcanion', 'cry')"
+  },
+  "portraitScale": 1.28,
+  "portraitTranslation": [-0.91, 0.74, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('volcanion', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(volcanion, blink)"],
+          "name": "blink"
+        }
+      ]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('volcanion', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('volcanion', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(volcanion, blink)"],
+          "name": "blink"
+        }
+      ]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('volcanion', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(volcanion, blink)"],
+          "name": "blink"
+        }
+      ]
+    }
+  },
+  "profileScale": 0.33,
+  "profileTranslation": [-0.04, 1.29, 0]
+}

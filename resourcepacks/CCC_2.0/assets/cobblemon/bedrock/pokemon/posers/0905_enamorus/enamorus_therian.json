@@ -1,0 +1,65 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('pokemans_enamorus_therian', 'cry', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_stateful('pokemans_enamorus_therian', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_stateful('pokemans_enamorus_therian', 'physical_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('pokemans_enamorus_therian', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1,
+  "portraitTranslation": [-0.6, 1.3, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["look", "q.bedrock('pokemans_enamorus_therian', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('pokemans_enamorus_therian', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('pokemans_enamorus_therian', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('pokemans_enamorus_therian', 'blink')"]
+    },
+    "flying": {
+      "animations": ["bedrock(pokemans_enamorus_therian, ground_walk)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(pokemans_enamorus_therian, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["bedrock(pokemans_enamorus_therian, ground_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER"],
+      "quirks": [
+        {
+          "animations": ["bedrock(pokemans_enamorus_therian, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "q.bedrock('pokemans_enamorus_therian', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE"],
+      "quirks": ["q.bedrock_quirk('pokemans_enamorus_therian', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('pokemans_enamorus_therian', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('pokemans_enamorus_therian', 'blink')"]
+    },
+    "walking": {
+      "animations": ["look", "q.bedrock('pokemans_enamorus_therian', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('pokemans_enamorus_therian', 'blink')"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.3, 0]
+}

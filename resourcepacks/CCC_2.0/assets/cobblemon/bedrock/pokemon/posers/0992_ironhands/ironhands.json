@@ -1,0 +1,34 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ironhands', 'cry')",
+    "physical": "q.bedrock_primary('ironhands', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('ironhands', 'recoil')"
+  },
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [-0.1, 1.55, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["q.look('head')", "q.bedrock('ironhands', 'battle_idle')"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('ironhands', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('ironhands', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.95, 0],
+  "rootBone": "iron_hands"
+}

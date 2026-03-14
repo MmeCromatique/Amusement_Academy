@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "species": "cobblemon:rowlet",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:rowlet2.geo",
+      "poser": "cobblemon:rowlet",
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0722_rowlet/rowlet_shiny.png"
+    }
+  ]
+}

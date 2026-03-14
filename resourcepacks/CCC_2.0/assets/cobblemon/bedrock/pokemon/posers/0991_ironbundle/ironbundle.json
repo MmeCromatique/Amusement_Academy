@@ -1,0 +1,45 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ironbundle', 'cry')",
+    "faint": "q.bedrock_primary('ironbundle', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('ironbundle', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('ironbundle', 'recoil')",
+    "special": "q.bedrock_primary('ironbundle', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('ironbundle', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.3, 0.7, 0],
+  "poses": {
+    "float": {
+      "animations": ["q.look('head_ai')", "q.bedrock('ironbundle', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('ironbundle', 'blink')"],
+      "transformTicks": 5
+    },
+    "sleep": {
+      "animations": ["q.bedrock('ironbundle', 'sleep')"],
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head_ai')", "q.bedrock('ironbundle', 'ground_idle')"],
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('ironbundle', 'blink')", "q.bedrock_quirk('ironbundle', 'headspin')"],
+      "transformTicks": 5
+    },
+    "swim": {
+      "animations": ["q.look('head_ai')", "q.bedrock('ironbundle', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('ironbundle', 'blink')"],
+      "transformTicks": 5
+    },
+    "walking": {
+      "animations": ["q.look('head_ai')", "q.bedrock('ironbundle', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('ironbundle', 'blink')"],
+      "transformTicks": 5
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.7, 0]
+}

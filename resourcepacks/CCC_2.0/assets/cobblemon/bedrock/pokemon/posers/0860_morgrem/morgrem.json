@@ -1,0 +1,42 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('morgrem', 'cry')",
+    "physical": "q.bedrock_primary('morgrem', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('morgrem', 'recoil')",
+    "special": "q.bedrock_primary('morgrem', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('morgrem', 'battle_cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.54,
+  "portraitTranslation": [0.1, 1.0, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('morgrem', 'battle_idle')"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('morgrem', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('morgrem', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('morgrem', 'ground_idle')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('morgrem', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('morgrem', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('morgrem', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('morgrem', 'blink')"]
+    }
+  },
+  "profileScale": 0.69,
+  "profileTranslation": [0.04, 0.71, 0.0],
+  "rootBone": "morgrem"
+}

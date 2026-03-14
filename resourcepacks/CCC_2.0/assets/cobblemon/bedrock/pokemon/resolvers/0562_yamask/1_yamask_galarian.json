@@ -1,0 +1,31 @@
+{
+  "order": 0,
+  "species": "cobblemon:yamask",
+  "variations": [
+    {
+      "aspects": ["galarian"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_galarian_emissive.png"
+        }
+      ],
+      "model": "cobblemon:yamask_galarian.geo",
+      "poser": "cobblemon:yamask_galarian",
+      "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_galarian.png"
+    }, {
+      "aspects": ["galarian", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_galarian_shiny_emissive.png"
+        }
+      ],
+      "model": "cobblemon:yamask_galarian.geo",
+      "poser": "cobblemon:yamask_galarian",
+      "texture": "cobblemon:textures/pokemon/0562_yamask/yamask_galarian_shiny.png"
+    }
+  ]
+}

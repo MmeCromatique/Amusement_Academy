@@ -1,0 +1,16 @@
+{
+  "order": 2,
+  "species": "cobblemon:lycanroc",
+  "variations": [
+    {
+      "aspects": ["dusk-form"],
+      "layers": [],
+      "model": "cobblemon:lycanroc_dusk.geo",
+      "poser": "cobblemon:lycanroc_dusk",
+      "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_dusk.png"
+    }, {
+      "aspects": ["shiny", "dusk-form"],
+      "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_dusk_shiny.png"
+    }
+  ]
+}

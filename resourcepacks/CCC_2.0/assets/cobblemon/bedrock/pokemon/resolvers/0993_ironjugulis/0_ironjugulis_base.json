@@ -1,0 +1,14 @@
+{
+  "order": 0,
+  "species": "cobblemon:ironjugulis",
+  "variations": [
+    {
+      "model": "cobblemon:ironjugulis.geo",
+      "poser": "cobblemon:ironjugulis",
+      "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0993_ironjugulis/ironjugulis_shiny.png"
+    }
+  ]
+}

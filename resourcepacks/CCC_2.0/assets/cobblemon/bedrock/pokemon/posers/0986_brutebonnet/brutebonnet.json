@@ -1,0 +1,19 @@
+{
+  "animations": {
+    "cry": "q.bedrock_primary('brutebonnet', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_stateful('brutebonnet', 'faint', q.curve('one'))"
+  },
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [0, 0.1, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(brutebonnet, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, -0.3]
+}

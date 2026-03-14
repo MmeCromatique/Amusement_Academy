@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ironvaliant', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('ironvaliant', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('ironvaliant', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('ironvaliant', 'recoil')",
+    "special": "q.bedrock_primary('ironvaliant', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('ironvaliant', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.5,
+  "portraitTranslation": [-0.1, 2.09, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('ironvaliant', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('ironvaliant', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('ironvaliant', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0.01, 0.89, 0]
+}

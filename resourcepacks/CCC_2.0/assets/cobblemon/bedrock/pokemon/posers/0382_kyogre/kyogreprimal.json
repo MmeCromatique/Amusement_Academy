@@ -1,0 +1,52 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('kyogreprimal', 'cry')",
+    "faint": "q.bedrock_primary('kyogreprimal', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('kyogreprimal', 'physical_attack', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('kyogreprimal', 'recoil')",
+    "special": "q.bedrock_primary('kyogreprimal', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('kyogreprimal', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 0.55,
+  "portraitTranslation": [-0.86, 0.88, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogreprimal', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": [
+        "q.bedrock_quirk('kyogreprimal', 'blink')",
+        "q.bedrock_quirk('kyogreprimal', q.array('quirk_ground_idle'), 30, 60, 1)"
+      ]
+    },
+    "float": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogreprimal', 'water_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('kyogreprimal', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('kyogreprimal', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogreprimal', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        "q.bedrock_quirk('kyogreprimal', 'blink')", "q.bedrock_quirk('kyogreprimal', 'quirk_ground_idle', 20, 60, 1)"
+      ]
+    },
+    "swim": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogreprimal', 'water_swim')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('kyogreprimal', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogreprimal', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('kyogreprimal', 'blink')"]
+    }
+  },
+  "profileScale": 0.21,
+  "profileTranslation": [0.2, 1.0, 0]
+}

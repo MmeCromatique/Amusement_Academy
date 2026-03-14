@@ -1,0 +1,29 @@
+{
+  "order": 3,
+  "species": "cobblemon:meowth",
+  "variations": [
+    {
+      "aspects": ["gmax"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0052_meowth/meowth_gmax_emissive.png"
+        }
+      ],
+      "model": "cobblemon:meowth_gmax.geo",
+      "poser": "cobblemon:meowth_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0052_meowth/meowth_gmax.png"
+    }, {
+      "aspects": ["gmax", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0052_meowth/meowth_gmax_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0052_meowth/meowth_gmax_shiny.png"
+    }
+  ]
+}

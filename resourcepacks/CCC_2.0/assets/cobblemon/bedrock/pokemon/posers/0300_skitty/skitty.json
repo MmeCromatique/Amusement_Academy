@@ -1,0 +1,31 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('skitty', 'cry')",
+    "faint": "q.bedrock_primary('skitty', 'faint', q.curve('one'))"
+  },
+  "head": "head",
+  "portraitScale": 1.9,
+  "portraitTranslation": [-0.2, -0.7, 0],
+  "poses": {
+    "sleeping": {
+      "animations": ["bedrock(skitty, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(skitty, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(skitty, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0]
+}

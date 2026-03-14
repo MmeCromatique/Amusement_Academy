@@ -1,0 +1,32 @@
+{
+  "animations": {
+    "faint": "q.bedrock_primary('magearna', 'faint', q.curve('one'))"
+  },
+  "portraitScale": 2.6,
+  "portraitTranslation": [-0.4, 2.2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('magearna', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('magearna', q.array('blink', 'clink', 'ears_down', 'happy', 'dance'), 8, 20, 1)"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('magearna', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('magearna', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('magearna', q.array('blink', 'clink', 'ears_down', 'happy', 'dance'), 8, 20, 1)"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('magearna', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('magearna', q.array('blink', 'clink', 'ears_down', 'happy', 'dance'), 8, 20, 1)"]
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.8, -1.8]
+}

@@ -1,0 +1,49 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('kyogre', 'cry')",
+    "faint": "q.bedrock_primary('kyogre', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('kyogre', 'physical_attack', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('kyogre', 'recoil')",
+    "special": "q.bedrock_primary('kyogre', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('kyogre', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 0.50,
+  "portraitTranslation": [-0.8, 0.88, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogre', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": [
+        "q.bedrock_quirk('kyogre', 'blink')", "q.bedrock_quirk('kyogre', q.array('quirk_ground_idle'), 30, 60, 1)"
+      ]
+    },
+    "float": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogre', 'water_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('kyogre', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('kyogre', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogre', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('kyogre', 'blink')", "q.bedrock_quirk('kyogre', 'quirk_ground_idle', 20, 60, 1)"]
+    },
+    "swim": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogre', 'water_swim')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('kyogre', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('body_front', 1, -1, 17.5, -17.5, 20, -20)", "q.bedrock('kyogre', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('kyogre', 'blink')"]
+    }
+  },
+  "profileScale": 0.22,
+  "profileTranslation": [0.2, 1.0, 0]
+}

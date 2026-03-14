@@ -1,0 +1,33 @@
+{
+  "head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [-1.5, 1.6, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(ursaluna_bloodmoon, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(ursaluna_bloodmoon, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(ursaluna_bloodmoon, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(ursaluna_bloodmoon, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.45,
+  "profileTranslation": [0, 1.1, 0]
+}

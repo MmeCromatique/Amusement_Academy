@@ -1,0 +1,64 @@
+{
+  "animations": {
+    "recoil": "q.bedrock_stateful('foongus', 'recoil')",
+    "status": "q.bedrock_primary('foongus', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.3,
+  "portraitTranslation": [0.2, -1.6, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('foongus', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('foongus', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('foongus', 'ground_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "leftshoulder": {
+      "animations": ["bedrock(foongus, shoulder_left)"],
+      "poseName": "leftshoulder",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(foongus, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "rightshoulder": {
+      "animations": ["bedrock(foongus, shoulder_right)"],
+      "poseName": "rightshoulder",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(foongus, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "animations": ["q.bedrock('foongus', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('foongus', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('foongus', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('foongus', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('foongus', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.3, 0]
+}

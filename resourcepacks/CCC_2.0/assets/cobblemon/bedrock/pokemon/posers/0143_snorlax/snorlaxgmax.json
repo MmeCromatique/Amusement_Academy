@@ -1,0 +1,40 @@
+{
+  "cry": "bedrock(snorlaxgmax, cry)",
+  "head": "head",
+  "portraitScale": 0.5,
+  "portraitTranslation": [0, 0.5, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(snorlaxgmax, ground_idle)"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(snorlaxgmax, quirk_idle)"],
+          "loopTimes": 1,
+          "maxSecondsBetweenOccurrences": 20,
+          "minSecondsBetweenOccurrences": 19,
+          "name": "quirk_idle",
+          "transformTicks": 10
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(snorlaxgmax, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(snorlaxgmax, ground_idle)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.0, 0]
+}

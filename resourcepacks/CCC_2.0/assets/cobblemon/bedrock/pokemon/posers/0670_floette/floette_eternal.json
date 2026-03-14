@@ -1,0 +1,37 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('floette_eternal', 'cry')",
+    "recoil": "q.bedrock_stateful('floette_eternal', 'recoil')"
+  },
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.11, -0.11, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('floette_eternal', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('floette_eternal', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('floette_eternal', 'sleep')"],
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('dummy', 'cry')"
+      },
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('floette_eternal', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "HOVER", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('floette_eternal', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('floette_eternal', 'ground_walk')"],
+      "poseTypes": ["WALK", "FLY", "SWIM"],
+      "quirks": ["q.bedrock_quirk('floette_eternal', 'blink')"]
+    }
+  },
+  "profileScale": 0.73,
+  "profileTranslation": [0, 0.68, 0],
+  "rootBone": "floette"
+}

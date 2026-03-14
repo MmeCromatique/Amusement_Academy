@@ -1,0 +1,26 @@
+{
+  "animations": {
+    "physical": "q.bedrock_primary('kartana', 'physical', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('kartana', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2.7,
+  "portraitTranslation": [0, 1.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('kartana', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('kartana', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('kartana', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 1.0, 0]
+}

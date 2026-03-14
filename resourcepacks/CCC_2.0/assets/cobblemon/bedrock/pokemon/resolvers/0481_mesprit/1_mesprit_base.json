@@ -1,0 +1,23 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 1,
+  "species": "cobblemon:mesprit",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:mesprit.geo",
+      "poser": "cobblemon:mesprit",
+      "texture": "cobblemon:textures/pokemon/0481_mesprit/mesprit.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0481_mesprit/mesprit_shiny.png"
+    }
+  ]
+}

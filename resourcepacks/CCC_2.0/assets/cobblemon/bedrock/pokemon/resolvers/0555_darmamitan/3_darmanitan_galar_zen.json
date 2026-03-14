@@ -1,0 +1,29 @@
+{
+  "order": 2,
+  "species": "cobblemon:darmanitan",
+  "variations": [
+    {
+      "aspects": ["galarian", "zen-mode"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar_zenemissive.png"
+        }
+      ],
+      "model": "cobblemon:darmanitan_galar_zen.geo",
+      "poser": "cobblemon:darmanitan_galar_zen",
+      "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar_zen.png"
+    }, {
+      "aspects": ["galarian", "shiny", "zen-mode"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar_zenemissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_galar_zenshiny.png"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('victini', 'cry')"
+  },
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [0.03, 0.15, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('victini', 'battle_idle')"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_stateful('victini', 'battle_cry')"
+      },
+      "poseTypes": ["STAND", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('victini', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('victini', 'ground_walk')"],
+      "poseTypes": ["WALK", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('victini', 'blink')"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0]
+}

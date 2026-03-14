@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "species": "cobblemon:keldeo",
+  "variations": [
+    {
+      "aspects": ["resolute-form"],
+      "layers": [],
+      "model": "cobblemon:keldeo_resolut.geo",
+      "poser": "cobblemon:keldeo_resolut",
+      "texture": "cobblemon:textures/pokemon/0647_keldeo/keldeo_resolut.png"
+    },
+    {
+      "aspects": ["shiny", "resolute-form"],
+      "texture": "cobblemon:textures/pokemon/0647_keldeo/keldeo_resolut_shiny.png"
+    }
+  ]
+}

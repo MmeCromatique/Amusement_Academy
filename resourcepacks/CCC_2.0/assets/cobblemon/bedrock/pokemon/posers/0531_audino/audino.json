@@ -1,0 +1,63 @@
+{
+  "faint": "bedrock(audino, faint)",
+  "head": "head",
+  "portraitScale": 1.5,
+  "portraitTranslation": [0, 0.8, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(audino, battle_idle)"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(audino, blink)"],
+          "loopTimes": 5,
+          "maxSecondsBetweenOccurrences": 20,
+          "minSecondsBetweenOccurrences": 8,
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(audino, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(audino, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["bedrock(audino, ground_walk)"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "quirks": [
+        {
+          "animations": ["bedrock(audino, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(audino, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(audino, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.7, 0]
+}

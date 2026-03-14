@@ -1,0 +1,18 @@
+{
+  "order": 1,
+  "species": "cobblemon:growlithe",
+  "variations": [
+    {
+      "aspects": ["hisuian"],
+      "layers": [],
+      "model": "cobblemon:growlithe_hisuian.geo",
+      "poser": "cobblemon:growlithe_hisuian",
+      "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisuian.png"
+    }, {
+      "aspects": ["hisuian", "shiny"],
+      "model": "cobblemon:growlithe_hisuian.geo",
+      "poser": "cobblemon:growlithe_hisuian",
+      "texture": "cobblemon:textures/pokemon/0058_growlithe/growlithe_hisuian_shiny.png"
+    }
+  ]
+}

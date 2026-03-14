@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "species": "cobblemon:mareanie",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:mareanie.geo",
+      "poser": "cobblemon:mareanie",
+      "texture": "cobblemon:textures/pokemon/0747_mareanie/mareanie.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0747_mareanie/mareanie_shiny.png"
+    }
+  ]
+}

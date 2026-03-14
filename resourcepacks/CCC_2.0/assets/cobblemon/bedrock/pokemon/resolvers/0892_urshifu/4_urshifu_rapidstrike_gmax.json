@@ -1,0 +1,18 @@
+{
+  "order": 4,
+  "species": "cobblemon:urshifu",
+  "variations": [
+    {
+      "aspects": ["gmax", "rapid_strike-style"],
+      "layers": [],
+      "model": "cobblemon:urshifu_gmax.geo",
+      "poser": "cobblemon:urshifu_rapidstrike_gmax",
+      "texture": "cobblemon:textures/pokemon/0892_urshifu/urshifu_rapidstrike_gmax.png"
+    }, {
+      "aspects": ["gmax", "shiny", "rapid_strike-style"],
+      "model": "cobblemon:urshifu_gmax.geo",
+      "poser": "cobblemon:urshifu_rapidstrike_gmax",
+      "texture": "cobblemon:textures/pokemon/0892_urshifu/urshifu_rapidstrike_gmax_shiny.png"
+    }
+  ]
+}

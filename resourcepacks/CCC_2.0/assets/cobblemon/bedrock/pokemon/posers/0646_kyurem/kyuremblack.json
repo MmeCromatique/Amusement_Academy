@@ -1,0 +1,702 @@
+{
+  "animations": {
+    "cry": "q.bedrock_primary('kyuremblack', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('kyuremblack', 'special_attack', q.curve('one'))",
+    "physical": "q.bedrock_primary('kyuremblack', 'physical_attack', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('kyuremblack', 'recoil')",
+    "special": "q.bedrock_primary('kyuremblack', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('kyuremblack', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.15,
+  "portraitTranslation": [-2.26, 3.42, -10],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "float": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'ground_walk')"],
+      "poseTypes": ["FLOAT"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "topwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "topwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "crest_zek_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "tail_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shoulder_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "fly": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'ground_walk')"],
+      "poseTypes": ["FLY"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "topwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "topwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "crest_zek_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "tail_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shoulder_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "hover": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'ground_walk')"],
+      "poseTypes": ["HOVER"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "topwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "topwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "crest_zek_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "tail_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shoulder_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('kyuremblack', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "swim": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "topwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "topwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "crest_zek_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "tail_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shoulder_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "walking": {
+      "animations": ["q.look('neck2', 1, 1, 52.5, -10, 45)", "q.bedrock('kyuremblack', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "topwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "topwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bottomwire_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bicep_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "forearm_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "hand_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "crest_zek_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "tail_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shoulder_flash",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_flash4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "bumble_on4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    }
+  },
+  "profileScale": 0.25,
+  "profileTranslation": [0, 1.3, -10]
+}

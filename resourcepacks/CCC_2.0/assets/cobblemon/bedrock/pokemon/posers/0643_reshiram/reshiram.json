@@ -1,0 +1,59 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('reshiram', 'cry')",
+    "faint": "q.bedrock_stateful('reshiram', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_stateful('reshiram', 'cry', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('reshiram', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('reshiram', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [-0.5, 4, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["look", "q.bedrock('reshiram', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    },
+    "float": {
+      "animations": ["look", "q.bedrock('reshiram', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    },
+    "fly": {
+      "animations": ["look", "q.bedrock('reshiram', 'fly')"],
+      "poseName": "fly",
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    },
+    "hover": {
+      "animations": ["look", "q.bedrock('reshiram', 'ground_walk')"],
+      "poseName": "hover",
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('reshiram', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["look", "q.bedrock('reshiram', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    },
+    "swim": {
+      "animations": ["look", "q.bedrock('reshiram', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    },
+    "walking": {
+      "animations": ["look", "q.bedrock('reshiram', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('reshiram', 'blink')"]
+    }
+  },
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.5, 0]
+}

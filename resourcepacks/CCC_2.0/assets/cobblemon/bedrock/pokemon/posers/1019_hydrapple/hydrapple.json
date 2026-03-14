@@ -1,0 +1,55 @@
+{
+  "cry": "bedrock(hydrapple, cry)",
+  "faint": "bedrock(hydrapple, sleep)",
+  "head": "head",
+  "portraitScale": 2.7,
+  "portraitTranslation": [-0.1, 3.4, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(hydrapple, battle_idle)"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(hydrapple, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(hydrapple, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(hydrapple, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(hydrapple, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(hydrapple, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(hydrapple, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.9, 0]
+}

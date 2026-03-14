@@ -1,0 +1,37 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('heatran', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('heatran', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('heatran', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('heatran', 'recoil')",
+    "special": "q.bedrock_primary('heatran', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('heatran', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.62,
+  "portraitTranslation": [-0.76, 0, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('heatran', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('heatran', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('heatran', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('heatran', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('heatran', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('heatran', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('heatran', 'blink')"]
+    }
+  },
+  "profileScale": 0.51,
+  "profileTranslation": [-0.06, 0.87, 0.0]
+}

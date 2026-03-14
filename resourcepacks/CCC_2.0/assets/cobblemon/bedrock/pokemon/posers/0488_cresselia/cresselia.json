@@ -1,0 +1,21 @@
+{
+  "faint": "bedrock(cresselia, faint)",
+  "portraitScale": 1,
+  "portraitTranslation": [0, 1.7, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(cresselia, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(cresselia, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.0, 0]
+}

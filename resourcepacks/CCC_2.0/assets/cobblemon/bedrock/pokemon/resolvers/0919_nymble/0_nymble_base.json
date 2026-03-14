@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:nymble",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:nymble.geo",
+      "poser": "cobblemon:nymble",
+      "texture": "cobblemon:textures/pokemon/0919_nymble/nymble.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0919_nymble/nymble_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('gulpin', 'cry')",
+    "physical": "q.bedrock_primary('gulpin', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('gulpin', 'recoil')",
+    "special": "q.bedrock_primary('gulpin', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('gulpin', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.87,
+  "portraitTranslation": [0, -0.9, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('gulpin', 'ground_idle')"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('gulpin', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('gulpin', 'blink')", "q.bedrock_quirk('gulpin', 'quirk')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('gulpin', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('gulpin', 'blink')", "q.bedrock_quirk('gulpin', 'quirk')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('gulpin', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('gulpin', 'blink')", "q.bedrock_quirk('gulpin', 'quirk')"]
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0.0, 0.4, 0.0]
+}

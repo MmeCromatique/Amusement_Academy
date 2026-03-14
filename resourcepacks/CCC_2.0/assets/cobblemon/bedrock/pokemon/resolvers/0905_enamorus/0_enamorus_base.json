@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:enamorus",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:enamorus.geo",
+      "poser": "cobblemon:enamorus",
+      "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus_shiny.png"
+    }
+  ]
+}

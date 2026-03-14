@@ -1,0 +1,22 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [0.1, 2.2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('neck')", "q.bedrock('urshifu', 'single_battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE"]
+    },
+    "standing": {
+      "animations": ["q.look('neck')", "q.bedrock('urshifu', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE"]
+    },
+    "walking": {
+      "animations": ["q.look('neck')", "q.bedrock('urshifu', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.2, 0]
+}

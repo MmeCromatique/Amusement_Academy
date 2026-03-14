@@ -1,0 +1,35 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('impidimp', 'cry')",
+    "physical": "q.bedrock_primary('impidimp', 'special', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('impidimp', 'recoil')",
+    "special": "q.bedrock_primary('impidimp', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('impidimp', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.77,
+  "portraitTranslation": [-0.1, 0.0, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('impidimp', 'battle_idle')"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('impidimp', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('impidimp', 'blink')", "q.bedrock_quirk('impidimp', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('impidimp', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('impidimp', 'blink')", "q.bedrock_quirk('impidimp', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('impidimp', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('impidimp', 'blink')", "q.bedrock_quirk('impidimp', 'blink')"]
+    }
+  },
+  "profileScale": 0.75,
+  "profileTranslation": [0, 0.5, 0]
+}

@@ -1,0 +1,42 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('swalot', 'cry')",
+    "physical": "q.bedrock_primary('swalot', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('swalot', 'recoil')",
+    "special": "q.bedrock_primary('swalot', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('swalot', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.21,
+  "portraitTranslation": [0, 0.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('swalot', 'ground_idle')"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary('swalot', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('swalot', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('swalot', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('swalot', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('swalot', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('swalot', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('swalot', 'blink')"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0],
+  "rootBone": "swalot"
+}

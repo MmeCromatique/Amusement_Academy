@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:volcanion",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:volcanion.geo",
+      "poser": "cobblemon:volcanion",
+      "texture": "cobblemon:textures/pokemon/0721_volcanion/volcanion.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0721_volcanion/volcanion_shiny.png"
+    }
+  ]
+}

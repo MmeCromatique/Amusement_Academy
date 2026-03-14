@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:mandibuzz",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:mandibuzz.geo",
+      "poser": "cobblemon:mandibuzz",
+      "texture": "cobblemon:textures/pokemon/0630_mandibuzz/mandibuzz.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0630_mandibuzz/mandibuzz_shiny.png"
+    }
+  ]
+}

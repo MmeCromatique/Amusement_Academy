@@ -1,0 +1,35 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('oranguru', 'cry')",
+    "recoil": "q.bedrock_stateful('oranguru', 'recoil')"
+  },
+  "portraitScale": 1.75,
+  "portraitTranslation": [-0.25, 1.2, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["q.look('head')", "q.bedrock('oranguru', 'battle_idle')"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('oranguru', 'blink')", "q.bedrock_quirk('oranguru', 'quirk1', 20, 60, 1)"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('oranguru', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('oranguru', 'blink')", "q.bedrock_quirk('oranguru', 'quirk1', 20, 60, 1)"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('oranguru', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('oranguru', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.6, 0],
+  "rootBone": "oranguru"
+}

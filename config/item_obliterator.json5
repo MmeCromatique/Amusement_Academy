@@ -105,7 +105,8 @@
     "darkutils:shielded_redstone",
     "!darkutils:rune_.*",
     "darkutils:charm_sloth",
-    "darkutils:charm_pride"
+    "darkutils:charm_pride",
+    "academy:safari_ticket"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain Component Data. If the whole entry (or expression) is present, the item gets removed.
@@ -166,7 +167,8 @@
     "fireworkcapsules:water_sticker",
     "!constructionwand:.*",
     "rad-gyms:gym_key",
-    "darkutils:charm_gluttony"
+    "darkutils:charm_gluttony",
+    "strawstatues:straw_statue"
   ],
   // -----------------------------------------------------------
   // If true, the mod will use a hashset to handle the blacklisted items

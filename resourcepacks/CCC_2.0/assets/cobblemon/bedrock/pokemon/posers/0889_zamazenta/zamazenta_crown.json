@@ -1,0 +1,42 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('zamazenta_crown', 'cry')",
+    "faint": "q.bedrock_primary('zamazenta_crown', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_stateful('zamazenta_crown', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_stateful('zamazenta_crown', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('zamazenta_crown', 'special', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.4,
+  "portraitTranslation": [-1.51, 1.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head', 1, 1, 45, -45, 70, -70)", "q.bedrock('zamazenta_crown', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('zamazenta_crown', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('zamazenta_crown', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('zamazenta_crown', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head', 1, 1, 45, -2.5, 7.5, -7.5)", "q.bedrock('zamazenta_crown', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('zamazenta_crown', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('zamazenta_crown', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('zamazenta_crown', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head', 1, 1, 45, -2.5, 7.5, -7.5)", "q.bedrock('zamazenta_crown', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('zamazenta_crown', 'blink')"]
+    }
+  },
+  "profileScale": 0.42,
+  "profileTranslation": [0, 1.2, 0]
+}

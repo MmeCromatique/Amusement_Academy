@@ -1,0 +1,21 @@
+{
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [-0.2, 2.1, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(necrozma_ultra, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(necrozma_ultra, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.15, 0]
+}

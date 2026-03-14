@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "species": "cobblemon:tornadus",
+  "variations": [
+    {
+      "aspects": ["therian-forme"],
+      "model": "cobblemon:tornadus_therian.geo",
+      "poser": "cobblemon:tornadus_therian",
+      "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadus_therian.png"
+    }, {
+      "aspects": ["therian-forme", "shiny"],
+      "model": "cobblemon:tornadus_therian.geo",
+      "poser": "cobblemon:tornadus_therian",
+      "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadus_therian_shiny.png"
+    }
+  ]
+}

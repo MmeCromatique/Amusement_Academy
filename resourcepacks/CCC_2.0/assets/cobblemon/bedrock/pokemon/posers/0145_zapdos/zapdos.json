@@ -1,0 +1,106 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('zapdos', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.63,
+  "portraitTranslation": [-1.53, 1.31, 0],
+  "poses": {
+    "fly": {
+      "animations": ["q.pitch_tilt('body')", "q.look('head', 1, 1, 20, -90, 60, -37)", "q.bedrock('zapdos', 'air_fly')"],
+      "poseName": "fly",
+      "poseTypes": ["FLY", "SWIM"],
+      "quirks": ["q.bedrock_quirk('zapdos', 'blink')"],
+      "transformedParts": [
+        {
+          "isVisible": true,
+          "part": "wing_open_left"
+        }, {
+          "isVisible": true,
+          "part": "wing_open_right"
+        },
+        {
+          "isVisible": true,
+          "part": "wing_closed_left"
+        }, {
+          "isVisible": true,
+          "part": "wing_closed_right"
+        }
+      ]
+    },
+    "hover": {
+      "animations": [
+        "q.pitch_tilt('body')", "q.look('head', 1, 1, 20, -90, 60, -37)", "q.bedrock('zapdos', 'air_idle')",
+        "q.sine_wing_flap(1, 1, 0.5, 'z', 'wing_open_left', 'wing_open_right')"
+      ],
+      "poseName": "hover",
+      "poseTypes": ["HOVER", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('zapdos', 'blink')"],
+      "transformedParts": [
+        {
+          "isVisible": true,
+          "part": "wing_open_left"
+        }, {
+          "isVisible": true,
+          "part": "wing_open_right"
+        },
+        {
+          "isVisible": true,
+          "part": "wing_closed_left"
+        }, {
+          "isVisible": true,
+          "part": "wing_closed_right"
+        }
+      ]
+    },
+    "standing": {
+      "animations": ["q.look('head', 1, 1, 20, -90, 60, -37)", "q.bedrock('zapdos', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["PORTRAIT", "PROFILE", "STAND", "NONE"],
+      "quirks": ["q.bedrock_quirk('zapdos', 'blink')"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wing_open_left"
+        }, {
+          "isVisible": false,
+          "part": "wing_open_right"
+        },
+        {
+          "isVisible": true,
+          "part": "wing_closed_left"
+        }, {
+          "isVisible": true,
+          "part": "wing_closed_right"
+        }
+      ]
+    },
+    "walk": {
+      "animations": [
+        "q.look('head', 1, 1, 20, -90, 60, -37)", "q.bedrock('zapdos', 'ground_idle')",
+        "q.biped_walk(1, 1, 'leg_left', 'leg_right')"
+      ],
+      "poseName": "walk",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('zapdos', 'blink')"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wing_open_left"
+        }, {
+          "isVisible": false,
+          "part": "wing_open_right"
+        },
+        {
+          "isVisible": true,
+          "part": "wing_closed_left"
+        }, {
+          "isVisible": true,
+          "part": "wing_closed_right"
+        }
+      ]
+    }
+  },
+  "profileScale": 0.46,
+  "profileTranslation": [-0.04, 0.99, 0],
+  "rootBone": "zapdos"
+}

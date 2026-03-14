@@ -1,0 +1,29 @@
+{
+  "order": 0,
+  "species": "cobblemon:fluttermane",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0987_fluttermane/fluttermane_emissive.png"
+        }
+      ],
+      "model": "cobblemon:fluttermane.geo",
+      "poser": "cobblemon:fluttermane",
+      "texture": "cobblemon:textures/pokemon/0987_fluttermane/fluttermane.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0987_fluttermane/fluttermane_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0987_fluttermane/fluttermane_shiny.png"
+    }
+  ]
+}

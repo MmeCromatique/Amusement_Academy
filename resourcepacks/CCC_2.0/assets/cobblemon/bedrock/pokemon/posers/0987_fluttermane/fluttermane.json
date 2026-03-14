@@ -1,0 +1,66 @@
+{
+  "faint": "bedrock(fluttermane, sleep)",
+  "head": "head",
+  "portraitScale": 1.9,
+  "portraitTranslation": [-0.1, 1.0, 0],
+  "poses": {
+    "flying": {
+      "animations": ["bedrock(fluttermane, air_fly)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(fluttermane, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["bedrock(fluttermane, air_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER"],
+      "quirks": [
+        {
+          "animations": ["bedrock(fluttermane, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "animations": ["bedrock(fluttermane, sleep)"],
+      "poseName": "sleep",
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["bedrock(fluttermane, air_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(fluttermane, blink)"],
+          "name": "blink"
+        }, {
+          "animations": ["bedrock(fluttermane, laugh)"],
+          "name": "laugh"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(fluttermane, air_fly)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(fluttermane, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 1.1, 0]
+}

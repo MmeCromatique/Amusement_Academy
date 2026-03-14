@@ -1,0 +1,99 @@
+{
+  "order": 1,
+  "species": "cobblemon:necrozma",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_emissive.png",
+          "translucent": false
+        }
+      ],
+      "model": "cobblemon:necrozma.geo",
+      "poser": "cobblemon:necrozma",
+      "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_emissive.png",
+          "translucent": false
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_shiny.png"
+    }, {
+      "aspects": ["dusk-fusion"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_emissive.png",
+          "translucent": false
+        }, {
+          "emissive": false,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_translucent.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:necrozma_duskmane.geo",
+      "poser": "cobblemon:necrozma_duskmane",
+      "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane.png"
+    }, {
+      "aspects": ["shiny", "dusk-fusion"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_shiny_emissive.png",
+          "translucent": false
+        }, {
+          "emissive": false,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_shiny_translucent.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_duskmane_shiny.png"
+    }, {
+      "aspects": ["dawn-fusion"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_emissive.png",
+          "translucent": false
+        }, {
+          "emissive": false,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_translucent.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:necrozma_dawnwings.geo",
+      "poser": "cobblemon:necrozma_dawnwings",
+      "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings.png"
+    }, {
+      "aspects": ["shiny", "dawn-fusion"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny_emissive.png",
+          "translucent": false
+        }, {
+          "emissive": false,
+          "name": "translucent",
+          "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny_translucent.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0800_necrozma/necrozma_dawnwings_shiny.png"
+    }
+  ]
+}

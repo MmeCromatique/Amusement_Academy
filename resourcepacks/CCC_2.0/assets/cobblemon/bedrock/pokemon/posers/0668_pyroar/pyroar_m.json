@@ -1,0 +1,38 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('pyroar_m', 'cry')",
+    "faint": "q.bedrock_primary('pyroar_m', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('pyroar_m', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('pyroar_m', 'recoil')",
+    "special": "q.bedrock_primary('pyroar_m', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('pyroar_m', 'status', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.8, 1.0, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('pyroar_m', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('pyroar_m', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["bedrock(pyroar_m, sleep)"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["look", "bedrock(pyroar_m, ground_idle)"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('pyroar_m', 'blink')"]
+    },
+    "walking": {
+      "animations": ["bedrock(pyroar_m, ground_walk)"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('pyroar_m', 'blink')"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0]
+}

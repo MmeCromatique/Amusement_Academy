@@ -1,0 +1,31 @@
+{
+  "order": 0,
+  "species": "cobblemon:pyroar",
+  "variations": [
+    {
+      "aspects": ["male"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "pyroar_glow_m",
+          "texture": "cobblemon:textures/pokemon/0668_pyroar/pyroar_m_glow.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:pyroar_m.geo",
+      "poser": "cobblemon:pyroar_m",
+      "texture": "cobblemon:textures/pokemon/0668_pyroar/pyroar_m.png"
+    }, {
+      "aspects": ["male", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "pyroar_glow_m",
+          "texture": "cobblemon:textures/pokemon/0668_pyroar/pyroar_m_shiny_glow.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0668_pyroar/pyroar_m_shiny.png"
+    }
+  ]
+}

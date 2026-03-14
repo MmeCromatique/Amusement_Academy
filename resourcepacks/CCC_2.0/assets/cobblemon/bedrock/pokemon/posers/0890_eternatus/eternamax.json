@@ -1,0 +1,22 @@
+{
+  "cry": "bedrock(eternamax_eternatus, cry)",
+  "faint": "bedrock(eternamax_eternatus, faint)",
+  "portraitScale": 0.32,
+  "portraitTranslation": [-1.48, 1.71, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(eternamax_eternatus, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(eternamax_eternatus, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.14,
+  "profileTranslation": [-0.23, 1.7, 0.14]
+}

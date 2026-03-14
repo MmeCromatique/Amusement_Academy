@@ -1,0 +1,111 @@
+{
+  "animations": {
+    "animation.bounsweet.cry": {
+      "animation_length": 0.9167,
+      "bones": {
+        "mouth": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "0.1667": {
+              "post": [0, 0, 1],
+              "pre": [0, 0, 0]
+            },
+            "0.5417": {
+              "post": [0, 0, 0],
+              "pre": [0, 0, 1]
+            },
+            "0.7083": {
+              "post": [0, 0, 1],
+              "pre": [0, 0, 0]
+            },
+            "0.875": {
+              "post": [0, 0, 0],
+              "pre": [0, 0, 1]
+            }
+          }
+        },
+        "openmouth": {
+          "position": {
+            "0.0": [0, 0, 0],
+            "0.1667": {
+              "post": [0, 0, -0.2],
+              "pre": [0, 0, 0]
+            },
+            "0.5417": {
+              "post": [0, 0, 0],
+              "pre": [0, 0, -0.2]
+            },
+            "0.7083": {
+              "post": [0, 0, -0.2],
+              "pre": [0, 0, 0]
+            },
+            "0.875": {
+              "post": [0, 0, 0],
+              "pre": [0, 0, -0.2]
+            }
+          }
+        }
+      },
+      "sound_effects": {
+        "0.125": {
+          "effect": "pokemon.bounsweet.cry"
+        }
+      }
+    },
+    "animation.bounsweet.ground_idle": {
+      "bones": {
+        "leaf_back": {
+          "rotation": ["0+math.sin(q.anim_time*90*10-75)*1.5", 0, 0]
+        },
+        "leaf_front": {
+          "rotation": ["0-math.sin(q.anim_time*90*10-75)*1.5", 0, 0]
+        },
+        "leaf_left": {
+          "rotation": [0, 0, "0+math.sin(q.anim_time*90*10-75)*1.5"]
+        },
+        "leaf_right": {
+          "rotation": [0, 0, "0-math.sin(q.anim_time*90*10-75)*1.5"]
+        },
+        "left_foot": {
+          "rotation": ["0-math.sin(q.anim_time*90*5-60)*22", 0, 0]
+        },
+        "right_foot": {
+          "rotation": ["0+math.sin(q.anim_time*90*5-60)*22", 0, 0]
+        },
+        "torso": {
+          "position": [0, "0+math.sin(q.anim_time*90*10)*0.2", 0],
+          "rotation": [0, 0, "0+math.sin(q.anim_time*90*5-65)*2"]
+        }
+      },
+      "loop": true
+    },
+    "animation.bounsweet.ground_walk": {
+      "bones": {
+        "leaf_back": {
+          "rotation": ["0+math.sin(q.anim_time*90*10-75)*1.5", 0, 0]
+        },
+        "leaf_front": {
+          "rotation": ["0-math.sin(q.anim_time*90*10-75)*1.5", 0, 0]
+        },
+        "leaf_left": {
+          "rotation": [0, 0, "0+math.sin(q.anim_time*90*10-75)*1.5"]
+        },
+        "leaf_right": {
+          "rotation": [0, 0, "0-math.sin(q.anim_time*90*10-75)*1.5"]
+        },
+        "left_foot": {
+          "rotation": ["0-math.sin(q.anim_time*90*5-60)*22", 0, 0]
+        },
+        "right_foot": {
+          "rotation": ["0+math.sin(q.anim_time*90*5-60)*22", 0, 0]
+        },
+        "torso": {
+          "position": [0, "0+math.sin(q.anim_time*90*10)*0.2", 0],
+          "rotation": [0, 0, "0+math.sin(q.anim_time*90*5-65)*2"]
+        }
+      },
+      "loop": true
+    }
+  },
+  "format_version": "1.8.0"
+}

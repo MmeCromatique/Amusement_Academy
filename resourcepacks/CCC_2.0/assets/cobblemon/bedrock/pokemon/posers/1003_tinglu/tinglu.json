@@ -1,0 +1,21 @@
+{
+  "cry": "bedrock(tinglu, cry)",
+  "portraitScale": 1.3,
+  "portraitTranslation": [-1.1, 0.7, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(tinglu, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(tinglu, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 0.8, 0]
+}

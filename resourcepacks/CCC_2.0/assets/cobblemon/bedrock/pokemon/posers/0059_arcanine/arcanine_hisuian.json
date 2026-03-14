@@ -1,0 +1,37 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('arcanine_hisuian', 'cry')",
+    "recoil": "q.bedrock_stateful('arcanine_hisuian', 'recoil')",
+    "special": "q.bedrock_primary('arcanine_hisuian', 'special', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.4,
+  "portraitTranslation": [-0.5, 1, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["q.look('head')", "q.bedrock('arcanine_hisuian', 'battle_idle')"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('arcanine_hisuian', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('arcanine_hisuian', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('arcanine_hisuian', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('arcanine_hisuian', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('arcanine_hisuian', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0.15, 0.9, 0],
+  "rootBone": "arcanine"
+}

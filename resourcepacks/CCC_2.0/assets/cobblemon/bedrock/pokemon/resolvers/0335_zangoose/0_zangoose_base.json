@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:zangoose",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:zangoose.geo",
+      "poser": "cobblemon:zangoose",
+      "texture": "cobblemon:textures/pokemon/0335_zangoose/zangoose.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0335_zangoose/zangoose_shiny.png"
+    }
+  ]
+}

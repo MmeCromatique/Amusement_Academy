@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:hydrapple",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:hydrapple.geo",
+      "poser": "cobblemon:hydrapple",
+      "texture": "cobblemon:textures/pokemon/1019_hydrapple/hydrapple.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/1019_hydrapple/hydrapple_shiny.png"
+    }
+  ]
+}

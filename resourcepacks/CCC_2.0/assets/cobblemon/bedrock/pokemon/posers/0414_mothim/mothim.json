@@ -1,0 +1,41 @@
+{
+  "animations": {},
+  "portraitScale": 1.86,
+  "portraitTranslation": [-0.15, 0.26, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('mothim', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "fly": {
+      "animations": ["q.look('head')", "q.bedrock('mothim', 'air_fly')"],
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('head')", "q.bedrock('mothim', 'ground_idle')"],
+      "poseTypes": ["HOVER", "FLOAT"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('mothim', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('mothim', 'air_fly')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('mothim', 'air_fly')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.58,
+  "profileTranslation": [0, 0.87, 0]
+}

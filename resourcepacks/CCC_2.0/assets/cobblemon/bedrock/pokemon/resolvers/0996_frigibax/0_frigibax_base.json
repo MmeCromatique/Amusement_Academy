@@ -1,0 +1,15 @@
+{
+  "order": 0,
+  "species": "cobblemon:frigibax",
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:frigibax.geo",
+      "poser": "cobblemon:frigibax",
+      "texture": "cobblemon:textures/pokemon/0996_frigibax/frigibax.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0996_frigibax/frigibax_shiny.png"
+    }
+  ]
+}

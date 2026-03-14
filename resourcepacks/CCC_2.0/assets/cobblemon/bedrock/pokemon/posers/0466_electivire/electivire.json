@@ -1,0 +1,40 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('electivire', 'cry')",
+    "recoil": "q.bedrock_stateful('electivire', 'recoil')"
+  },
+  "portraitScale": 1.37,
+  "portraitTranslation": [-0.1, 1.2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('electivire', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('electivire', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('electivire', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('electivire', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('electivire', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('electivire', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('electivire', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('electivire', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.51,
+  "profileTranslation": [0, 0.93, -1.6]
+}

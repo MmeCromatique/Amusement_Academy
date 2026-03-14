@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:kingambit",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:kingambit.geo",
+      "poser": "cobblemon:kingambit",
+      "texture": "cobblemon:textures/pokemon/0983_kingambit/kingambit.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0983_kingambit/kingambit_shiny.png"
+    }
+  ]
+}

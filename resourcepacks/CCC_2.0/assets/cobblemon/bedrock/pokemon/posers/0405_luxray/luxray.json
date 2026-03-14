@@ -1,0 +1,42 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('luxray', 'cry')",
+    "physical": "q.bedrock_primary('luxray', 'physical', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('luxray', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('luxray', 'cry')"
+  },
+  "portraitScale": 1.74,
+  "portraitTranslation": [-0.75, 0.74, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('luxray', 'battle_idle')"],
+      "isBattle": true,
+      "namedAnimations": {
+        "cry": "q.bedrock_primary ('luxray', 'battle_cry', q.curve('symmetrical_wide'))"
+      },
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('luxray', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('luxray', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('luxray', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('luxray', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('luxray', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('luxray', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0],
+  "rootBone": "luxray"
+}

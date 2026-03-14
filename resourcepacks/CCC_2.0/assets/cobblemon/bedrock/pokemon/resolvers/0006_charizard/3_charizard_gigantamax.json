@@ -1,0 +1,61 @@
+{
+  "order": 3,
+  "species": "cobblemon:charizard",
+  "variations": [
+    {
+      "aspects": ["gmax"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_gigantiamax_emissive.png",
+          "translucent": false
+        }, {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_2.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_3.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_4.png"
+            ],
+            "loop": true
+          },
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:charizard_gigantamax.geo",
+      "poser": "cobblemon:charizard_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_gigantamax.png"
+    }, {
+      "aspects": ["gmax", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_gigantiamax_emissive.png",
+          "translucent": false
+        }, {
+          "emissive": true,
+          "name": "flame",
+          "texture": {
+            "fps": 10,
+            "frames": [
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_1.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_2.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_3.png",
+              "cobblemon:textures/pokemon/0006_charizard/gmaxflames/flames_4.png"
+            ],
+            "loop": true
+          },
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:charizard_gigantamax.geo",
+      "poser": "cobblemon:charizard_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0006_charizard/charizard_gigantamax_shiny.png"
+    }
+  ]
+}

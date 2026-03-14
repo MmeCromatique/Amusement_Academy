@@ -1,0 +1,264 @@
+{
+  "animations": {
+    "animation.bombirdier.cry": {
+      "animation_length": 2.25,
+      "sound_effects": {
+        "0.0417": {
+          "effect": "pokemon.bombirdier.cry"
+        }
+      }
+    },
+    "animation.bombirdier.ground_idle": {
+      "animation_length": 2,
+      "bones": {
+        "bib2": {
+          "rotation": [-97.5, 0, 0]
+        },
+        "bib3": {
+          "rotation": [-80, 0, 0]
+        },
+        "bib4": {
+          "rotation": [2.5, 0, 0]
+        },
+        "body": {
+          "position": [0, -1, 0]
+        },
+        "chest": {
+          "position": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "1.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, -0.5, 0]
+            },
+            "2.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            }
+          }
+        },
+        "foot_left": {
+          "rotation": [15, 0, 0]
+        },
+        "foot_right": {
+          "rotation": [-10, 0, 0]
+        },
+        "head": {
+          "rotation": [-2.56344, -0.9762, 7.43656]
+        },
+        "leg_left2": {
+          "rotation": [-17.5, 0, 0]
+        },
+        "leg_right": {
+          "rotation": [12.5, 0, 0]
+        },
+        "leg_right2": {
+          "rotation": [0, 0, 0]
+        },
+        "mouth": {
+          "rotation": [-2.5, 0, 0]
+        },
+        "neck3": {
+          "rotation": [2.5, 0, 0]
+        },
+        "neck4": {
+          "rotation": [5, 0, 0]
+        },
+        "wing_left": {
+          "position": [0, 1, 0],
+          "rotation": [61, 33.08942, 85]
+        },
+        "wing_left2": {
+          "rotation": [0, 0, 95]
+        },
+        "wing_left3": {
+          "rotation": [0, 0, 87.5]
+        },
+        "wing_right": {
+          "position": [0, 1, 0],
+          "rotation": [61, -33.08942, -85]
+        },
+        "wing_right2": {
+          "rotation": [0, 0, -95]
+        },
+        "wing_right3": {
+          "rotation": [0, 0, -87.5]
+        }
+      },
+      "loop": true
+    },
+    "animation.bombirdier.ground_walk": {
+      "animation_length": 2,
+      "bones": {
+        "bib2": {
+          "rotation": [-142.5, 0, 0]
+        },
+        "bib3": {
+          "rotation": [-22.5, 0, 0]
+        },
+        "bib4": {
+          "rotation": [2.5, 0, 0]
+        },
+        "body": {
+          "position": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0.6119, 2.53017]
+            },
+            "1.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 2.7611, 7.59391]
+            },
+            "2.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0.6119, 2.53017]
+            }
+          },
+          "rotation": [65, 0, 0]
+        },
+        "bombirdier": {
+          "position": [0, 7, 13],
+          "rotation": [57.5, 0, 0]
+        },
+        "finger_left": {
+          "rotation": [40, 0, 0]
+        },
+        "finger_left2": {
+          "rotation": [40, 0, 0]
+        },
+        "finger_right": {
+          "rotation": [40, 0, 0]
+        },
+        "finger_right2": {
+          "rotation": [40, 0, 0]
+        },
+        "foot_left": {
+          "rotation": [15, 0, 0]
+        },
+        "foot_right": {
+          "rotation": [-10, 0, 0]
+        },
+        "head": {
+          "rotation": [-39.3279, -2.084, -3.68147]
+        },
+        "leg_left": {
+          "rotation": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "1.0": {
+              "lerp_mode": "catmullrom",
+              "post": [-15, 0, 0]
+            },
+            "2.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            }
+          }
+        },
+        "leg_left2": {
+          "rotation": [0, 0, 0]
+        },
+        "leg_right": {
+          "rotation": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "1.0": {
+              "lerp_mode": "catmullrom",
+              "post": [-15, 0, 0]
+            },
+            "2.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            }
+          }
+        },
+        "leg_right2": {
+          "rotation": [0, 0, 0]
+        },
+        "mouth": {
+          "rotation": [-2.5, 0, 0]
+        },
+        "neck3": {
+          "rotation": [2.5, 0, 0]
+        },
+        "neck4": {
+          "rotation": [5, 0, 0]
+        },
+        "wing_left": {
+          "position": [0, 1, 0],
+          "rotation": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, -45, 35]
+            },
+            "1.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 37.5, 35]
+            },
+            "2.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, -45, 35]
+            }
+          }
+        },
+        "wing_left2": {
+          "rotation": {
+            "0.0": [0, 0, 20],
+            "0.25": [0, -15, 20],
+            "1.25": [0, 15, 20],
+            "2.0": [0, 0, 20]
+          }
+        },
+        "wing_left3": {
+          "rotation": {
+            "0.0": [0, 0, 22.5],
+            "0.5": [0, -10, 22.5],
+            "1.5": [0, 15, 22.5],
+            "2.0": [0, 0, 22.5]
+          }
+        },
+        "wing_right": {
+          "position": [0, 1, 0],
+          "rotation": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 45, -35]
+            },
+            "1.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, -37.5, -35]
+            },
+            "2.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 45, -35]
+            }
+          }
+        },
+        "wing_right2": {
+          "rotation": {
+            "0.0": [0, 0, -20],
+            "0.25": [0, 15, -20],
+            "1.25": [0, -15, -20],
+            "2.0": [0, 0, -20]
+          }
+        },
+        "wing_right3": {
+          "rotation": {
+            "0.0": [0, 0, -22.5],
+            "0.5": [0, 10, -22.5],
+            "1.5": [0, -15, -22.5],
+            "2.0": [0, 0, -22.5]
+          }
+        }
+      },
+      "loop": true
+    }
+  },
+  "format_version": "1.8.0"
+}

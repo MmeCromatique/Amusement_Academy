@@ -1,0 +1,15 @@
+{
+  "order": 0,
+  "species": "cobblemon:indeedee",
+  "variations": [
+    {
+      "aspects": ["male"],
+      "model": "cobblemon:indeedee_male.geo",
+      "poser": "cobblemon:indeedee_male",
+      "texture": "cobblemon:textures/pokemon/0876_indeedee/indeedee_male.png"
+    }, {
+      "aspects": ["male", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0876_indeedee/indeedee_male_shiny.png"
+    }
+  ]
+}

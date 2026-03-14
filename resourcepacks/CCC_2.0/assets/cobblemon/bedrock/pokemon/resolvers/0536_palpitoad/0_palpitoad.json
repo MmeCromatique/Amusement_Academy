@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:palpitoad",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:palpitoad.geo",
+      "poser": "cobblemon:palpitoad",
+      "texture": "cobblemon:textures/pokemon/0536_palpitoad/palpitoad.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0536_palpitoad/palpitoad_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "cry": "bedrock(flapple, cry)",
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.3, 0.9, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(flapple, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(flapple, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 1.0, 0]
+}

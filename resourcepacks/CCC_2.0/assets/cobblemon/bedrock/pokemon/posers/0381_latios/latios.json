@@ -1,0 +1,58 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('latios2', 'cry')"
+  },
+  "portraitScale": 1.25,
+  "portraitTranslation": [-1, 1.2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'battle_idle')"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "fly": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'air_sprint')"],
+      "condition": "!q.is_gliding",
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "hover": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'ground_idle')"],
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'ground_idle')"],
+      "condition": "!q.in_air",
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["STAND", "NONE"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "swimming": {
+      "animations": ["q.look('head')", "q.bedrock('latios2', 'air_sprint')"],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "poseName": "swimming",
+      "poseTypes": ["STAND", "WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head_ai')", "q.bedrock('latios2', 'ground_walk')"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "isBattle": false,
+      "isTouchingWater": false,
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    }
+  },
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.15, 0],
+  "rootBone": "latios"
+}

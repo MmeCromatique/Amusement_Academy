@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "species": "cobblemon:stunfisk",
+  "variations": [
+    {
+      "aspects": ["galarian"],
+      "layers": [],
+      "model": "cobblemon:stunfisk_galar.geo",
+      "poser": "cobblemon:stunfisk_galarian",
+      "texture": "cobblemon:textures/pokemon/0618_stunfisk/stunfisk_galarian.png"
+    },
+    {
+      "aspects": ["galarian", "shiny"],
+      "texture": "cobblemon:textures/pokemon/0618_stunfisk/stunfisk_galarian_shiny.png"
+    }
+  ]
+}

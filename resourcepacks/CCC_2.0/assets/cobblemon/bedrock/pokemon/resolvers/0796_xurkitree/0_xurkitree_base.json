@@ -1,0 +1,22 @@
+{
+  "order": 0,
+  "species": "cobblemon:xurkitree",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0796_xurkitree/xurkitree_emissive.png"
+        }
+      ],
+      "model": "cobblemon:xurkitree.geo",
+      "poser": "cobblemon:xurkitree",
+      "texture": "cobblemon:textures/pokemon/0796_xurkitree/xurkitree.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0796_xurkitree/xurkitree_shiny.png"
+    }
+  ]
+}

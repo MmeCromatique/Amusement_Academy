@@ -1,0 +1,161 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ashgreninja', 'cry')",
+    "faint": "q.bedrock_primary('ashgreninja', 'faint', q.curve('one'))"
+  },
+  "head": "head",
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.15, 1.45, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('ashgreninja', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('ashgreninja', 'blink')"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "shuriken_hand",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": true,
+          "part": "shuriken_chest",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": true,
+          "part": "back_shuriken",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('ashgreninja', 'water_idle')"],
+      "poseTypes": ["FLOAT"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "shuriken_hand",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shuriken_chest",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "back_shuriken",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('ashgreninja', 'sleep')"],
+      "poseTypes": ["SLEEP"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "shuriken_hand",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shuriken_chest",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "back_shuriken",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('ashgreninja', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('ashgreninja', 'blink')"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "shuriken_hand",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shuriken_chest",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "back_shuriken",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('ashgreninja', 'water_swim')"],
+      "poseTypes": ["SWIM"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "shuriken_hand",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shuriken_chest",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "back_shuriken",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('ashgreninja', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "shuriken_hand",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "shuriken_chest",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        },
+        {
+          "isVisible": false,
+          "part": "back_shuriken",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    }
+  },
+  "profileScale": 0.65,
+  "profileTranslation": [0.1, 0.77, 0]
+}

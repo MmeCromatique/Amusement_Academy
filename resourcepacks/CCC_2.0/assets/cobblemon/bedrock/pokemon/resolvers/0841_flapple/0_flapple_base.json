@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:flapple",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:flapple.geo",
+      "poser": "cobblemon:flapple",
+      "texture": "cobblemon:textures/pokemon/0841_flapple/flapple.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0841_flapple/flapple_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "order": 3,
+  "species": "cobblemon:rillaboom",
+  "variations": [
+    {
+      "aspects": ["gmax"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0812_rillaboom/rillaboom_gigantamax_emissive.png"
+        }
+      ],
+      "model": "cobblemon:rillaboom_gigantamax.geo",
+      "poser": "cobblemon:rillaboomgmax",
+      "texture": "cobblemon:textures/pokemon/0812_rillaboom/rillaboom_gigantamax.png"
+    }, {
+      "aspects": ["shiny", "gmax"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0812_rillaboom/rillaboom_gigantamax_shiny.png"
+    }
+  ]
+}

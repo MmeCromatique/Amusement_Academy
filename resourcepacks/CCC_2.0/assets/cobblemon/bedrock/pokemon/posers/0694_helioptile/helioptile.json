@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('helioptile', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('helioptile', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('helioptile', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('helioptile', 'recoil')",
+    "special": "q.bedrock_primary('helioptile', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('helioptile', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.85,
+  "portraitTranslation": [-0.365, 0.1, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('helioptile', 'ground_open')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('helioptile', 'ground_closed')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "FLOAT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('helioptile', 'ground_closed')"],
+      "poseTypes": ["WALK", "SWIM"]
+    }
+  },
+  "profileScale": 0.59,
+  "profileTranslation": [0, 0.87, 0]
+}

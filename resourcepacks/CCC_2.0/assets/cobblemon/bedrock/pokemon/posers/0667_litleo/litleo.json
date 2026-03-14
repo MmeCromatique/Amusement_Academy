@@ -1,0 +1,38 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('litleo', 'cry')",
+    "faint": "q.bedrock_primary('litleo', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('litleo', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('litleo', 'recoil')",
+    "special": "q.bedrock_primary('litleo', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('litleo', 'status', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.4, -0.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('litleo', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('litleo', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["bedrock(litleo, sleep)"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["look", "bedrock(litleo, ground_idle)"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('litleo', 'blink')"]
+    },
+    "walking": {
+      "animations": ["bedrock(litleo, ground_walk)"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('litleo', 'blink')"]
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0]
+}

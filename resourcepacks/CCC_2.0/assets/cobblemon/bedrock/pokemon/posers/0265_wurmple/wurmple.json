@@ -1,0 +1,36 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('wurmple', 'cry')",
+    "physical": "q.bedrock_primary('wurmple', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('wurmple', 'recoil')",
+    "special": "q.bedrock_primary('wurmple', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('wurmple', 'special', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.9,
+  "portraitTranslation": [-0.4, -0.5, 0],
+  "poses": {
+    "sleeping": {
+      "animations": ["q.bedrock('wurmple', 'sleep')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.bedrock('wurmple', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('wurmple', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('wurmple', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('wurmple', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.45, 0],
+  "rootBone": "wurmple"
+}

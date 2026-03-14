@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:deoxys",
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:deoxys.geo",
+      "poser": "cobblemon:deoxys",
+      "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys.png"
+    }, {
+      "aspects": ["shiny"],
+      "model": "cobblemon:deoxys.geo",
+      "poser": "cobblemon:deoxys",
+      "texture": "cobblemon:textures/pokemon/0386_deoxys/deoxys_shiny.png"
+    }
+  ]
+}

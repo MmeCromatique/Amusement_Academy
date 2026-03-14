@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:kartana",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:kartana.geo",
+      "poser": "cobblemon:kartana",
+      "texture": "cobblemon:textures/pokemon/0798_kartana/kartana.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0798_kartana/kartana_shiny.png"
+    }
+  ]
+}

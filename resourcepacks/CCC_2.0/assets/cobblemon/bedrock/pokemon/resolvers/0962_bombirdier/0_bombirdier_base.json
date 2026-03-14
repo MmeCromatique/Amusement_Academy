@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:bombirdier",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:bombirdier.geo",
+      "poser": "cobblemon:bombirdier",
+      "texture": "cobblemon:textures/pokemon/0962_bombirdier/bombirdier.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0962_bombirdier/bombirdier_shiny.png"
+    }
+  ]
+}

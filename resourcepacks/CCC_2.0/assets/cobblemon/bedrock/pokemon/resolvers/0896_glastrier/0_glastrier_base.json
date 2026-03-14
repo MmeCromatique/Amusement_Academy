@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:glastrier",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:glastrier.geo",
+      "poser": "cobblemon:glastrier",
+      "texture": "cobblemon:textures/pokemon/0896_glastrier/glastrier.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0896_glastrier/glastrier_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('groudonprimal', 'cry')",
+    "faint": "q.bedrock_primary('groudonprimal', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('groudonprimal', 'physical_attack', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('groudonprimal', 'recoil')",
+    "special": "q.bedrock_primary('groudonprimal', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('groudonprimal', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 0.67,
+  "portraitTranslation": [-0.86, 3.47, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('neck', 1, 1, 45, -7.5, 7.5, -7.5)", "q.bedrock('groudonprimal', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": [
+        "q.bedrock_quirk('groudonprimal', 'blink')", "q.bedrock_quirk('groudonprimal', q.array('cry'), 30, 60, 1)"
+      ]
+    },
+    "float": {
+      "animations": ["q.bedrock('groudonprimal', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('groudonprimal', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('groudonprimal', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('neck', 1, 1, 45, -7.5, 7.5, -7.5)", "q.bedrock('groudonprimal', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('groudonprimal', 'blink')", "q.bedrock_quirk('groudonprimal', 'cry', 20, 60, 1)"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('groudonprimal', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('groudonprimal', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('neck', 1, 1, 45, -7.5, 7.5, -7.5)", "q.bedrock('groudonprimal', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('groudonprimal', 'blink')"]
+    }
+  },
+  "profileScale": 0.21,
+  "profileTranslation": [0.1, 1.5, 0]
+}

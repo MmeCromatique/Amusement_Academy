@@ -1,0 +1,41 @@
+{
+  "animations": {},
+  "portraitScale": 2.1,
+  "portraitTranslation": [0, -0.02, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('burmy', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "fly": {
+      "animations": ["q.look('neck')", "q.bedrock('burmy', 'ground_idle')"],
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('neck')", "q.bedrock('burmy', 'ground_idle')"],
+      "poseTypes": ["HOVER", "FLOAT"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('neck')", "q.bedrock('burmy', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('neck')", "q.bedrock('burmy', 'ground_idle')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('neck')", "q.bedrock('burmy', 'ground_idle')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.82,
+  "profileTranslation": [0, 0.61, 0]
+}

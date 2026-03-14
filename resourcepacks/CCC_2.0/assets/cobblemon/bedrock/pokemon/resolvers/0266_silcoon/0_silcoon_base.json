@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:silcoon",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:silcoon.geo",
+      "poser": "cobblemon:silcoon",
+      "texture": "cobblemon:textures/pokemon/0266_silcoon/silcoon.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0266_silcoon/silcoon_shiny.png"
+    }
+  ]
+}

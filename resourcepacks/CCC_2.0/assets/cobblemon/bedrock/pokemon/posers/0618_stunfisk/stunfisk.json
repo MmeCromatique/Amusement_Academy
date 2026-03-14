@@ -1,0 +1,37 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('stunfisk', 'cry')",
+    "faint": "q.bedrock_primary('stunfisk', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('stunfisk', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('stunfisk', 'recoil')",
+    "special": "q.bedrock_primary('stunfisk', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('stunfisk', 'status', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 2.84,
+  "portraitTranslation": [0, -2.734, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('stunfisk', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('stunfisk', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('stunfisk', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('stunfisk', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('stunfisk', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('stunfisk', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0.06, 0.04, 0]
+}

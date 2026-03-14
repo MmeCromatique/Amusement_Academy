@@ -1,0 +1,64 @@
+{
+  "order": 0,
+  "species": "cobblemon:castform",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:castform.geo",
+      "poser": "cobblemon:castform",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_shiny.png"
+    }, {
+      "aspects": ["snowy-form"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "outter",
+          "texture": "cobblemon:textures/pokemon/0351_castform/castform_snowy_outter.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:castform_snowy.geo",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_snowy.png"
+    }, {
+      "aspects": ["shiny", "snowy-form"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_snowy_shiny.png"
+    }, {
+      "aspects": ["sunny-form"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "outter",
+          "texture": "cobblemon:textures/pokemon/0351_castform/castform_sunny_outter.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:castform_sunny.geo",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_sunny.png"
+    }, {
+      "aspects": ["shiny", "sunny-form"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_sunny_shiny.png"
+    }, {
+      "aspects": ["rainy-form"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "outter",
+          "texture": "cobblemon:textures/pokemon/0351_castform/castform_rainy_outter.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:castform_rainy.geo",
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_rainy.png"
+    }, {
+      "aspects": ["shiny", "rainy-form"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0351_castform/castform_rainy_shiny.png"
+    }
+  ]
+}

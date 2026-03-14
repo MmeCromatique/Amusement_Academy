@@ -1,0 +1,15 @@
+{
+  "animations": {},
+  "portraitScale": 0.83,
+  "portraitTranslation": [0.079, 0.971, 0],
+  "poses": {
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('palpitoad', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": []
+    }
+  },
+  "profileScale": 0.4,
+  "profileTranslation": [0.02, 1.13, 0]
+}

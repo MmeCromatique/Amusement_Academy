@@ -1,0 +1,54 @@
+{
+  "faint": "bedrock(ogerpon_rocktera, sleep)",
+  "head": "head",
+  "portraitScale": 2.7,
+  "portraitTranslation": [-0.5, 1.0, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(ogerpon_rocktera, battle_idle)"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(ogerpon_rocktera, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(ogerpon_rocktera, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(ogerpon_rocktera, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(ogerpon_rocktera, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(ogerpon_rocktera, ground_run)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(ogerpon_rocktera, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.8, 0]
+}

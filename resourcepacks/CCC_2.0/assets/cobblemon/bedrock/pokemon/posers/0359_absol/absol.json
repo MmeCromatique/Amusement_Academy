@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('absol', 'cry')"
+  },
+  "portraitScale": 1.91,
+  "portraitTranslation": [-0.91, 1.18, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('absol', 'battle_idle')"],
+      "isBattle": true,
+      "poseName": "battle-standing",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('absol', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('absol', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "FLOAT", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('absol', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('absol', 'ground_walk')"],
+      "poseTypes": ["WALK", "SWIM"],
+      "quirks": ["q.bedrock_quirk('absol', 'blink')"]
+    }
+  },
+  "profileScale": 0.59,
+  "profileTranslation": [-0.02, 0.85, 0],
+  "rootBone": "absol"
+}

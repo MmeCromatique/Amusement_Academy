@@ -1,0 +1,43 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('duraludon', 'cry')",
+    "physical": "q.bedrock_primary('duraludon', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('duraludon', 'recoil')",
+    "special": "q.bedrock_primary('duraludon', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('duraludon', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 3.5,
+  "portraitTranslation": [-0.3, -0.1, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('duraludon', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('duraludon', 'quirk')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('duraludon', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('duraludon', 'ground_idle')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('duraludon', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('duraludon', 'quirk')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('duraludon', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('duraludon', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0]
+}

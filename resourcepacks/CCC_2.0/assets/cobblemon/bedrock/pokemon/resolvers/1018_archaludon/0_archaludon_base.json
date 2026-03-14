@@ -1,0 +1,29 @@
+{
+  "order": 0,
+  "species": "cobblemon:archaludon",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1018_archaludon/archaludon_emissive.png"
+        }
+      ],
+      "model": "cobblemon:archaludon.geo",
+      "poser": "cobblemon:archaludon",
+      "texture": "cobblemon:textures/pokemon/1018_archaludon/archaludon.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1018_archaludon/archaludon_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/1018_archaludon/archaludon_shiny.png"
+    }
+  ]
+}

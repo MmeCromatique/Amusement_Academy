@@ -1,0 +1,59 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('hoopa_unbound', 'cry')",
+    "faint": "q.bedrock_primary('hoopa_unbound', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('hoopa_unbound', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('hoopa_unbound', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('hoopa_unbound', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 0.46,
+  "portraitTranslation": [-0.56, 5.12, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('hoopa_unbound', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('hoopa_unbound', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    },
+    "fly": {
+      "animations": ["q.bedrock('hoopa_unbound', 'ground_walk')"],
+      "poseName": "fly",
+      "poseTypes": ["FLY"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    },
+    "hover": {
+      "animations": ["q.bedrock('hoopa_unbound', 'ground_idle')"],
+      "poseName": "hover",
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('hoopa_unbound', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('hoopa_unbound', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('hoopa_unbound', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('hoopa_unbound', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('hoopa_unbound', 'blink')"]
+    }
+  },
+  "profileScale": 0.12,
+  "profileTranslation": [0, 1.8, 0]
+}

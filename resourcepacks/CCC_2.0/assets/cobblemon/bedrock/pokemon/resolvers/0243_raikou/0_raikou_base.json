@@ -1,0 +1,14 @@
+{
+  "order": 0,
+  "species": "cobblemon:raikou",
+  "variations": [
+    {
+      "model": "cobblemon:raikou.geo",
+      "poser": "cobblemon:raikou",
+      "texture": "cobblemon:textures/pokemon/0243_raikou/raikou.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0243_raikou/raikou_shiny.png"
+    }
+  ]
+}

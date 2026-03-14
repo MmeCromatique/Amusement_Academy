@@ -1,0 +1,24 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('blacephalon', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.8,
+  "portraitTranslation": [0, 8.6, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(blacephalon, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(blacephalon, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.4, 0]
+}

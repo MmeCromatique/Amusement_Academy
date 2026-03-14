@@ -1,0 +1,39 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('zamazenta', 'cry')",
+    "faint": "q.bedrock_primary('zamazenta', 'faint', q.curve('one'))"
+  },
+  "portraitScale": 1.6,
+  "portraitTranslation": [-1.77, 1.45, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head', 1, 1, 45, -45, 70, -70)", "q.bedrock('zamazenta', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('zamazenta', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('zamazenta', 'ground_idle')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('zamazenta', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head', 1, 1, 45, -2.5, 7.5, -7.5)", "q.bedrock('zamazenta', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('zamazenta', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('zamazenta', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('zamazenta', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head', 1, 1, 45, -2.5, 7.5, -7.5)", "q.bedrock('zamazenta', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('zamazenta', 'blink')"]
+    }
+  },
+  "profileScale": 0.43,
+  "profileTranslation": [0, 1.0, 0]
+}

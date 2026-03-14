@@ -1,0 +1,28 @@
+{
+  "cry": "bedrock(shaymin_sky, cry)",
+  "head": "head",
+  "portraitScale": 2.5,
+  "portraitTranslation": [-0.6, -0.4, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(shaymin_sky, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(shaymin_sky, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(shaymin_sky, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0]
+}

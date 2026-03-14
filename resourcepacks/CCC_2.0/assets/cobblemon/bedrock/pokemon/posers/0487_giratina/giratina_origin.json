@@ -1,0 +1,81 @@
+{
+  "animations": {
+    "physical": "q.bedrock_primary('giratina_origin', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('giratina_origin', 'recoil')",
+    "special": "q.bedrock_primary('giratina_origin', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('giratina_origin', 'special', q.curve('symmetrical_wide'))"
+  },
+  "firstPersonCameraOffset": {
+    "seat_1": [0, 0.45, 0]
+  },
+  "portraitScale": 0.8,
+  "portraitTranslation": [-1.65, 2.0, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'ground_idle')"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'air_idle')"],
+      "condition": "!q.is_sprinting",
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 5
+    },
+    "fly": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'air_fly')"],
+      "condition": "!q.is_sprinting",
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'air_idle')"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "poseTypes": ["HOVER"],
+      "transformTicks": 5
+    },
+    "run": {
+      "animations": [
+        "q.look('head')", "q.bedrock('giratina_origin', 'ground_run')", {
+          "animation": "q.bedrock('giratina_origin', 'ride_ground_run')",
+          "condition": "q.is_ridden"
+        }
+      ],
+      "condition": "!q.in_air && q.is_sprinting",
+      "isBattle": false,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'ground_idle')"],
+      "condition": "!q.in_air",
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'ground_walk')"],
+      "condition": "!q.is_sprinting",
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('giratina_origin', 'ground_walk')"],
+      "condition": "!q.in_air && !q.is_sprinting",
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.2,
+  "profileTranslation": [0, 1.6, -20],
+  "thirdPersonCameraOffset": {
+    "seat_1": [0, 5.4, 6],
+    "seat_1_reverse": [0, 0.45, 1]
+  },
+  "thirdPersonCameraOffsetNoViewBobbing": {
+    "seat_1": [0, 5.4, 6],
+    "seat_1_reverse": [0, 0.45, 1]
+  }
+}

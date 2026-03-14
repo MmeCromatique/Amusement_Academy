@@ -1,0 +1,33 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('gallade_mega', 'cry')",
+    "faint": "q.bedrock_primary('gallade_mega', 'faint', q.curve('one'))"
+  },
+  "portraitScale": 2.6,
+  "portraitTranslation": [-0.15, 2.1, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('gallade_mega', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('gallade_mega', 'blink')", "q.bedrock_quirk('gallade_mega', 'battle_quirk')"]
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('gallade_mega', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('gallade_mega', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('gallade_mega', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('gallade_mega', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.65,
+  "profileTranslation": [0.0, 0.76, 0.0],
+  "rootBone": "gallade_mega"
+}

@@ -1,0 +1,21 @@
+{
+  "head": "head",
+  "portraitScale": 1.2,
+  "portraitTranslation": [0, 0, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(dottler, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "PORTRAIT", "PROFILE", "NONE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(dottler, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1.1,
+  "profileTranslation": [0, 0, 0]
+}

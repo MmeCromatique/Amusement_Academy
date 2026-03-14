@@ -1,0 +1,79 @@
+{
+  "cry": "bedrock(carbink, cry)",
+  "faint": "bedrock(carbink, faint, true)",
+  "head": "head",
+  "portraitScale": 1.6,
+  "portraitTranslation": [0, 0.1, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(carbink, air_idle)"],
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(carbink, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "flying": {
+      "animations": ["bedrock(carbink, air_walk)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(carbink, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["bedrock(carbink, air_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER"],
+      "quirks": [
+        {
+          "animations": ["bedrock(carbink, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(carbink, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(carbink, air_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(carbink, blink)"],
+          "maxSecondsBetweenOccurrences": 12,
+          "minSecondsBetweenOccurrences": 5,
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(carbink, air_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(carbink, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1.2,
+  "profileTranslation": [0, 0.25, 0]
+}

@@ -1,0 +1,44 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('xurkitree', 'cry')",
+    "faint": "q.bedrock_stateful('xurkitree', 'faint')",
+    "physical": "q.bedrock_primary('xurkitree', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('xurkitree', 'recoil')",
+    "special": "q.bedrock_primary('xurkitree', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('xurkitree', 'headshake', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.8, 6, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('xurkitree', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('xurkitree', 'headshake')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('xurkitree', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('xurkitree', 'ground_idle')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('xurkitree', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('xurkitree', 'headshake')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('xurkitree', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('xurkitree', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.3,
+  "profileTranslation": [0, 1.4, -1.8]
+}

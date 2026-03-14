@@ -1,0 +1,20 @@
+{
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.25, 0.5, 0],
+  "poses": {
+    "flying": {
+      "animations": ["bedrock(darkrai, air_fly)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY", "WALK"],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["bedrock(darkrai, air_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER", "PORTRAIT", "PROFILE", "NONE", "STAND"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.6, 0]
+}

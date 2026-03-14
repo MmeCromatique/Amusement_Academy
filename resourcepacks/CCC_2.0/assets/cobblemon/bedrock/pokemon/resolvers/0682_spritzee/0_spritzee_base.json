@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "species": "cobblemon:spritzee",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:spritzee.geo",
+      "poser": "cobblemon:spritzee",
+      "texture": "cobblemon:textures/pokemon/0682_spritzee/spritzee.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0682_spritzee/spritzee_shiny.png"
+    }
+  ]
+}

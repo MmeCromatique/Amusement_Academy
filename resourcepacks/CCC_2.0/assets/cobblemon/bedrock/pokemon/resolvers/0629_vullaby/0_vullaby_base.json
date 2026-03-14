@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:vullaby",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:vullaby.geo",
+      "poser": "cobblemon:vullaby",
+      "texture": "cobblemon:textures/pokemon/0629_vullaby/vullaby.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0629_vullaby/vullaby_shiny.png"
+    }
+  ]
+}

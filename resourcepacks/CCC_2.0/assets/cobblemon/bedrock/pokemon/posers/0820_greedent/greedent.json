@@ -1,0 +1,41 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('greedent', 'cry')",
+    "faint": "q.bedrock_primary('greedent', 'ground_idle', q.curve('one'))"
+  },
+  "portraitScale": 1.21,
+  "portraitTranslation": [0, 0.6, 0],
+  "poses": {
+    "battle": {
+      "animations": ["q.look('head')", "q.bedrock('greedent', 'ground_idle')"],
+      "isBattle": true,
+      "poseName": "battle_idle",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('greedent', 'blink')"],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('greedent', 'ground_idle')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('greedent', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('greedent', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('greedent', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('greedent', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.0, 0]
+}

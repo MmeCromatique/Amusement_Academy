@@ -1,0 +1,55 @@
+{
+  "order": 1,
+  "species": "cobblemon:palkia",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_emissive.png",
+          "translucent": false
+        }
+      ],
+      "model": "cobblemon:palkia.geo",
+      "poser": "cobblemon:palkia",
+      "texture": "cobblemon:textures/pokemon/0484_palkia/palkia.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_emissive.png",
+          "translucent": false
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_shiny.png"
+    }, {
+      "aspects": ["origin-forme"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_origin_emissive.png",
+          "translucent": false
+        }
+      ],
+      "model": "cobblemon:palkia_origin.geo",
+      "poser": "cobblemon:palkia_origin",
+      "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_origin.png"
+    }, {
+      "aspects": ["shiny", "origin-forme"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_origin_emissive.png",
+          "translucent": false
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0484_palkia/palkia_origin_shiny.png"
+    }
+  ]
+}

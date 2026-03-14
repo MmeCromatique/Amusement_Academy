@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:manaphy",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:manaphy.geo",
+      "poser": "cobblemon:manaphy",
+      "texture": "cobblemon:textures/pokemon/0490_manaphy/manaphy.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0490_manaphy/manaphy_shiny.png"
+    }
+  ]
+}

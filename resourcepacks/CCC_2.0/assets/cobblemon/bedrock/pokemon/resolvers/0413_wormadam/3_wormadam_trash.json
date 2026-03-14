@@ -1,0 +1,17 @@
+{
+  "order": 3,
+  "species": "cobblemon:wormadam",
+  "variations": [
+    {
+      "aspects": ["trash-cloak"],
+      "layers": [],
+      "model": "cobblemon:wormadam_trash.geo",
+      "poser": "cobblemon:wormadam",
+      "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_trash.png"
+    },
+    {
+      "aspects": ["shiny", "trash-cloak"],
+      "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_trash_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('appletun', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('appletun', 'faint', q.curve('one'))"
+  },
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [-0.9, -1.8, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(appletun, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(appletun, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.6, 0]
+}

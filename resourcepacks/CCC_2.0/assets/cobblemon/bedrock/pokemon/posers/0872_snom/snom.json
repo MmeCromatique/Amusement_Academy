@@ -1,0 +1,33 @@
+{
+  "faint": "bedrock(snom, sleep)",
+  "portraitScale": 4,
+  "portraitTranslation": [0.1, -4.4, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(snom, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(snom, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(snom, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(snom, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1.25,
+  "profileTranslation": [0.05, -0.2, 0]
+}

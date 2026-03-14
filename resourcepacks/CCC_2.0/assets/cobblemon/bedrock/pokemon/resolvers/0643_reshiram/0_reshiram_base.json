@@ -1,0 +1,31 @@
+{
+  "order": 0,
+  "species": "cobblemon:reshiram",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0643_reshiram/reshiram_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:reshiram.geo",
+      "poser": "cobblemon:reshiram",
+      "texture": "cobblemon:textures/pokemon/0643_reshiram/reshiram.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0643_reshiram/reshiram_emissive_shiny.png",
+          "translucent": true
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0643_reshiram/reshiram_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "cry": "bedrock(diancie, cry)",
+  "faint": "bedrock(diancie, faint, true)",
+  "head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [0, 0.9, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(diancie, air_idle)"],
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie, blink)"],
+          "maxSecondsBetweenOccurrences": 8,
+          "minSecondsBetweenOccurrences": 6,
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "flying": {
+      "animations": ["bedrock(diancie, air_walk)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["bedrock(diancie, air_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(diancie, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(diancie, air_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie, blink)"],
+          "maxSecondsBetweenOccurrences": 12,
+          "minSecondsBetweenOccurrences": 6,
+          "name": "blink"
+        }, {
+          "animations": ["bedrock(diancie, spin, true)"],
+          "loopTimes": 1,
+          "maxSecondsBetweenOccurrences": 20,
+          "minSecondsBetweenOccurrences": 19,
+          "name": "spin",
+          "transformTicks": 10
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(diancie, air_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(diancie, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.7, 0]
+}

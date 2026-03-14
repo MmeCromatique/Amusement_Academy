@@ -1,0 +1,42 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('lycanroc_midnight', 'cry')",
+    "recoil": "q.bedrock_stateful('lycanroc_midnight', 'recoil')",
+    "status": "q.bedrock_stateful('lycanroc_midnight', 'cry', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 2.3,
+  "portraitTranslation": [-1.0, 1.6, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('lycanroc_midnight', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('lycanroc_midnight', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('lycanroc_midnight', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('lycanroc_midnight', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('lycanroc_midnight', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('lycanroc_midnight', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('lycanroc_midnight', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('lycanroc_midnight', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0]
+}

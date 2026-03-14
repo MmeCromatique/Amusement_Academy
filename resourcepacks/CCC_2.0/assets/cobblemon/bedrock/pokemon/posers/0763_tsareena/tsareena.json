@@ -1,0 +1,41 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('tsareena', 'cry')",
+    "faint": "q.bedrock_primary('tsareena', 'faint')",
+    "physical": "q.bedrock_primary('tsareena', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('tsareena', 'recoil')",
+    "special": "q.bedrock_primary('tsareena', 'physical', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('tsareena', 'cry')"
+  },
+  "head": "head",
+  "portraitScale": 2,
+  "portraitTranslation": [-0.15, 1.82, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('tsareena', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('tsareena', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('tsareena', 'ground_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('tsareena', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('tsareena', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('tsareena', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('tsareena', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.9, 0]
+}

@@ -1,0 +1,42 @@
+{
+  "animations": {
+    "cry": "q.bedrock_primary('kingambit', 'cry')",
+    "faint": "q.bedrock_primary('kingambit', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('kingambit', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('kingambit', 'recoil')",
+    "special": "q.bedrock_primary('kingambit', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('kingambit', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.8,
+  "portraitTranslation": [-0.35, 3, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head_ai', 1, 1, 20, -20, 25, -25)", "q.bedrock('kingambit', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "float": {
+      "animations": ["q.bedrock('kingambit', 'idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('kingambit', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head_ai', 1, 1, 20, -20, 25, -25)", "q.bedrock('kingambit', 'idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('kingambit', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head_ai', 1, 1, 20, -20, 25, -25)", "q.bedrock('kingambit', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.2, 0]
+}

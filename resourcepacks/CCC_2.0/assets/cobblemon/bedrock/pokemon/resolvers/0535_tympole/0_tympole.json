@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:tympole",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:tympole.geo",
+      "poser": "cobblemon:tympole",
+      "texture": "cobblemon:textures/pokemon/0535_tympole/tympole.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0535_tympole/tympole_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "order": 2,
+  "species": "cobblemon:cramorant",
+  "variations": [
+    {
+      "aspects": ["gorging-form"],
+      "layers": [],
+      "model": "cobblemon:cramorant_pikachu.geo",
+      "poser": "cobblemon:cramorant_pikachu",
+      "texture": "cobblemon:textures/pokemon/0845_cramorant/cramorant_pikachu.png"
+    }, {
+      "aspects": ["shiny", "gorging-form"],
+      "texture": "cobblemon:textures/pokemon/0845_cramorant/cramorant_pikachu_shiny.png"
+    }
+  ]
+}

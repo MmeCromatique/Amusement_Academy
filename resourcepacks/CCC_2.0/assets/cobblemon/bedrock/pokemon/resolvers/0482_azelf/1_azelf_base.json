@@ -1,0 +1,23 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 1,
+  "species": "cobblemon:azelf",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:azelf.geo",
+      "poser": "cobblemon:azelf",
+      "texture": "cobblemon:textures/pokemon/0482_azelf/azelf.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0482_azelf/azelf_shiny.png"
+    }
+  ]
+}

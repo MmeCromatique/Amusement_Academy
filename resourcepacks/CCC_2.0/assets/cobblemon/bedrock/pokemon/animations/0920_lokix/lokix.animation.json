@@ -1,0 +1,20 @@
+{
+  "animations": {
+    "animation.lokix.ground_idle": {
+      "loop": true
+    },
+    "animation.lokix.ground_walk": {
+      "bones": {
+        "body": {
+          "rotation": [0, 0, 0]
+        },
+        "hisuian_qwilfish": {
+          "position": [0, 1.25, 0],
+          "rotation": [0, 0, 0]
+        }
+      },
+      "loop": true
+    }
+  },
+  "format_version": "1.8.0"
+}

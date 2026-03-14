@@ -1,0 +1,369 @@
+{
+  "order": 0,
+  "species": "cobblemon:arceus",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_emmisive.png"
+        }
+      ],
+      "model": "cobblemon:arceus.geo",
+      "poser": "cobblemon:arceus",
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_emmisive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_shiny.png"
+    }, {
+      "aspects": ["fire-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fire_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fire.png"
+    }, {
+      "aspects": ["water-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_water_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_water.png"
+    }, {
+      "aspects": ["grass-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_grass_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_grass.png"
+    }, {
+      "aspects": ["electric-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_electric_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_electric.png"
+    }, {
+      "aspects": ["ice-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ice_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ice.png"
+    }, {
+      "aspects": ["fighting-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fighting_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fighting.png"
+    }, {
+      "aspects": ["poison-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_poison_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_poison.png"
+    }, {
+      "aspects": ["ground-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ground_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ground.png"
+    }, {
+      "aspects": ["flying-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_flying_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_flying.png"
+    }, {
+      "aspects": ["psychic-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_psychic_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_psychic.png"
+    }, {
+      "aspects": ["bug-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_bug_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_bug.png"
+    }, {
+      "aspects": ["rock-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_rock_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_rock.png"
+    }, {
+      "aspects": ["ghost-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ghost_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ghost.png"
+    }, {
+      "aspects": ["dragon-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dragon_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dragon.png"
+    }, {
+      "aspects": ["dark-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dark_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dark.png"
+    }, {
+      "aspects": ["steel-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_steel_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_steel.png"
+    }, {
+      "aspects": ["fairy-plate"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fairy_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fairy.png"
+    }, {
+      "aspects": ["fire-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fire_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fire_shiny.png"
+    }, {
+      "aspects": ["water-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_water_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_water_shiny.png"
+    }, {
+      "aspects": ["grass-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_grass_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_grass_shiny.png"
+    }, {
+      "aspects": ["electric-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_electric_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_electric_shiny.png"
+    }, {
+      "aspects": ["ice-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ice_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ice_shiny.png"
+    }, {
+      "aspects": ["fighting-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fighting_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fighting_shiny.png"
+    }, {
+      "aspects": ["poison-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_poison_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_poison_shiny.png"
+    }, {
+      "aspects": ["ground-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ground_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ground_shiny.png"
+    }, {
+      "aspects": ["flying-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_flying_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_flying_shiny.png"
+    }, {
+      "aspects": ["psychic-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_psychic_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_psychic_shiny.png"
+    }, {
+      "aspects": ["bug-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_bug_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_bug_shiny.png"
+    }, {
+      "aspects": ["rock-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_rock_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_rock_shiny.png"
+    }, {
+      "aspects": ["ghost-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ghost_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_ghost_shiny.png"
+    }, {
+      "aspects": ["dragon-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dragon_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dragon_shiny.png"
+    }, {
+      "aspects": ["dark-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dark_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_dark_shiny.png"
+    }, {
+      "aspects": ["steel-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_steel_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_steel_shiny.png"
+    }, {
+      "aspects": ["fairy-plate", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fairy_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0493_arceus/arceus_fairy_shiny.png"
+    }
+  ]
+}

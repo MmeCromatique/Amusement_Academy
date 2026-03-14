@@ -1,0 +1,49 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('darmanitan_galar', 'cry')"
+  },
+  "portraitScale": 0.96,
+  "portraitTranslation": [-0.35, 0.71, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('darmanitan_galar', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('darmanitan_galar', 'blink')"],
+      "transformTicks": 10
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('darmanitan_galar', 'ground_walk')"],
+      "poseTypes": ["FLOAT"],
+      "quirks": ["q.bedrock_quirk('darmanitan_galar', 'blink')"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('head')", "q.bedrock('darmanitan_galar', 'ground_walk')"],
+      "poseTypes": ["FLY", "HOVER", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('darmanitan_galar', 'blink')"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('darmanitan_galar', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('darmanitan_galar', 'blink')"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('darmanitan_galar', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "quirks": ["q.bedrock_quirk('darmanitan_galar', 'blink')"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('darmanitan_galar', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('darmanitan_galar', 'blink')"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.57,
+  "profileTranslation": [-0.11, 0.73, 0.0]
+}

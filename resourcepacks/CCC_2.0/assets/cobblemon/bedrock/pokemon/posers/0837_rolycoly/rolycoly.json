@@ -1,0 +1,41 @@
+{
+  "animations": {},
+  "portraitScale": 3,
+  "portraitTranslation": [-0.33, -2.41, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('rolycoly', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('rolycoly', 'ground_walk')"],
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('head')", "q.bedrock('rolycoly', 'ground_idle')"],
+      "poseTypes": ["FLY", "HOVER", "FLOAT"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('rolycoly', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('rolycoly', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('rolycoly', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [-0.02, 0.22, 0]
+}

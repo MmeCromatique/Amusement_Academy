@@ -1,0 +1,18 @@
+{
+  "order": 0,
+  "species": "cobblemon:urshifu",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:urshifu.geo",
+      "poser": "cobblemon:urshifu",
+      "texture": "cobblemon:textures/pokemon/0892_urshifu/urshifu.png"
+    }, {
+      "aspects": ["shiny"],
+      "model": "cobblemon:urshifu.geo",
+      "poser": "cobblemon:urshifu",
+      "texture": "cobblemon:textures/pokemon/0892_urshifu/urshifu_shiny.png"
+    }
+  ]
+}

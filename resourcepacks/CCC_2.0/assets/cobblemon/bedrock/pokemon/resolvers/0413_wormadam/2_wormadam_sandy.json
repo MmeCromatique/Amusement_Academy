@@ -1,0 +1,17 @@
+{
+  "order": 2,
+  "species": "cobblemon:wormadam",
+  "variations": [
+    {
+      "aspects": ["sandy-cloak"],
+      "layers": [],
+      "model": "cobblemon:wormadam_sandy.geo",
+      "poser": "cobblemon:wormadam",
+      "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_sandy.png"
+    },
+    {
+      "aspects": ["shiny", "sandy-cloak"],
+      "texture": "cobblemon:textures/pokemon/0413_wormadam/wormadam_sandy_shiny.png"
+    }
+  ]
+}

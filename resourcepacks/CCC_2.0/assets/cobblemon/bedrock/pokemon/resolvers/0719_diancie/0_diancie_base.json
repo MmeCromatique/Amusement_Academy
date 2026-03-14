@@ -1,0 +1,27 @@
+{
+  "order": 0,
+  "species": "cobblemon:diancie",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:diancie.geo",
+      "poser": "cobblemon:diancie",
+      "texture": "cobblemon:textures/pokemon/0719_diancie/diancie.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0719_diancie/diancie_shiny.png"
+    }, {
+      "aspects": ["mega"],
+      "layers": [],
+      "model": "cobblemon:diancie_mega.geo",
+      "poser": "cobblemon:diancie_mega",
+      "texture": "cobblemon:textures/pokemon/0719_diancie/megadiancie.png"
+    }, {
+      "aspects": ["mega", "shiny"],
+      "model": "cobblemon:diancie_mega.geo",
+      "poser": "cobblemon:diancie_mega",
+      "texture": "cobblemon:textures/pokemon/0719_diancie/megadiancie_shiny.png"
+    }
+  ]
+}

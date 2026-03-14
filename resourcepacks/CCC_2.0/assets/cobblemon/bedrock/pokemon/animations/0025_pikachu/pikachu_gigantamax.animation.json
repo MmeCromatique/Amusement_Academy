@@ -1,0 +1,437 @@
+{
+  "animations": {
+    "animation.pikachu_gigantamax.battle_idle": {
+      "bones": {
+        "arm_left": {
+          "position": [0.5, -0.25, 0.5],
+          "rotation": [85, 60, 130]
+        },
+        "arm_right": {
+          "position": [-0.5, -0.25, 0.5],
+          "rotation": [85, -60, -130]
+        },
+        "ear_left": {
+          "rotation": [0, 0, "-math.sin(q.anim_time*90*2+90)*4"]
+        },
+        "ear_right": {
+          "rotation": [0, 0, "math.sin(q.anim_time*90*2+90)*4"]
+        },
+        "foot_left": {
+          "rotation": [0, -5, 0]
+        },
+        "foot_right": {
+          "rotation": [0, 5, 0]
+        },
+        "head": {
+          "rotation": ["math.sin(query.anim_time*90*2)*2", "math.sin(query.anim_time*90)*4", 0]
+        },
+        "leg_left": {
+          "rotation": [0, -5, 0]
+        },
+        "leg_right": {
+          "rotation": [0, 5, 0]
+        },
+        "swirlies": {
+          "rotation": [0, "math.sin(query.anim_time*90*0.0001)*90000", 0]
+        },
+        "tail": {
+          "rotation": ["math.sin(query.anim_time*90)*6", "math.sin(query.anim_time*90)*4", 0]
+        },
+        "torso": {
+          "position": [0, "0.1*(math.sin(q.anim_time*90*3-30)*1+1)", 0],
+          "rotation": [0, "math.sin(q.anim_time*90)*2", 0]
+        }
+      },
+      "loop": true
+    },
+    "animation.pikachu_gigantamax.blink": {
+      "animation_length": 0.1667,
+      "bones": {
+        "eyelid_left": {
+          "position": {
+            "0.0": [0, 0, -0.1],
+            "0.125": [0, 0, -0.1],
+            "0.1667": [0, 0, 0]
+          }
+        },
+        "eyelid_right": {
+          "position": {
+            "0.0": [0, 0, -0.1],
+            "0.125": [0, 0, -0.1],
+            "0.1667": [0, 0, 0]
+          }
+        }
+      }
+    },
+    "animation.pikachu_gigantamax.cry": {
+      "animation_length": 0.95,
+      "bones": {
+        "head": {
+          "rotation": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "0.25": {
+              "lerp_mode": "catmullrom",
+              "post": [-15, 0, 0]
+            },
+            "0.55": {
+              "lerp_mode": "catmullrom",
+              "post": [-15, 0, 0]
+            },
+            "0.95": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            }
+          }
+        },
+        "mouth_closed": {
+          "position": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "0.2": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "0.25": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0.2]
+            },
+            "0.55": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0.2]
+            },
+            "0.6": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "0.95": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            }
+          }
+        },
+        "mouth_open": {
+          "position": {
+            "0.0": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            },
+            "0.2": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, -0.2]
+            },
+            "0.6": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, -0.2]
+            },
+            "0.95": {
+              "lerp_mode": "catmullrom",
+              "post": [0, 0, 0]
+            }
+          }
+        }
+      },
+      "sound_effects": {
+        "0.2": {
+          "effect": "pokemon.pikachu_gigantamax.cry"
+        }
+      }
+    },
+    "animation.pikachu_gigantamax.ground_idle": {
+      "bones": {
+        "arm_left": {
+          "position": [0.5, -0.25, 0.5],
+          "rotation": [85, 60, 130]
+        },
+        "arm_right": {
+          "position": [-0.5, -0.25, 0.5],
+          "rotation": [85, -60, -130]
+        },
+        "ear_left": {
+          "rotation": [0, 0, "-math.sin(q.anim_time*90*2+90)*4"]
+        },
+        "ear_right": {
+          "rotation": [0, 0, "math.sin(q.anim_time*90*2+90)*4"]
+        },
+        "foot_left": {
+          "rotation": [0, -5, 0]
+        },
+        "foot_right": {
+          "rotation": [0, 5, 0]
+        },
+        "head": {
+          "rotation": ["math.sin(query.anim_time*90*2)*2", "math.sin(query.anim_time*90)*4", 0]
+        },
+        "leg_left": {
+          "rotation": [0, -5, 0]
+        },
+        "leg_right": {
+          "rotation": [0, 5, 0]
+        },
+        "swirlies": {
+          "rotation": [0, "math.sin(query.anim_time*90*0.0001)*90000", 0]
+        },
+        "tail": {
+          "rotation": ["math.sin(query.anim_time*90)*6", "math.sin(query.anim_time*90)*4", 0]
+        },
+        "torso": {
+          "position": [0, "0.1*(math.sin(q.anim_time*90*3-30)*1+1)", 0],
+          "rotation": [0, "math.sin(q.anim_time*90)*2", 0]
+        }
+      },
+      "loop": true
+    },
+    "animation.pikachu_gigantamax.ground_walk": {
+      "bones": {
+        "arm_left": {
+          "position": [0.5, -0.25, 0.5],
+          "rotation": [85, 60, 130]
+        },
+        "arm_right": {
+          "position": [-0.5, -0.25, 0.5],
+          "rotation": [85, -60, -130]
+        },
+        "ear_left": {
+          "rotation": [0, 0, "-math.sin(q.anim_time*90*2+90)*4"]
+        },
+        "ear_right": {
+          "rotation": [0, 0, "math.sin(q.anim_time*90*2+90)*4"]
+        },
+        "foot_left": {
+          "rotation": [0, -5, 0]
+        },
+        "foot_right": {
+          "rotation": [0, 5, 0]
+        },
+        "head": {
+          "rotation": ["math.sin(query.anim_time*90*2)*2", "math.sin(query.anim_time*90)*4", 0]
+        },
+        "leg_left": {
+          "rotation": [0, -5, 0]
+        },
+        "leg_right": {
+          "rotation": [0, 5, 0]
+        },
+        "swirlies": {
+          "rotation": [0, "math.sin(query.anim_time*90*0.0001)*90000", 0]
+        },
+        "tail": {
+          "rotation": ["math.sin(query.anim_time*90)*6", "math.sin(query.anim_time*90)*4", 0]
+        },
+        "torso": {
+          "position": [0, "0.1*(math.sin(q.anim_time*90*3-30)*1+1)", 0],
+          "rotation": [0, "math.sin(q.anim_time*90)*2", 0]
+        }
+      },
+      "loop": true
+    },
+    "animation.pikachu_gigantamax.render": {
+      "bones": {
+        "arm_left": {
+          "position": [0, -0.43, -0.25],
+          "rotation": [-45, 50, -40]
+        },
+        "arm_right": {
+          "position": [0, -0.43, -0.25],
+          "rotation": [-45, -50, 40]
+        },
+        "body": {
+          "position": [0, 3, 0],
+          "rotation": [30, 0, 0]
+        },
+        "ear_left": {
+          "rotation": [-25, 0, 15]
+        },
+        "ear_right": {
+          "rotation": [0, 30, -5]
+        },
+        "foot_left": {
+          "position": [0, -0.25, 0],
+          "rotation": [25, -1.85, 6.85]
+        },
+        "foot_right": {
+          "position": [0, -0.25, 0],
+          "rotation": [27.5, 3, -7]
+        },
+        "head": {
+          "position": [0, -0.43, -0.25],
+          "rotation": [-35, 0, 0]
+        },
+        "leg_left": {
+          "position": [0, -1.36, 0.36],
+          "rotation": [0, 0, -10]
+        },
+        "leg_right": {
+          "position": [0, -1.36, 0.36],
+          "rotation": [0, 0, 10]
+        },
+        "mouth_closed": {
+          "position": [0, 0, 0.1]
+        },
+        "mouth_open": {
+          "position": [0, -0.9, 0],
+          "rotation": [-25, 0, 180]
+        },
+        "tail": {
+          "rotation": [-25, 40, 0]
+        }
+      },
+      "loop": true
+    },
+    "animation.pikachu_gigantamax.shoulder_left": {
+      "bones": {
+        "arm_left": {
+          "rotation": [121.75, 61.75, 133]
+        },
+        "arm_right": {
+          "rotation": [137.25, -60.35, -141.65]
+        },
+        "body": {
+          "position": [0, -6.5, 4],
+          "rotation": [0, 0, 7.5]
+        },
+        "ear_left": {
+          "rotation": [0, 0, "-(math.sin((query.anim_time)*90*2)*2)"]
+        },
+        "ear_right": {
+          "rotation": [0, 0, "(math.sin((query.anim_time)*90*2)*2)"]
+        },
+        "foot_right": {
+          "position": [0, 0, -0.5],
+          "rotation": [25, 0, 0]
+        },
+        "head": {
+          "rotation": [-17.5, -1.5, -4.75]
+        },
+        "leg_left": {
+          "position": [0.13, -1, 0],
+          "rotation": [0, 0, -7.5]
+        },
+        "leg_right": {
+          "position": [0.13, -1, 0],
+          "rotation": [0, 0, -7.5]
+        },
+        "tail": {
+          "rotation": [0, "40+math.sin((query.anim_time)*90*2+60)", 0]
+        },
+        "torso": {
+          "position": [0, 0, -1],
+          "rotation": [20, 0, "-(math.sin((query.anim_time)*90*2) * 0.3)"]
+        }
+      },
+      "loop": true
+    },
+    "animation.pikachu_gigantamax.shoulder_right": {
+      "bones": {
+        "arm_left": {
+          "rotation": [137.25, 60.35, 141.65]
+        },
+        "arm_right": {
+          "rotation": [121.75, -61.75, -133]
+        },
+        "body": {
+          "position": [0, -6.5, 4],
+          "rotation": [0, 0, -7.5]
+        },
+        "ear_left": {
+          "rotation": [0, 0, "-(math.sin((query.anim_time)*90*2) * 2)"]
+        },
+        "ear_right": {
+          "rotation": [0, 0, "(math.sin((query.anim_time)*90*2) * 2)"]
+        },
+        "foot_left": {
+          "position": [0, 0, -0.5],
+          "rotation": [25, 0, 0]
+        },
+        "head": {
+          "rotation": [-17.5, 1.5, 4.75]
+        },
+        "leg_left": {
+          "position": [-0.13, -1, 0],
+          "rotation": [0, 0, 7.5]
+        },
+        "leg_right": {
+          "position": [-0.13, -1, 0],
+          "rotation": [0, 0, 7.5]
+        },
+        "tail": {
+          "rotation": [0, "-40+math.sin((query.anim_time)*90*2+60)", 0]
+        },
+        "torso": {
+          "position": [0, 0, -1],
+          "rotation": [20, 0, "math.sin((query.anim_time)*90*2) * 0.3"]
+        }
+      },
+      "loop": true
+    },
+    "animation.pikachu_gigantamax.sleep": {
+      "bones": {
+        "arm_left": {
+          "position": [1, 0, -2],
+          "rotation": [-90.75, "5-math.sin(query.anim_time*90*0.5)*3", -110]
+        },
+        "arm_right": {
+          "position": [0, 1, -2],
+          "rotation": [-90.5, "-5+math.sin(query.anim_time*90*0.5)*3", 125]
+        },
+        "body": {
+          "position": [0, -4, 2],
+          "rotation": [90, 12.5, 0]
+        },
+        "ear_left": {
+          "position": [0, 0.75, 0],
+          "rotation": ["-135+math.sin(query.anim_time*90+20)*1.5", 54, "-14-math.sin(query.anim_time*90+20)"]
+        },
+        "ear_right": {
+          "position": [0, 0.75, 0],
+          "rotation": ["-127+math.sin(query.anim_time*90+40)*1.5", -54, "14+math.sin(query.anim_time*90+20)"]
+        },
+        "eye_left": {
+          "rotation": [0, 0, 10]
+        },
+        "eye_right": {
+          "rotation": [0, 0, -10]
+        },
+        "eyelid_left": {
+          "position": [0, 0, -0.1]
+        },
+        "eyelid_right": {
+          "position": [0, 0, -0.1]
+        },
+        "foot_left": {
+          "position": [0, 0.5, -0.25],
+          "rotation": [37.5, 0, 0]
+        },
+        "foot_right": {
+          "position": [-0.25, 0, -0.5],
+          "rotation": [37.5, 0, 0]
+        },
+        "head": {
+          "position": [1, 2.25, -1.5],
+          "rotation": ["-78.75+math.sin(query.anim_time*90)*1.5", -3.5, 9.5]
+        },
+        "leg_left": {
+          "position": [0.25, -1, 0],
+          "rotation": [-128.5, -6, 24]
+        },
+        "leg_right": {
+          "position": [0, -1, 0.25],
+          "rotation": [-127, 5, -17.25]
+        },
+        "tail": {
+          "position": [0, 0, -1],
+          "rotation": ["-135-math.sin(query.anim_time*90+30*0.5)*1.5", 0, "math.sin(query.anim_time*90*2)*1.5"]
+        },
+        "torso": {
+          "rotation": ["-5+math.sin(query.anim_time*90*0.5)*1.5", 0, 0]
+        }
+      },
+      "loop": true
+    }
+  },
+  "format_version": "1.8.0"
+}

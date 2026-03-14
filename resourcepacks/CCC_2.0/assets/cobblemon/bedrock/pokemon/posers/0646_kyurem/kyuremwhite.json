@@ -1,0 +1,340 @@
+{
+  "animations": {
+    "cry": "q.bedrock_primary('kyuremwhite', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('kyuremwhite', 'special_attack', q.curve('one'))",
+    "physical": "q.bedrock_primary('kyuremwhite', 'physical_attack', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('kyuremwhite', 'recoil')",
+    "special": "q.bedrock_primary('kyuremwhite', 'special_attack', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('kyuremwhite', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1,
+  "portraitTranslation": [-0.5, 3.5, -10],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('neck2', 1, 1, 45, -20, 45)", "q.bedrock('kyuremwhite', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "float": {
+      "animations": ["q.look('neck2', 1, 1, 45, -20, 45)", "q.bedrock('kyuremwhite', 'ground_walk')"],
+      "poseTypes": ["FLOAT"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wires_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wires_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "fire_crest_end_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wing_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tailring_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash_dim2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire1",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "fly": {
+      "animations": ["q.look('neck2', 1, 1, 45, -20, 45)", "q.bedrock('kyuremwhite', 'ground_walk')"],
+      "poseTypes": ["FLY"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wires_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wires_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "fire_crest_end_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wing_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tailring_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash_dim2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire1",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "hover": {
+      "animations": ["q.look('neck2', 1, 1, 45, -20, 45)", "q.bedrock('kyuremwhite', 'ground_walk')"],
+      "poseTypes": ["HOVER"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wires_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wires_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "fire_crest_end_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wing_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tailring_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash_dim2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire1",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('kyuremwhite', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('kyuremwhite', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "swim": {
+      "animations": ["q.look('neck2', 1, 1, 45, -20, 45)", "q.bedrock('kyuremwhite', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wires_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wires_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "fire_crest_end_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wing_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tailring_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash_dim2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire1",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    },
+    "walking": {
+      "animations": ["q.look('neck2', 1, 1, 45, -20, 45)", "q.bedrock('kyuremwhite', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformedParts": [
+        {
+          "isVisible": false,
+          "part": "wires_right",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wires_left",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "fire_crest_end_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "wing_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tailring_fire",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_flash_dim2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire1",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire2",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire3",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }, {
+          "isVisible": false,
+          "part": "tail_fire4",
+          "position": [0, 0, 0],
+          "rotation": [0, 0, 0]
+        }
+      ]
+    }
+  },
+  "profileScale": 0.27,
+  "profileTranslation": [0, 1.3, -10]
+}

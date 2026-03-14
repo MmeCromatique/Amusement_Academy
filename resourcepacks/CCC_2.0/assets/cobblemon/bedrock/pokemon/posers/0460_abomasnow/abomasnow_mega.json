@@ -1,0 +1,52 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('abomasnow_mega', 'cry')",
+    "faint": "q.bedrock_primary('abomasnow_mega', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('abomasnow_mega', 'physical_attack', q.curve('symmetrical_wide'))",
+    "special": "q.bedrock_primary('abomasnow_mega', 'special_attack', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 0.6,
+  "portraitTranslation": [0, 1, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(abomasnow_mega, battle_idle)"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "transformTicks": 10
+    },
+    "floating": {
+      "animations": ["bedrock(abomasnow_mega, ground_idle)"],
+      "poseName": "floating",
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["bedrock(abomasnow_mega, sleep)"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(abomasnow_mega, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["bedrock(abomasnow_mega, ground_walk)"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(abomasnow_mega, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 1, 0]
+}

@@ -1,0 +1,40 @@
+{
+  "animations": {
+    "faint": "q.bedrock_primary('pancham', 'ground_idle', q.curve('one'))"
+  },
+  "portraitScale": 1.25,
+  "portraitTranslation": [0, 0.8, 0],
+  "poses": {
+    "battle": {
+      "animations": ["q.look('head')", "q.bedrock('pancham', 'battle_idle')"],
+      "isBattle": true,
+      "poseName": "ground_idle",
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('pancham', 'blink')"],
+      "transformTicks": 10
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('pancham', 'ground_idle')"],
+      "poseName": "sleeping",
+      "poseTypes": ["SLEEP"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('pancham', 'ground_idle')"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('pancham', 'blink')"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('pancham', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('pancham', 'blink')"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.8, 0]
+}

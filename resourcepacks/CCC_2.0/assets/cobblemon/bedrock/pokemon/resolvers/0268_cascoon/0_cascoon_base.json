@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:cascoon",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:cascoon.geo",
+      "poser": "cobblemon:cascoon",
+      "texture": "cobblemon:textures/pokemon/0268_cascoon/cascoon.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0268_cascoon/cascoon_shiny.png"
+    }
+  ]
+}

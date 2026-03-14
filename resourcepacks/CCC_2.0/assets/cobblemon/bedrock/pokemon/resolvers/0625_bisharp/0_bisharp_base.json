@@ -1,0 +1,23 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 0,
+  "species": "cobblemon:bisharp",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:bisharp.geo",
+      "poser": "cobblemon:bisharp",
+      "texture": "cobblemon:textures/pokemon/0625_bisharp/bisharp.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0625_bisharp/bisharp_shiny.png"
+    }
+  ]
+}

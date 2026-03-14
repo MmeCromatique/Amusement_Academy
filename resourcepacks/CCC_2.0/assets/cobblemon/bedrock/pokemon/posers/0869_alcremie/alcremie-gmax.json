@@ -1,0 +1,18 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('alcremie_gmax', 'cry')"
+  },
+  "portraitScale": 1.75,
+  "portraitTranslation": [0, 2.75, 0],
+  "poses": {
+    "standing": {
+      "animations": ["q.bedrock('alcremie_gmax', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "FLOAT"],
+      "quirks": ["q.bedrock_quirk('alcremie_gmax', 'blink')"]
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 1.1, 0],
+  "rootBone": "alcremie_gmax"
+}

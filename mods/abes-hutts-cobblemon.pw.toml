@@ -1,13 +1,13 @@
 name = "Abes Hutt's Cobblemon"
-filename = "Abes-Hutts-Cobblemon-1.21.1-1.7.1-1.0.1.jar"
+filename = "Abes-Hutts-Cobblemon-1.21.1.1.7.3-1.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e0811570a51c9d770a20bd1f1d776db047229d42"
+hash = "a16edff8f113b215d733d8bc523fe85c2478e47e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7428394
+file-id = 7597227
 project-id = 1421286

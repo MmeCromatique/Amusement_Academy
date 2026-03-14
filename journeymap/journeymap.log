@@ -1,0 +1,90 @@
+[13:22:01] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[13:22:01] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[13:22:01] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 2.0.0-SNAPSHOT
+[13:22:01] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.api.client.impl.ClientAPI
+[13:22:01] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: io.github.stainlessstasis.JourneymapFabricPlugin
+[13:22:01] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: wraith.fwaystones.integration.journeymap.JourneymapPlugin
+[13:22:01] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[13:22:01] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: me.frankv.jmi.JMIJourneyMapPlugin
+[13:22:01] [Render thread/INFO] [?] Version: JourneyMap 1.21.1-6.0.0-beta.47, built with fabric 0.115.4+1.21.1
+fabric: 0.16.14
+Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
+Features: 
+	RadarPlayers : singleplayer = true , multiplayer = true
+	RadarAnimals : singleplayer = true , multiplayer = true
+	RadarMobs : singleplayer = true , multiplayer = true
+	RadarVillagers : singleplayer = true , multiplayer = true
+	MapTopo : singleplayer = true , multiplayer = true
+	MapSurface : singleplayer = true , multiplayer = true
+	MapCaves : singleplayer = true , multiplayer = true
+	MapBiome : singleplayer = true , multiplayer = true
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=6.0.0-beta.47, infoSlotTimeFormat=hh:mm, zoomLevel=1024, compassFontScale=1.5, infoSlotFontScale=2.0, terrainAlpha=100, showEntityNames=true, showPassiveNames=false, positionX=0.8221354, positionY=0.10694444, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.5, showDayNight=true, showPets=true, showPlayerNames=false, preferredMapType=day, showCompass=true, showNpcNames=true, mobDisplay=jm.common.entity_display.icons, showHostileNames=false, systemTimeRealFormat=hh:mm, shape=jm.minimap.shape_circle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=false, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=-147, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.bottom, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.bottom, showAnimals=false, infoSlotAlpha=0.0, effectTranslateY=3, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=false, position=jm.minimap.position_custom, fontScale=1.5, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.5, frameAlpha=80, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.biome, info3Label=jm.theme.labelsource.gametime.real, caveLayer=4, showMobs=false, waypointLabelScale=1.5, showReticle=false, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzy, playerDisplay=jm.common.entity_display.icons, mobDisplayScale=1.5, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=false, locationFormatVerbose=true, showAmbientCreatures=true, showPetNames=false, info1Label=jm.theme.labelsource.location, showNoIconNames=false}
+MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=6.0.0-beta.47, infoSlotTimeFormat=hh:mm, zoomLevel=1024, compassFontScale=1.5, infoSlotFontScale=2.0, terrainAlpha=100, showEntityNames=true, showPassiveNames=false, positionX=0.69322914, positionY=0.10555556, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.5, showDayNight=true, showPets=true, showPlayerNames=true, preferredMapType=day, showCompass=true, showNpcNames=true, mobDisplay=jm.common.entity_display.icons, showHostileNames=false, systemTimeRealFormat=hh:mm, shape=jm.minimap.shape_rectangle, showSelf=true, showVillagerNames=false, selfDisplayScale=1.0, showGrid=false, reticleOrientation=jm.minimap.orientation.compass, minimapLockedMapType=jm.common.map_type.auto, effectTranslateX=0, info3LabelPosition=jm.minimap.info_slot.bottom, showWaypoints=true, info2LabelPosition=jm.minimap.info_slot.bottom, minimapKeyMovementSpeed=0.001, info1LabelPosition=jm.minimap.info_slot.bottom, showAnimals=false, infoSlotAlpha=0.0, effectTranslateY=0, showWaypointLabels=true, showAmbientNames=false, moveEffectIcons=true, showTeamNames=true, position=jm.minimap.position_custom, fontScale=1.5, info4LabelPosition=jm.minimap.info_slot.bottom, showPlayers=true, waypointIconScale=1.5, frameAlpha=80, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.biome, info3Label=jm.theme.labelsource.gametime.real, caveLayer=4, showMobs=false, waypointLabelScale=1.5, showReticle=false, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzy, playerDisplay=jm.common.entity_display.icons, mobDisplayScale=1.5, showOffScreenPlayers=true, showCaves=true, hideEffectIcons=false, showMobHeading=false, locationFormatVerbose=true, showAmbientCreatures=false, showPetNames=false, info1Label=jm.theme.labelsource.location, showNoIconNames=false}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=6.0.0-beta.47, zoomLevel=4096, minimalMode=false, showPlayers=true, waypointIconScale=2.5, showEntityNames=false, showPassiveNames=false, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=2.0, showMobs=true, showPets=true, waypointLabelScale=2.0, showPlayerNames=false, preferredMapType=day, showNpcNames=false, mobDisplay=jm.common.entity_display.icons, showHostileNames=false, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.icons, showVillagerNames=false, mobDisplayScale=1.75, selfDisplayScale=1.5, showOffScreenPlayers=true, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showThemeButton=true, showAnimals=true, showMobHeading=false, showWaypointLabels=true, locationFormatVerbose=true, showAmbientNames=false, showAmbientCreatures=false, showTeamNames=false, showPetNames=false, fontScale=2.0, showNoIconNames=true}
+WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=6.0.0-beta.47, autoRemoveDeathpointDistance=10, showPlayers=false, dateFormat=MM-dd-yyyy, autoHideIconAngle=5, autoRemoveDeathpoints=true, autoHideIcon=false, autoHideLabelAngle=5, renderWaypointsWorld=true, showDeleteConfirmation=true, managerDimensionFocus=false, fullscreenDoubleClickToCreate=true, minDistance=4, coordinatesFormat=XZY, boldLabel=false, disableShare=false, showDeathpointlabel=true, textureSmall=true, useActionsButton=false, beaconEnabled=false, createDeathpoints=true, disableStrikeThrough=false, renderWaypointsMap=true, showName=true, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=10, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, renderWaypoints=true, wholeNumberTeleportCoords=false, timeFormat=HH:mm:ss, shaderBeacon=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, managerEnabled=true}
+WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=6.0.0-beta.47, port=8080, enabled=false}
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=6.0.0-beta.47, maxPlayersData=64, mapSurfaceAboveCaves=true, dataCachingEnabled=true, maxAmbientCreaturesData=32, optionsManagerViewed=6.0.0-beta.47, announceMod=false, ignoreSnow=false, colorPassive=#bbbbbb, colorPassiveLabel=#bbbbbb, mapShadows=true, mapBlendWater=true, playerIconFade=true, renderDistanceSurfaceMax=0, seedId=true, colorPetLabel=#0077ff, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, initialSortOrder=Name, colorPlayerLabel=#ffffff, revealShape=jm.minimap.shape_circle, mapBiome=true, caveShader=jm.common.map_filter.default, mipmapLevels=5, colorVillagerLabel=#88e188, alwaysMapSurface=false, biomeShader=jm.common.map_filter.default, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, sortDescending=true, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=64, dayShader=jm.common.map_filter.default, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=false, colorHostileLabel=#ff0000, mapBlendFoliage=true, topoMax=0, hideSpectators=true, mappingEnabled=true, colorPlayer=#ffffff, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=true, maxAnimalsData=64, mapTransparency=true, caveBlackAsClear=false, caveModeThreshold=2, legacyIcons=false, netherShader=jm.common.map_filter.default, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#8c4658, cachePlayersData=2000, mapOnlyPlayerChunk=false, nightShader=jm.common.map_filter.default, cacheMobsData=3000, cachePlayerData=1000, splashViewed=6.0.0-beta.47, colorHostile=#ff0000, topoShader=jm.common.map_filter.default, allowMiniMapBehindScreens=true, cacheAnimalsData=3100, ignoreHeightmaps=false, themeName=Academy, mapCaveLighting=true, renderDelay=2, mobIconFade=true, serverIp=false, glErrorChecking=false, autoMapPoll=2000}
+[13:22:01] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 127.28ms
+[13:22:02] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[13:22:02] [Render thread/INFO] [VersionCheck] Update check disabled in properties file.
+[13:22:02] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 348.67ms
+[13:22:10] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: Default Palette
+[13:23:55] [Render thread/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[13:23:55] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[13:23:55] [Render thread/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[13:23:55] [Render thread/INFO] [LegacyWaypointFileMigrator] 0 Legacy waypoints found that need to be migrated and backed up.
+[13:23:55] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\curseforge\minecraft\Instances\Cobblemon Academy 2.0\journeymap\colorpalette.json
+[13:23:55] [Render thread/INFO] [ColorPalette] Color palette file generated for 0 blockstates in 0ms for: D:\curseforge\minecraft\Instances\Cobblemon Academy 2.0\journeymap\data\sp\1_7_3\colorpalette.json
+[13:23:55] [Render thread/INFO] [JourneymapClient] Mapping started in D:\curseforge\minecraft\Instances\Cobblemon Academy 2.0\journeymap\data\sp\1_7_3\overworld. Memory: 4152MB total, 1640MB free 
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Connection initiated with Journeymap Server: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Teleport Enabled: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Expanded Radar Enabled: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server Admin Enabled: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set show in-game beacons: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set waypoints allowed: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set Server Admin read only mode: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set maxSurfaceRenderDistance to: 0
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server setmaxCaveRenderDistance to: 0
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow mutliplayer options: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow rightClickTeleport options: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow radarLateralDistance options: 512
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow radarVerticalDistance options: 320
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow maxAnimalsData options: 128
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow maxAmbientCreaturesData options: 128
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow maxMobsData options: 128
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow maxPlayersData options: 128
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow maxVillagersData options: 128
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow playerRadarNamesEnabled options: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow minimapEnabled options: true
+[13:23:55] [Render thread/INFO] [InternalStateHandler] Server set allow hideCoordinates options: false
+[13:30:38] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Theme Images
+[13:30:38] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Region Images
+[13:30:38] [Netty Local Client IO #0/INFO] [TextureCache] [JourneyMap]: Purging Mob Icon Images
+[13:30:38] [Netty Local Client IO #0/INFO] [WaypointHandler] Resetting Waypoints and Groups.
+[13:30:38] [Netty Local Client IO #0/INFO] [WaypointStore] Loaded 0 waypoints from disk.
+[13:30:38] [Netty Local Client IO #0/INFO] [WaypointGroupStore] Loaded 4 waypoint groups from disk.
+[13:30:38] [Render thread/ERROR] [JMLogger] java.lang.NullPointerException: Cannot invoke "journeymap.client.texture.TextureAccess.journeymap$getWidth()" because "tex" is null
+	at knot//journeymap.client.render.draw.DrawEntityStep.drawCreature(DrawEntityStep.java:521)
+	at knot//journeymap.client.render.draw.DrawEntityStep.draw(DrawEntityStep.java:247)
+	at knot//journeymap.client.ui.minimap.MiniMap.drawOnMapEntities(MiniMap.java:484)
+	at knot//journeymap.client.ui.minimap.MiniMap.drawMap(MiniMap.java:415)
+	at knot//journeymap.client.event.handlers.ScreenEventHandler.onScreenPreRender(ScreenEventHandler.java:66)
+	at knot//journeymap.client.event.FabricEventHandlerManager.onScreenRenderPreEvent(FabricEventHandlerManager.java:166)
+	at knot//net.fabricmc.fabric.impl.client.screen.ScreenEventFactory.lambda$createBeforeRenderEvent$2(ScreenEventFactory.java:40)
+	at knot//net.minecraft.class_757.wrapOperation$dcn000$fabric-screen-api-v1$onRenderScreen(class_757.java:6085)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$dcn000$fabric-screen-api-v1$onRenderScreen$282(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$dhj000$fancymenu$wrapRenderScreenFancyMenu(class_757.java:7571)
+	at knot//net.minecraft.class_757.mixinextras$bridge$wrapOperation$dhj000$fancymenu$wrapRenderScreenFancyMenu$283(class_757.java)
+	at knot//net.minecraft.class_757.wrapOperation$ekb000$konkrete$wrapRenderScreen_Konkrete(class_757.java:11123)
+	at knot//net.minecraft.class_757.method_3192(class_757.java:913)
+	at knot//net.minecraft.class_310.method_1523(class_310.java:1285)
+	at knot//net.minecraft.class_310.method_18098(class_310.java:2315)
+	at knot//net.minecraft.class_310.method_18096(class_310.java:2248)
+	at knot//net.minecraft.class_310.method_18099(class_310.java:2215)
+	at knot//net.minecraft.class_310.method_1490(class_310.java:1168)
+	at knot//net.minecraft.client.main.Main.main(Main.java:263)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+
+[13:30:38] [Render thread/INFO] [JourneymapClient] Mapping halted in D:\curseforge\minecraft\Instances\Cobblemon Academy 2.0\journeymap\data\mp\offline\minecraft:overworld

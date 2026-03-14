@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:delcatty",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:delcatty.geo",
+      "poser": "cobblemon:delcatty",
+      "texture": "cobblemon:textures/pokemon/0301_delcatty/delcatty.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0301_delcatty/delcatty_shiny.png"
+    }
+  ]
+}

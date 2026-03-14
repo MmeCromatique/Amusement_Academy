@@ -1,0 +1,22 @@
+{
+  "faint": "bedrock(guzzlord, faint)",
+  "head": "head",
+  "portraitScale": 0.3,
+  "portraitTranslation": [-0.5, 4.5, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(guzzlord, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(guzzlord, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.09,
+  "profileTranslation": [0, 1.625, 0]
+}

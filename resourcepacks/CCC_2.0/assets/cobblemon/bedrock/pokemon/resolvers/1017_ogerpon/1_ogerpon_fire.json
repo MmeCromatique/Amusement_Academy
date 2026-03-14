@@ -1,0 +1,37 @@
+{
+  "order": 1,
+  "species": "cobblemon:ogerpon",
+  "variations": [
+    {
+      "aspects": ["hearthflame-mask"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1017_ogerpon/ogerpon_emissive_fire.png"
+        }
+      ],
+      "model": "cobblemon:ogerpon_fire.geo",
+      "poser": "cobblemon:ogerpon_fire",
+      "texture": "cobblemon:textures/pokemon/1017_ogerpon/ogerpon_fire.png"
+    }, {
+      "aspects": ["hearthflame-mask", "shiny"],
+      "texture": "cobblemon:textures/pokemon/1017_ogerpon/ogerpon_fire_shiny.png"
+    }, {
+      "aspects": ["hearthflame-mask", "embody-aspect"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/1017_ogerpon/ogerpon_firetera_emissive.png"
+        }
+      ],
+      "model": "cobblemon:ogerpon_firetera.geo",
+      "poser": "cobblemon:ogerpon_firetera",
+      "texture": "cobblemon:textures/pokemon/1017_ogerpon/ogerpon_firetera.png"
+    }, {
+      "aspects": ["hearthflame-mask", "embody-aspect", "shiny"],
+      "texture": "cobblemon:textures/pokemon/1017_ogerpon/ogerpon_firetera_shiny.png"
+    }
+  ]
+}

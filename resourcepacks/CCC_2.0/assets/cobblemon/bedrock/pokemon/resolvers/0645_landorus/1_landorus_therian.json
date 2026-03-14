@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "species": "cobblemon:landorus",
+  "variations": [
+    {
+      "aspects": ["therian-forme"],
+      "model": "cobblemon:landorus_therian.geo",
+      "poser": "cobblemon:landorus_therian",
+      "texture": "cobblemon:textures/pokemon/0645_landorus/landorus_therian.png"
+    }, {
+      "aspects": ["therian-forme", "shiny"],
+      "model": "cobblemon:landorus_therian.geo",
+      "poser": "cobblemon:landorus_therian",
+      "texture": "cobblemon:textures/pokemon/0645_landorus/landorus_therian_shiny.png"
+    }
+  ]
+}

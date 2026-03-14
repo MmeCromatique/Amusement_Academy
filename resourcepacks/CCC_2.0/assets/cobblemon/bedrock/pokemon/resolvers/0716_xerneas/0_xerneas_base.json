@@ -1,0 +1,26 @@
+{
+  "order": 0,
+  "species": "cobblemon:xerneas",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:xerneas.geo",
+      "poser": "cobblemon:xerneas",
+      "texture": "cobblemon:textures/pokemon/0716_xerneas/xerneas.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0716_xerneas/xerneas_shiny.png"
+    }, {
+      "aspects": ["neutral-mode"],
+      "layers": [],
+      "model": "cobblemon:xerneas_neutral.geo",
+      "poser": "cobblemon:xerneas",
+      "texture": "cobblemon:textures/pokemon/0716_xerneas/xerneas_neutral.png"
+    },
+    {
+      "aspects": ["shiny", "neutral-mode"],
+      "texture": "cobblemon:textures/pokemon/0716_xerneas/xerneas_neutral_shiny.png"
+    }
+  ]
+}

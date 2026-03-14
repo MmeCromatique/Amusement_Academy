@@ -1,0 +1,43 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('naganadel', 'cry')",
+    "physical": "q.bedrock_primary('naganadel', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('naganadel', 'recoil')",
+    "special": "q.bedrock_primary('naganadel', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_stateful('naganadel', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2,
+  "portraitTranslation": [-1.8, 4.4, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('naganadel', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('naganadel', 'headshake')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('naganadel', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('naganadel', 'ground_idle')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('naganadel', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('naganadel', 'headshake')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('naganadel', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('naganadel', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 1.4, -1.8]
+}

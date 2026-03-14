@@ -1,0 +1,23 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 0,
+  "species": "cobblemon:charjabug",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:charjabug.geo",
+      "poser": "cobblemon:charjabug",
+      "texture": "cobblemon:textures/pokemon/0737_charjabug/charjabug.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0737_charjabug/charjabug_shiny.png"
+    }
+  ]
+}

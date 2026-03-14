@@ -1,0 +1,36 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('pansear', 'cry')",
+    "faint": "q.bedrock_primary('pansear', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('pansear', 'physical')",
+    "recoil": "q.bedrock_stateful('pansear', 'recoil')",
+    "special": "q.bedrock_primary('pansear', 'special')",
+    "status": "q.bedrock_primary('pansear', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.649,
+  "portraitTranslation": [0.049, -0.139, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('pansear', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('pansear', 'blink')"]
+    },
+    "sleeping": {
+      "animations": ["q.bedrock('pansear', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('pansear', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('pansear', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('pansear', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.89,
+  "profileTranslation": [0.02, 0.389, 0]
+}

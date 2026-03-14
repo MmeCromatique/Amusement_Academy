@@ -1,0 +1,21 @@
+{
+  "cry": "bedrock(chiyu, cry)",
+  "portraitScale": 2.0,
+  "portraitTranslation": [0, -0.9, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(chiyu, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(chiyu, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0.3, 0]
+}

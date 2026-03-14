@@ -1,0 +1,33 @@
+{
+  "head": "head",
+  "leftArm": "arm_left",
+  "leftLeg": "leg_left",
+  "portraitScale": 2.93,
+  "portraitTranslation": [0.2, -1.06, 0.0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('mawilemega', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('mawilemega', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('mawilemega', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('mawilemega', 'blink')"]
+    },
+    "walking": {
+      "animations": [
+        "q.look('head')", "q.bedrock('mawilemega', 'ground_idle')", "q.BipedWalkAnimation(0.6, 0.9)",
+        "q.BimanualSwingAnimation(0.6, 0.9)"
+      ],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0.09, 0.6, 0.0],
+  "rightArm": "arm_right",
+  "rightLeg": "leg_right",
+  "root": "mawile"
+}

@@ -1,0 +1,37 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('accelgor', 'cry')",
+    "status": "q.bedrock_stateful('accelgor', 'cry')"
+  },
+  "portraitScale": 1.57,
+  "portraitTranslation": [-0.1, 0.38, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('accelgor', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('accelgor', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('accelgor', 'ground_walk')", "q.bedrock('accelgor', 'scarf_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('accelgor', 'ground_idle')", "q.bedrock('accelgor', 'scarf_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('accelgor', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('accelgor', 'ground_walk')", "q.bedrock('accelgor', 'scarf_idle')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('accelgor', 'ground_walk')", "q.bedrock('accelgor', 'scarf_idle')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.65,
+  "profileTranslation": [0, 0.8, 0],
+  "rootBone": "accelgor"
+}

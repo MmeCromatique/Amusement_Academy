@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "species": "cobblemon:pancham",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:pancham.geo",
+      "poser": "cobblemon:pancham",
+      "texture": "cobblemon:textures/pokemon/0674_pancham/pancham.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0674_pancham/pancham_shiny.png"
+    }
+  ]
+}

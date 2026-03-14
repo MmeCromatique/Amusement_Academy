@@ -1,0 +1,68 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('indeedee_female', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_stateful('indeedee_female', 'faint', q.curve('symmetrical_wide'))",
+    "physical": "q.bedrock_primary('indeedee_female', 'physical', q.curve('symmetrical_wide'))"
+  },
+  "head": "head",
+  "portraitScale": 1.55,
+  "portraitTranslation": [-0.1, 1.35, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(indeedee_female, battle_idle)"],
+      "isBattle": true,
+      "isTouchingWater": false,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "quirks": [
+        {
+          "animations": ["bedrock(indeedee_female, blink)"],
+          "loopTimes": 5,
+          "maxSecondsBetweenOccurrences": 20,
+          "minSecondsBetweenOccurrences": 8,
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(indeedee_female, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(indeedee_female, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["bedrock(indeedee_female, ground_walk)"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "quirks": [
+        {
+          "animations": ["bedrock(indeedee_female, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(indeedee_female, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(indeedee_female, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.8, 0]
+}

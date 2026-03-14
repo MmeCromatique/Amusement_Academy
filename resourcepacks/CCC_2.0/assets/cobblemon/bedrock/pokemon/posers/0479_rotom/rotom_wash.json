@@ -1,0 +1,89 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('rotom_wash', 'cry')"
+  },
+  "head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [-0.2, 0.25, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('rotom_wash', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_wash, cry)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(rotom_wash, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(rotom_wash, special)"],
+          "name": "quirk2"
+        }
+      ]
+    },
+    "flying": {
+      "animations": ["look", "bedrock(rotom_wash, ground_walk)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_wash, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["look", "bedrock(rotom_wash, ground_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_wash, cry)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(rotom_wash, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(rotom_wash, special)"],
+          "name": "quirk2"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(rotom_wash, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_wash, cry)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(rotom_wash, blink)"],
+          "name": "blink"
+        },
+        {
+          "animations": ["bedrock(rotom_wash, special)"],
+          "name": "quirk2"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(rotom_wash, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.55, 0]
+}

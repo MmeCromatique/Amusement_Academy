@@ -1,0 +1,15 @@
+{
+  "order": 0,
+  "species": "cobblemon:arctibax",
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:arctibax.geo",
+      "poser": "cobblemon:arctibax",
+      "texture": "cobblemon:textures/pokemon/0997_arctibax/arctibax.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0997_arctibax/arctibax_shiny.png"
+    }
+  ]
+}

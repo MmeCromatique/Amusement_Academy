@@ -1,0 +1,16 @@
+{
+  "order": 1,
+  "species": "cobblemon:naganadel",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:naganadel2.geo",
+      "poser": "cobblemon:naganadel",
+      "texture": "cobblemon:textures/pokemon/0804_naganadel/naganadel.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0804_naganadel/naganadel_shiny.png"
+    }
+  ]
+}

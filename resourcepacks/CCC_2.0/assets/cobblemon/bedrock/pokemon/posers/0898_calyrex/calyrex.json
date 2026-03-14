@@ -1,0 +1,21 @@
+{
+  "head": "head",
+  "portraitScale": 1.98,
+  "portraitTranslation": [0, 0.5, 0],
+  "poses": {
+    "standing": {
+      "animations": ["q.look('neck')", "q.bedrock('calyrex', 'ground_idle')"],
+      "poseName": "STAND",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.look('neck')", "q.bedrock('calyrex', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.75, 0]
+}

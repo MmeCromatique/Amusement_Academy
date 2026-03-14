@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:beautifly",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:beautifly.geo",
+      "poser": "cobblemon:beautifly",
+      "texture": "cobblemon:textures/pokemon/0267_beautifly/beautifly.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0267_beautifly/beautifly_shiny.png"
+    }
+  ]
+}

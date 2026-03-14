@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:abomasnow",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:abomasnow.geo",
+      "poser": "cobblemon:abomasnow",
+      "texture": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0460_abomasnow/abomasnow_shiny.png"
+    }
+  ]
+}

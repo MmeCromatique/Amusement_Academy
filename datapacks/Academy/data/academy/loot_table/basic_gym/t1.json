@@ -133,21 +133,6 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 160
-        },
-        {
-          "type": "loot_table",
-          "value": "academy:gimmicks/mythicals_legendaries",
-          "weight": 1
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "bonus_rolls": 0.0,
-      "entries": [
-        {
-          "type": "minecraft:empty",
           "weight": 80
         },
         {

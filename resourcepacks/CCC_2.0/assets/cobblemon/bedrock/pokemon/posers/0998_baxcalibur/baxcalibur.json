@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('baxcalibur', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('baxcalibur', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('baxcalibur', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('baxcalibur', 'recoil')",
+    "special": "q.bedrock_primary('baxcalibur', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('baxcalibur', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.7,
+  "portraitTranslation": [-1, 0.8, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head_ai', 1, 1, 20, -20, 25, -25)", "q.bedrock('baxcalibur', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.look('head_ai', 1, 1, 20, -20, 25, -25)", "q.bedrock('baxcalibur', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.look('head_ai', 1, 1, 20, -20, 25, -25)", "q.bedrock('baxcalibur', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [-0.15, 0.9, 0]
+}

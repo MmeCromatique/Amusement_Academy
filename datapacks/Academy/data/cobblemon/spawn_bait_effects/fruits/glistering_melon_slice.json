@@ -2,9 +2,9 @@
   "item": "minecraft:glistering_melon_slice",
   "effects": [
     {
-      "type": "cobblemon:shiny_reroll",
+      "type": "cobblemon:rarity_bucket",
       "chance": 1.0,
-      "value": 0.25
+      "value": 1.0
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:oranguru",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:oranguru.geo",
+      "poser": "cobblemon:oranguru",
+      "texture": "cobblemon:textures/pokemon/0765_oranguru/oranguru.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0765_oranguru/oranguru_shiny.png"
+    }
+  ]
+}

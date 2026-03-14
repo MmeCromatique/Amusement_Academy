@@ -1,0 +1,29 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('latios2', 'cry')"
+  },
+  "portraitScale": 1.25,
+  "portraitTranslation": [-1, 1.2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('latios2', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('latios2', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE", "HOVER"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('latios2', 'ground_walk')"],
+      "poseTypes": ["WALK", "FLY"],
+      "quirks": ["q.bedrock_quirk('latios2', 'blink')"]
+    }
+  },
+  "profileScale": 0.35,
+  "profileTranslation": [0, 1.15, 0],
+  "rootBone": "latios"
+}

@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:kubfu",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:kubfu.geo",
+      "poser": "cobblemon:kubfu",
+      "texture": "cobblemon:textures/pokemon/0891_kubfu/kubfu.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0891_kubfu/kubfu_shiny.png"
+    }
+  ]
+}

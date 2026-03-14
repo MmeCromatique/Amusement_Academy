@@ -1,0 +1,77 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('rotom_fan', 'cry')"
+  },
+  "head": "head",
+  "portraitScale": 2.1,
+  "portraitTranslation": [0, -0.7, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('rotom_fan', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_fan, cry)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(rotom_fan, blink)"],
+          "name": "blink"
+        }
+      ]
+    },
+    "flying": {
+      "animations": ["look", "bedrock(rotom_fan, ground_walk)"],
+      "poseName": "flying",
+      "poseTypes": ["FLY"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_fan, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "hovering": {
+      "animations": ["look", "bedrock(rotom_fan, ground_idle)"],
+      "poseName": "hovering",
+      "poseTypes": ["HOVER"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_fan, cry)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(rotom_fan, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(rotom_fan, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rotom_fan, cry)"],
+          "name": "quirk"
+        },
+        {
+          "animations": ["bedrock(rotom_fan, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(rotom_fan, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.9,
+  "profileTranslation": [0, 1.0, 0]
+}

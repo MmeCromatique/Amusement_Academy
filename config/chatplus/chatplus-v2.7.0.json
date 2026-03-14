@@ -83,8 +83,8 @@
     "moveToTabWhenCycling": true,
     "inputBoxAutoAdjustChatWindowEnabled": true,
     "tabNotificationSettings": {
-        "enabled": false,
-        "showCount": false,
+        "enabled": true,
+        "showCount": true,
         "countColor": -1,
         "scale": 0.4
     },
@@ -265,29 +265,7 @@
                                 "serverPattern": {
                                     "pattern": ""
                                 },
-                                "name": "Global",
-                                "autoSend": "",
-                                "autoPrefix": "",
-                                "priority": 0,
-                                "alwaysAdd": false,
-                                "skipOthers": false,
-                                "commandsOverrideAutoPrefix": true,
-                                "suggestionsPatterns": [],
-                                "notificationSettings": {
-                                    "disableNotifications": true,
-                                    "notificationMatch": {
-                                        "pattern": "(?s).*",
-                                        "formatted": false
-                                    }
-                                }
-                            },
-                            {
-                                "pattern": "𖽛",
-                                "formatted": false,
-                                "serverPattern": {
-                                    "pattern": ""
-                                },
-                                "name": "Party",
+                                "name": "All",
                                 "autoSend": "",
                                 "autoPrefix": "",
                                 "priority": 0,

@@ -1,0 +1,24 @@
+{
+  "faint": "bedrock(cosmog, faint)",
+  "head": "head_body",
+  "portraitScale": 1.2,
+  "portraitTranslation": [0.1, 1, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(cosmog, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(cosmog, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 1.5, 0]
+}

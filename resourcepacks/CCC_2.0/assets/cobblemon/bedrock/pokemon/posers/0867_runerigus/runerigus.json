@@ -1,0 +1,22 @@
+{
+  "faint": "bedrock(runerigus, sleep)",
+  "head": "head",
+  "portraitScale": 1.75,
+  "portraitTranslation": [-1.0, 2.9, 0],
+  "poses": {
+    "standing": {
+      "animations": ["look", "bedrock(runerigus, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(runerigus, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.35,
+  "profileTranslation": [-0.1, 1.2, 0]
+}

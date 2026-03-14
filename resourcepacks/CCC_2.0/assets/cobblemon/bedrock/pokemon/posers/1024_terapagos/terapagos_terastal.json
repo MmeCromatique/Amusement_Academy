@@ -1,0 +1,30 @@
+{
+  "faint": "bedrock(terapagos_terastal, sleep)",
+  "head": "head",
+  "portraitScale": 2.7,
+  "portraitTranslation": [-0.5, 1.0, 0],
+  "poses": {
+    "battle-idle": {
+      "animations": ["bedrock(terapagos_terastal, ground_idle)"],
+      "isBattle": true,
+      "poseName": "battle-idle",
+      "poseTypes": ["STAND"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["bedrock(terapagos_terastal, ground_idle)"],
+      "isBattle": false,
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.look('head_ai')", "bedrock(terapagos_terastal, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.8, 0]
+}

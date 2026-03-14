@@ -1,0 +1,18 @@
+{
+  "order": 1,
+  "species": "cobblemon:arcanine",
+  "variations": [
+    {
+      "aspects": ["hisuian"],
+      "layers": [],
+      "model": "cobblemon:arcanine_hisuian.geo",
+      "poser": "cobblemon:arcanine_hisuian",
+      "texture": "cobblemon:textures/pokemon/0059_arcanine/arcanine_hisuian.png"
+    }, {
+      "aspects": ["hisuian", "shiny"],
+      "model": "cobblemon:arcanine_hisuian.geo",
+      "poser": "cobblemon:arcanine_hisuian",
+      "texture": "cobblemon:textures/pokemon/0059_arcanine/arcanine_hisuian_shiny.png"
+    }
+  ]
+}

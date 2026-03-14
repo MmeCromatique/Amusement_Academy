@@ -1,0 +1,21 @@
+{
+  "faint": "bedrock(yamask_galarian, sleep)",
+  "portraitScale": 2.0,
+  "portraitTranslation": [0, 1.6, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(yamask_galarian, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(yamask_galarian, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0.05, 0.9, 0]
+}

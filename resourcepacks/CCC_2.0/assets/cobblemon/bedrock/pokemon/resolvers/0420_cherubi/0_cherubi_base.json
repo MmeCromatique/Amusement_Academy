@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:cherubi",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:cherubi.geo",
+      "poser": "cobblemon:cherubi",
+      "texture": "cobblemon:textures/pokemon/0420_cherubi/cherubi.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0420_cherubi/cherubi_shiny.png"
+    }
+  ]
+}

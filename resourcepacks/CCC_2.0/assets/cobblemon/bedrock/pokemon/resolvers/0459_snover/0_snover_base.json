@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:snover",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:snover.geo",
+      "poser": "cobblemon:snover",
+      "texture": "cobblemon:textures/pokemon/0459_snover/snover.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0459_snover/snover_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "species": "cobblemon:enamorus",
+  "variations": [
+    {
+      "aspects": ["therian-forme"],
+      "model": "cobblemon:enamorus_therian.geo",
+      "poser": "cobblemon:enamorus_therian",
+      "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus_therian.png"
+    }, {
+      "aspects": ["therian-forme", "shiny"],
+      "model": "cobblemon:enamorus_therian.geo",
+      "poser": "cobblemon:enamorus_therian",
+      "texture": "cobblemon:textures/pokemon/0905_enamorus/enamorus_therian_shiny.png"
+    }
+  ]
+}

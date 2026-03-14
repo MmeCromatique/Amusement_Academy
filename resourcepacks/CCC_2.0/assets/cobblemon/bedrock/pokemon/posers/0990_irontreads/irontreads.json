@@ -1,0 +1,45 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('irontreads', 'cry')",
+    "faint": "q.bedrock_primary('irontreads', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('irontreads', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('irontreads', 'recoil')",
+    "special": "q.bedrock_primary('irontreads', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('irontreads', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 0.8,
+  "portraitTranslation": [-0.23, 0.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('irontreads', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('irontreads', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('irontreads', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('irontreads', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('irontreads', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('irontreads', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('irontreads', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('irontreads', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "quirks": ["q.bedrock_quirk('irontreads', 'blink')"]
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.8, 0]
+}

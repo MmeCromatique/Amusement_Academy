@@ -1,0 +1,67 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('marshadow', 'cry')",
+    "physical": "q.bedrock_primary('marshadow', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('marshadow', 'recoil')",
+    "special": "q.bedrock_primary('marshadow', 'physical', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('marshadow', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2,
+  "portraitTranslation": [0, 0, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('marshadow', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('marshadow', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('marshadow', 'ground_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "leftshoulder": {
+      "animations": ["bedrock(marshadow, left_shoulder)", "q.look('head')"],
+      "poseName": "leftshoulder",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(marshadow, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "rightshoulder": {
+      "animations": ["bedrock(marshadow, right_shoulder)", "q.look('head')"],
+      "poseName": "rightshoulder",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(marshadow, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "animations": ["q.bedrock('marshadow', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('marshadow', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('marshadow', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('marshadow', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('marshadow', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0.2, 0]
+}

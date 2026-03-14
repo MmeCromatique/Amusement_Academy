@@ -1,0 +1,46 @@
+{
+  "animations": {},
+  "portraitScale": 1.53,
+  "portraitTranslation": [-0.23, 5.44, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'ground_walk')"],
+      "poseTypes": ["FLOAT"],
+      "transformTicks": 5
+    },
+    "fly": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'air_fly')"],
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'ground_idle')"],
+      "poseTypes": ["HOVER", "FLOAT"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'ground_walk')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('lunala', 'ground_walk')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.22,
+  "profileTranslation": [-0.1, 1.44, 0]
+}

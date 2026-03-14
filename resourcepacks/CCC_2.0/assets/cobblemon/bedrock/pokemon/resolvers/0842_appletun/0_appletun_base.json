@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:appletun",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:appletun.geo",
+      "poser": "cobblemon:appletun",
+      "texture": "cobblemon:textures/pokemon/0842_appletun/appletun.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0842_appletun/appletun_shiny.png"
+    }
+  ]
+}

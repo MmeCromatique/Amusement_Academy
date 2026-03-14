@@ -1,0 +1,30 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('frigibax', 'cry', q.curve('symmetrical_wide'))",
+    "faint": "q.bedrock_primary('frigibax', 'faint', q.curve('one'))",
+    "physical": "q.bedrock_primary('frigibax', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('frigibax', 'recoil')",
+    "special": "q.bedrock_primary('frigibax', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('frigibax', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1,
+  "portraitTranslation": [0, 0, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('frigibax', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('frigibax', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('frigibax', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 1,
+  "profileTranslation": [0, 0, 0]
+}

@@ -5,7 +5,7 @@
       "type": "cobblemon:ev",
       "subcategory": "spa",
       "chance": 1.0,
-      "value": 100.0
+      "value": 5.0
     }
   ]
 }

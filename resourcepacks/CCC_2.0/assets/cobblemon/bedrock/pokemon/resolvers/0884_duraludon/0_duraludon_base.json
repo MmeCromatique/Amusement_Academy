@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:duraludon",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:duraludon.geo",
+      "poser": "cobblemon:duraludon",
+      "texture": "cobblemon:textures/pokemon/0884_duraludon/duraludon.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0884_duraludon/duraludon_shiny.png"
+    }
+  ]
+}

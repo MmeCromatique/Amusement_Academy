@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:cherrim",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:cherrim_overcast.geo",
+      "poser": "cobblemon:cherrim_overcast",
+      "texture": "cobblemon:textures/pokemon/0421_cherrim/cherrim_overcast.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0421_cherrim/cherrim_overcast_shiny.png"
+    }
+  ]
+}

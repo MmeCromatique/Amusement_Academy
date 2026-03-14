@@ -1,0 +1,36 @@
+{
+  "faint": "bedrock(cosmoem, faint)",
+  "head": "head",
+  "portraitScale": 1,
+  "portraitTranslation": [-0.2, 0.85, 0],
+  "poses": {
+    "shoulder_left": {
+      "animations": ["look", "bedrock(cosmoem, shoulder_left)"],
+      "poseName": "shoulder_left",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "transformTicks": 10
+    },
+    "shoulder_right": {
+      "animations": ["look", "bedrock(cosmoem, shoulder_right)"],
+      "poseName": "shoulder_right",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "transformTicks": 10
+    },
+    "standing": {
+      "animations": ["look", "bedrock(cosmoem, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": [],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["look", "bedrock(cosmoem, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "quirks": [],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.5,
+  "profileTranslation": [0, 1.15, 0]
+}

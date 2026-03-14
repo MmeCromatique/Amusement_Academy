@@ -1,0 +1,33 @@
+{
+  "order": 1,
+  "species": "cobblemon:sableye",
+  "variations": [
+    {
+      "aspects": ["mega"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_mega_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:sableye_mega.geo",
+      "poser": "cobblemon:sableye_mega",
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_mega.png"
+    }, {
+      "aspects": ["mega", "shiny"],
+      "layers": [
+        {
+          "emissive": false,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_mega_shiny_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:sableye_mega.geo",
+      "poser": "cobblemon:sableye_mega",
+      "texture": "cobblemon:textures/pokemon/0302_sableye/sableye_mega_shiny.png"
+    }
+  ]
+}

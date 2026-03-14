@@ -1,0 +1,22 @@
+{
+  "order": 3,
+  "species": "cobblemon:lycanroc",
+  "variations": [
+    {
+      "aspects": ["midnight-form"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_midnight_emissive.png"
+        }
+      ],
+      "model": "cobblemon:lycanroc_midnight.geo",
+      "poser": "cobblemon:lycanroc_midnight",
+      "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_midnight.png"
+    }, {
+      "aspects": ["shiny", "midnight-form"],
+      "texture": "cobblemon:textures/pokemon/0745_lycanroc/lycanroc_midnight_shiny.png"
+    }
+  ]
+}

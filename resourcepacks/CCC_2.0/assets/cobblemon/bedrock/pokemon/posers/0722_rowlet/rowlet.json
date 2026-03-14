@@ -1,0 +1,76 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('rowlet', 'cry')",
+    "recoil": "q.bedrock_stateful('rowlet', 'recoil')",
+    "status": "q.bedrock_primary('rowlet', 'head_rotate', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 1.77,
+  "portraitTranslation": [-0.3, -0.5, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('rowlet', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('rowlet', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('rowlet', 'fly_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "flying": {
+      "animations": ["q.bedrock('rowlet', 'fly_walk')"],
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.bedrock('rowlet', 'fly_idle')"],
+      "poseTypes": ["HOVER"],
+      "quirks": ["q.bedrock_quirk('rowlet', 'blink')"],
+      "transformTicks": 5
+    },
+    "leftshoulder": {
+      "animations": ["bedrock(rowlet, left_shoulder)"],
+      "poseName": "leftshoulder",
+      "poseTypes": ["SHOULDER_LEFT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rowlet, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "rightshoulder": {
+      "animations": ["bedrock(rowlet, right_shoulder)"],
+      "poseName": "rightshoulder",
+      "poseTypes": ["SHOULDER_RIGHT"],
+      "quirks": [
+        {
+          "animations": ["bedrock(rowlet, blink)"],
+          "name": "blink"
+        }
+      ],
+      "transformTicks": 10
+    },
+    "sleep": {
+      "animations": ["q.bedrock('rowlet', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('rowlet', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('rowlet', 'blink')", "q.bedrock_quirk('rowlet', 'head_rotate')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('rowlet', 'fly_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('rowlet', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [-0.04, 0.58, -1.8]
+}

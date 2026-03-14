@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:greattusk",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:greattusk.geo",
+      "poser": "cobblemon:greattusk",
+      "texture": "cobblemon:textures/pokemon/0984_greattusk/greattusk.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0984_greattusk/greattusk_shiny.png"
+    }
+  ]
+}

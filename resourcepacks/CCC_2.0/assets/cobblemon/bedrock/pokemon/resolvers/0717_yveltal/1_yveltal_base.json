@@ -1,0 +1,17 @@
+{
+  "order": 1,
+  "species": "cobblemon:yveltal",
+  "variations": [
+    {
+      "aspects": [],
+      "model": "cobblemon:yveltal.geo",
+      "poser": "cobblemon:yveltal",
+      "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal.png"
+    }, {
+      "aspects": ["shiny"],
+      "model": "cobblemon:yveltal.geo",
+      "poser": "cobblemon:yveltal",
+      "texture": "cobblemon:textures/pokemon/0717_yveltal/yveltal_shiny.png"
+    }
+  ]
+}

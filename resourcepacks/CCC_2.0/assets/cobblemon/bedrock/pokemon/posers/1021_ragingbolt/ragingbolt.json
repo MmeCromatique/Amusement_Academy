@@ -1,0 +1,26 @@
+{
+  "portraitScale": 0.85,
+  "portraitTranslation": [-0.68, 4.94, 0],
+  "poses": {
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('ragingbolt', 'ground_idle')"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "swimming": {
+      "animations": ["q.bedrock('ragingbolt', 'ground_walk')"],
+      "poseName": "swimming",
+      "poseTypes": ["SWIM"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["q.bedrock('ragingbolt', 'ground_walk')"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.2,
+  "profileTranslation": [0, 1.5, 0]
+}

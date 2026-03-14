@@ -1,0 +1,16 @@
+{
+  "order": 2,
+  "species": "cobblemon:burmy",
+  "variations": [
+    {
+      "aspects": ["sandy-cloak"],
+      "layers": [],
+      "model": "cobblemon:burmy_sandy.geo",
+      "poser": "cobblemon:burmy",
+      "texture": "cobblemon:textures/pokemon/0412_burmy/burmy_sandy.png"
+    }, {
+      "aspects": ["shiny", "sandy-cloak"],
+      "texture": "cobblemon:textures/pokemon/0412_burmy/burmy_sandy_shiny.png"
+    }
+  ]
+}

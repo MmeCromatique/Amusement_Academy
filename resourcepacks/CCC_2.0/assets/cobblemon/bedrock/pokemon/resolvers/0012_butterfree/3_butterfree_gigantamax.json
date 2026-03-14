@@ -1,0 +1,29 @@
+{
+  "order": 3,
+  "species": "cobblemon:butterfree",
+  "variations": [
+    {
+      "aspects": ["gmax"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax_emissive.png"
+        }
+      ],
+      "model": "cobblemon:butterfree_gmax.geo",
+      "poser": "cobblemon:butterfree_gigantamax",
+      "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax.png"
+    }, {
+      "aspects": ["gmax", "shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax_shiny_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0012_butterfree/butterfree_gmax_shiny.png"
+    }
+  ]
+}

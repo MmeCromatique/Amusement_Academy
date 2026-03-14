@@ -1,0 +1,43 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('amoonguss', 'special')",
+    "physical": "q.bedrock_primary('amoonguss', 'physical', q.curve('symmetrical_wide'))",
+    "recoil": "q.bedrock_stateful('amoonguss', 'recoil')",
+    "special": "q.bedrock_primary('amoonguss', 'special', q.curve('symmetrical_wide'))",
+    "status": "q.bedrock_primary('amoonguss', 'status', q.curve('symmetrical_wide'))"
+  },
+  "portraitScale": 2,
+  "portraitTranslation": [0, -0.2, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.bedrock('amoonguss', 'battle_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "quirks": ["q.bedrock_quirk('amoonguss', 'blink')"]
+    },
+    "float": {
+      "animations": ["q.bedrock('amoonguss', 'ground_idle')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "sleep": {
+      "animations": ["q.bedrock('amoonguss', 'sleep')"],
+      "poseTypes": ["SLEEP"]
+    },
+    "standing": {
+      "animations": ["q.bedrock('amoonguss', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('amoonguss', 'blink')"]
+    },
+    "swim": {
+      "animations": ["q.bedrock('amoonguss', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.bedrock('amoonguss', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.5, 0]
+}

@@ -16,7 +16,7 @@
   "emotesDirectory": "emotes",
   "autoFixEmoteStop": true,
   "checkPose": true,
-  "alwaysValidateEmote": false,
+  "alwaysValidateEmote": true,
   "playersafety": true,
   "stopthreshold": 0.04,
   "yratio": 0.75,
@@ -46,10 +46,18 @@
       "7": "7701bdc2-6350-42c8-8214-bbdb8c174e84"
     },
     "2": {
+      "0": "7a17c117-e876-4803-b398-33a430b5b116",
+      "1": "0e20d841-e2e7-4f2e-b8cf-2d802961e415",
+      "2": "ac90254c-c1b8-47ca-bd20-b42f6575cd6f",
       "3": "f9f6669d-f1b3-4170-8bc5-475a9a600439",
       "4": "d0087583-0000-0000-0000-000000000000",
       "5": "dce616d8-809a-4b39-8648-f6d433f338b8",
-      "6": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a"
+      "6": "01a53a42-2fd2-418c-8e46-e4ee1ff9ee6a",
+      "7": "71b4f275-0579-43e8-ab51-c6d19c123207"
+    },
+    "3": {
+      "3": "afb46857-0000-0000-0000-000000000000",
+      "4": "3e44d1cc-0000-0000-0000-000000000000"
     }
   },
   "keys": {}

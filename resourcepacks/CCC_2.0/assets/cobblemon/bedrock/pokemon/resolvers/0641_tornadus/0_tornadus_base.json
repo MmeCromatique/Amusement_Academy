@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:tornadus",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:tornadus.geo",
+      "poser": "cobblemon:tornadus",
+      "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadus.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0641_tornadus/tornadus_shiny.png"
+    }
+  ]
+}

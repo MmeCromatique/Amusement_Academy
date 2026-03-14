@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:wochien",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:wochien.geo",
+      "poser": "cobblemon:wochien",
+      "texture": "cobblemon:textures/pokemon/1001_wochien/wochien.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/1001_wochien/wochien_shiny.png"
+    }
+  ]
+}

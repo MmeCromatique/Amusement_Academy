@@ -1,0 +1,16 @@
+{
+  "order": 0,
+  "species": "cobblemon:calyrex",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:calyrex.geo",
+      "poser": "cobblemon:calyrex",
+      "texture": "cobblemon:textures/pokemon/0898_calyrex/calyrex.png"
+    }, {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0898_calyrex/calyrex_shiny.png"
+    }
+  ]
+}

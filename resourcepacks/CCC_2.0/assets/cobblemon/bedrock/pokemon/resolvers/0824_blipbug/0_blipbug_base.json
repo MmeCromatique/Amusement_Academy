@@ -1,0 +1,29 @@
+{
+  "order": 0,
+  "species": "cobblemon:blipbug",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0824_blipbug/blipbug_emissive.png"
+        }
+      ],
+      "model": "cobblemon:blipbug.geo",
+      "poser": "cobblemon:blipbug",
+      "texture": "cobblemon:textures/pokemon/0824_blipbug/blipbug.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0824_blipbug/blipbug_emissive.png"
+        }
+      ],
+      "texture": "cobblemon:textures/pokemon/0824_blipbug/blipbug_shiny.png"
+    }
+  ]
+}

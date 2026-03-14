@@ -1,0 +1,33 @@
+{
+  "order": 0,
+  "species": "cobblemon:eternatus",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:eternatus.geo",
+      "poser": "cobblemon:eternatus",
+      "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [
+        {
+          "emissive": true,
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_emissive.png",
+          "translucent": true
+        }
+      ],
+      "model": "cobblemon:eternatus.geo",
+      "poser": "cobblemon:eternatus",
+      "texture": "cobblemon:textures/pokemon/0890_eternatus/eternatus_shiny.png"
+    }
+  ]
+}

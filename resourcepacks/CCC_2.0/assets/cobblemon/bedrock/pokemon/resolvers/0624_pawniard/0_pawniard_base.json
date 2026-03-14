@@ -1,0 +1,23 @@
+{
+  "baseScale": 0.75,
+  "hitbox": {
+    "fixed": false,
+    "height": 2,
+    "width": 0.5
+  },
+  "order": 0,
+  "species": "cobblemon:pawniard",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:pawniard.geo",
+      "poser": "cobblemon:pawniard",
+      "texture": "cobblemon:textures/pokemon/0624_pawniard/pawniard.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0624_pawniard/pawniard_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "animations": {
+    "animation.charjabug.ground_idle": {
+      "bones": {
+        "body": {
+          "position": [0, 0, 0]
+        },
+        "bone": {
+          "position": [0, 0, "(math.sin(q.anim_time*90*4+90)*0.1+0.1)"]
+        },
+        "segment": {
+          "position": [0, 0, "(math.sin(q.anim_time*90*4+90)*0.1+0.1)"]
+        }
+      },
+      "loop": true
+    },
+    "animation.charjabug.ground_walk": {
+      "bones": {
+        "body": {
+          "position": [0, 0, "-math.clamp(math.sin(q.anim_time*90*4)*1,0,1)-math.clamp(math.sin(-q.anim_time*90*4)*1,0,1)"]
+        },
+        "bone": {
+          "position": [0, 0, "(math.sin(q.anim_time*90*4+90)*0.1+0.1)"]
+        },
+        "segment": {
+          "position": [0, 0, "(math.sin(q.anim_time*90*4+90)*0.1+0.1)"]
+        }
+      },
+      "loop": true
+    },
+    "animation.charjabug.pose": {
+      "bones": {
+        "bone": {
+          "rotation": [0, -12.5, 0]
+        },
+        "bone10": {
+          "position": [0, 0, -0.75]
+        },
+        "bone12": {
+          "position": [0, 0, -1]
+        },
+        "segment": {
+          "rotation": [-7.67995, -12.39135, 1.6575]
+        }
+      },
+      "loop": true
+    }
+  },
+  "format_version": "1.8.0"
+}

@@ -1,0 +1,22 @@
+{
+  "faint": "bedrock(meltan, faint)",
+  "head": "head",
+  "portraitScale": 1.12,
+  "portraitTranslation": [0.06, 0.34, 0],
+  "poses": {
+    "standing": {
+      "animations": ["bedrock(meltan, ground_idle)"],
+      "poseName": "standing",
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10
+    },
+    "walking": {
+      "animations": ["bedrock(meltan, ground_walk)"],
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "transformTicks": 10
+    }
+  },
+  "profileScale": 0.6,
+  "profileTranslation": [0, 0.6, 0]
+}

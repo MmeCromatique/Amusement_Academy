@@ -1,0 +1,44 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('vikavolt', 'cry')"
+  },
+  "portraitScale": 1.53,
+  "portraitTranslation": [-0.27, 0.86, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('neck')", "q.bedrock('vikavolt', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"],
+      "transformTicks": 10
+    },
+    "fly": {
+      "animations": ["q.look('neck')", "q.bedrock('vikavolt', 'air_fly')"],
+      "poseTypes": ["FLY"],
+      "transformTicks": 5
+    },
+    "hover": {
+      "animations": ["q.look('neck')", "q.bedrock('vikavolt', 'ground_idle')"],
+      "poseTypes": ["HOVER", "FLOAT"],
+      "transformTicks": 5
+    },
+    "standing": {
+      "animations": ["q.look('neck')", "q.bedrock('vikavolt', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+      "quirks": ["q.bedrock_quirk('vikavolt', 'quirk_mandible_clasp')"],
+      "transformTicks": 10
+    },
+    "swim": {
+      "animations": ["q.look('neck')", "q.bedrock('vikavolt', 'air_fly')"],
+      "poseTypes": ["SWIM"],
+      "transformTicks": 8
+    },
+    "walking": {
+      "animations": ["q.look('neck')", "q.bedrock('vikavolt', 'air_fly')"],
+      "poseTypes": ["WALK"],
+      "transformTicks": 8
+    }
+  },
+  "profileScale": 0.37,
+  "profileTranslation": [0, 1.26, 0]
+}

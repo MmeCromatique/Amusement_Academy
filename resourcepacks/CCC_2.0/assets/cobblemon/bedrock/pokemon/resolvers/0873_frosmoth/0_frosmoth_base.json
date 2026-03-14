@@ -1,0 +1,17 @@
+{
+  "order": 0,
+  "species": "cobblemon:frosmoth",
+  "variations": [
+    {
+      "aspects": [],
+      "layers": [],
+      "model": "cobblemon:frosmoth.geo",
+      "poser": "cobblemon:frosmoth",
+      "texture": "cobblemon:textures/pokemon/0873_frosmoth/frosmoth.png"
+    }, {
+      "aspects": ["shiny"],
+      "layers": [],
+      "texture": "cobblemon:textures/pokemon/0873_frosmoth/frosmoth_shiny.png"
+    }
+  ]
+}

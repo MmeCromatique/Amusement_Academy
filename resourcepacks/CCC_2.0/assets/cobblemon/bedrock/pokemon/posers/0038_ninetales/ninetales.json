@@ -1,0 +1,34 @@
+{
+  "animations": {
+    "cry": "q.bedrock_stateful('ninetales', 'cry')"
+  },
+  "portraitScale": 1.45,
+  "portraitTranslation": [-0.55, 0.8, 0],
+  "poses": {
+    "battle-standing": {
+      "animations": ["q.look('head')", "q.bedrock('ninetales', 'ground_idle')"],
+      "isBattle": true,
+      "poseTypes": ["STAND", "WALK"]
+    },
+    "float": {
+      "animations": ["q.look('head')", "q.bedrock('ninetales', 'ground_walk')"],
+      "poseTypes": ["FLOAT"]
+    },
+    "standing": {
+      "animations": ["q.look('head')", "q.bedrock('ninetales', 'ground_idle')"],
+      "isBattle": false,
+      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"]
+    },
+    "swim": {
+      "animations": ["q.look('head')", "q.bedrock('ninetales', 'ground_walk')"],
+      "poseTypes": ["SWIM"]
+    },
+    "walking": {
+      "animations": ["q.look('head')", "q.bedrock('ninetales', 'ground_walk')"],
+      "poseTypes": ["WALK"]
+    }
+  },
+  "profileScale": 0.55,
+  "profileTranslation": [0, 0.9, 0],
+  "rootBone": "ninetales"
+}
