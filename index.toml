@@ -454,7 +454,7 @@ hash = "a78650b792971bf2540d371ddefc2d2e0811ed7c8226eef5ceb1d80bb8c17df8"
 
 [[files]]
 file = "config/desiredservers/desiredservers.json"
-hash = "8847ecf02c6e098e81f0f5062955729e48ecf13e0a70886a081504177bc0164d"
+hash = "0b5648a021cc7978d658c39da052880ba6fd22117eeb6e9b974ca92c183afdc5"
 
 [[files]]
 file = "config/distraction_free_recipes-client.toml"
@@ -39367,11 +39367,6 @@ hash = "8c2053d080a7e4f24e5a426aff0feb26d8e795e4aceefa513f9de1935985d1c3"
 metafile = true
 
 [[files]]
-file = "mods/c2me.pw.toml"
-hash = "2894cd1e059882c485555f3119626500ce2074a0fe8a72d1d18c0065cd519af4"
-metafile = true
-
-[[files]]
 file = "mods/catch-indicator.pw.toml"
 hash = "3787fa588cf0e42d0448e2c0e6b14808e9a19fcc9b71a6233ee113fe4017010e"
 metafile = true
@@ -39389,11 +39384,6 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "2192098bc995d6501d0b3214917e46523ea9fd7bc7e414b5e340e2aac42dc4cc"
-metafile = true
-
-[[files]]
-file = "mods/chat-plus.pw.toml"
-hash = "8f933505a0db49c72f908ca8fce17b22b6b41daf8f2f047e61cc9079557a233b"
 metafile = true
 
 [[files]]
@@ -39987,11 +39977,6 @@ hash = "3ba6b440dc49b33d23f81269339f163dfbaad2cb45b6fc7a16f516a699bc3385"
 metafile = true
 
 [[files]]
-file = "mods/observable.pw.toml"
-hash = "98208ae2415431239a9b1d7cd97854cb19941a28189d2e887671d48e9b652761"
-metafile = true
-
-[[files]]
 file = "mods/octo-lib.pw.toml"
 hash = "0f795f3f73790aabd17b2e4452a27a497f069e6df7cbdf5e48cd9f17f2f61bcd"
 metafile = true
@@ -40232,11 +40217,6 @@ hash = "18e815ff0a8ec277e19f4ef2c927fbbd5795f5c79f3907f48f408bc0c199a7a7"
 metafile = true
 
 [[files]]
-file = "mods/starter-structure.pw.toml"
-hash = "218387d84a3680285d17bec68c16527d0d54edf792adf32b8b94c51c1d93b462"
-metafile = true
-
-[[files]]
 file = "mods/stohuns-vanity-collection.pw.toml"
 hash = "aa69d6a7429ecb72d090a2fedb0b26961721dbe3223ad2bc36016103ee8c8d8b"
 metafile = true
@@ -40368,7 +40348,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "c960d1c479e8fbbb241ff6043b164ca5622f637ee2c017293b556b3acb7b5d53"
+hash = "7e2e155bc1910edead2dd171749eff4767b8aa84ae70def39b7d8ed19fdbbb7a"
 metafile = true
 
 [[files]]
