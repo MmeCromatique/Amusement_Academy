@@ -1,3 +1,4 @@
 {
-  "inventory_screen": false
+  "inventory_screen": false,
+  "title_screen": false
 }

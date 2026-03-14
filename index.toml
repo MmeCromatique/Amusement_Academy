@@ -962,11 +962,11 @@ hash = "ce607d0e5f5e50449a667fcfc48c1765b2e8bfccddf3328c61a40e5afdaa23fb"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c40a196534fbeb183ac7c3657f3e7eb817e8292c5cb9813d01cd5ff8f76d6ee8"
+hash = "e08eb7ce453060b58245e7a1ba0a5f703496bf162ed1ae39c258e2ee28f33e4f"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout_2.txt"
-hash = "5a7c1c06d8f965737ec6b556b7be9e9be811ca4bc73bdb44f80e68b833cb15b1"
+hash = "e57e8a78500d6ad3fa1b4c688e6996a5bf877b3687bfea07f16cd93f106d6932"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
@@ -994,7 +994,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/normalized_scroll_screens.json"
-hash = "628c44075cc5020012021574d194b642750abe3a254709d563c4f693277c9050"
+hash = "afa0920ad648049aff27b35d99eab453b0ceb0c22fbce2589f4fa793d6ba8b54"
 
 [[files]]
 file = "config/fancymenu/options.txt"
