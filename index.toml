@@ -966,11 +966,11 @@ hash = "ce607d0e5f5e50449a667fcfc48c1765b2e8bfccddf3328c61a40e5afdaa23fb"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "e08eb7ce453060b58245e7a1ba0a5f703496bf162ed1ae39c258e2ee28f33e4f"
+hash = "79420310c580f8b9ea12cd4a5424d005b2b2228fcf3552d81f991474689305f2"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout_2.txt"
-hash = "e57e8a78500d6ad3fa1b4c688e6996a5bf877b3687bfea07f16cd93f106d6932"
+hash = "7ff64c402a153248a41f57389dd914684162daf6d8f6026e1d588ad4f897b226"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
@@ -1002,7 +1002,7 @@ hash = "afa0920ad648049aff27b35d99eab453b0ceb0c22fbce2589f4fa793d6ba8b54"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "9fe00904bbc1ee098bd94ff1dd5a94c17a03e9251e32a36928354507ad7d0895"
+hash = "7265bfe6666a58edfe38d0a7d5ace01e276778cd03a8307dfe6fac22b92136f3"
 
 [[files]]
 file = "config/fancymenu/slideshows/exposure1x/images/BaboAbe_15334063.png"
