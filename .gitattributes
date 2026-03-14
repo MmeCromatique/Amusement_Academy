@@ -4,5 +4,6 @@
 *.png binary
 *.gif binary
 *.ogg binary
+*.mp3 binary
 *.pnd binary
 autocrlf=false
