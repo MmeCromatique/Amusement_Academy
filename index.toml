@@ -39438,7 +39438,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-capture-xp.pw.toml"
-hash = "76af98191ea4e13fc8f98ddecdcb60d390533cd6d2b7bf66ff51314ce0bc9e44"
+hash = "c60d3595de24a791a66ba9a7443889e76439b6edc657bccbc74022860923e4d3"
 metafile = true
 
 [[files]]
@@ -39479,6 +39479,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-trials-edition.pw.toml"
 hash = "864f294b43e0df9812423e2035d42161c7dd874418b30fb8b61aceb62a2f446b"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon.pw.toml"
+hash = "840724c9076c34ea8cbd88090f197cacecba08e9ca86619e596e2536109db444"
 metafile = true
 
 [[files]]
