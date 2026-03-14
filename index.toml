@@ -574,7 +574,7 @@ hash = "9c641640a0c34b2ff15fbad286a0c5268d4c9abc256196340f11e13a27c892f5"
 
 [[files]]
 file = "config/fancymenu/assets/buttons.pdn"
-hash = "534a346c784fac814cad521247bb22906d0e15817e681caa5eabb2072af2f88f"
+hash = "b2d0a72fb3cbba3f60c57625467235a40e04eb965966d3a74b4adde6189f786f"
 
 [[files]]
 file = "config/fancymenu/assets/buttons.png"
@@ -582,7 +582,7 @@ hash = "09412156d0ddfc2f2e759cd66c631110dd7be8707939659da4f430eb657c48f7"
 
 [[files]]
 file = "config/fancymenu/assets/buttons2.pdn"
-hash = "2ac6a24f56fbe124373100d7e9d7e44ad510e0196d0cf1ad76b76d474ebec550"
+hash = "dcce09807cbd9fd340a4789da6afd643116ab4174d06377afca4351829d4f62b"
 
 [[files]]
 file = "config/fancymenu/assets/buttontoggle.png"
@@ -638,7 +638,7 @@ hash = "d7791f3aa9a1afab6a409ccf573688c2bb9c3a05f76639bb161d97ac54ec2e2d"
 
 [[files]]
 file = "config/fancymenu/assets/icon32.icns"
-hash = "a9a309e15b7f0e1acff2487c1af0fa13e734306debc9a85e68415f7b41f052e0"
+hash = "a4d3557d5068001d4b240202ba16000c2ded5fa5f04eee65a3d25e4ee4d049a6"
 
 [[files]]
 file = "config/fancymenu/assets/icon32.png"
@@ -866,7 +866,7 @@ hash = "c268f07445b6c53d28d38015932565bda0130f52d5deaf91da00da7301fc083e"
 
 [[files]]
 file = "config/fancymenu/customization/creative_mode_inventory_screen_layout_public.txt"
-hash = "7cf9916b04c69776c626f817cfef8c161fbd6837b0f71afd3107be2dbb373f7a"
+hash = "bb7c19d38ec50c8ed789789dc0ea4b8030fa3a169ae160d8d41d4bf9a6e4adf6"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
@@ -966,11 +966,11 @@ hash = "ce607d0e5f5e50449a667fcfc48c1765b2e8bfccddf3328c61a40e5afdaa23fb"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c40a196534fbeb183ac7c3657f3e7eb817e8292c5cb9813d01cd5ff8f76d6ee8"
+hash = "79420310c580f8b9ea12cd4a5424d005b2b2228fcf3552d81f991474689305f2"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout_2.txt"
-hash = "5a7c1c06d8f965737ec6b556b7be9e9be811ca4bc73bdb44f80e68b833cb15b1"
+hash = "7ff64c402a153248a41f57389dd914684162daf6d8f6026e1d588ad4f897b226"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout.txt"
@@ -978,7 +978,7 @@ hash = "a38cc5de6722fd2ee4d2a4f2df1eabb2e22d2200dc29150e219d2b844ddf7daa"
 
 [[files]]
 file = "config/fancymenu/customization/universal_layout_2.txt"
-hash = "37ee42542ee3e4dcae8fe84dbac1f7c97d9695caf52162dc239990fd4bb742fc"
+hash = "ced5d0efb98e13bf1ab7c99cc1d37055cca9d5f32ccdae0178b3b24dc6c9615f"
 
 [[files]]
 file = "config/fancymenu/customization/win_screen_layout.txt"
@@ -998,7 +998,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/normalized_scroll_screens.json"
-hash = "628c44075cc5020012021574d194b642750abe3a254709d563c4f693277c9050"
+hash = "afa0920ad648049aff27b35d99eab453b0ceb0c22fbce2589f4fa793d6ba8b54"
 
 [[files]]
 file = "config/fancymenu/options.txt"
@@ -1858,7 +1858,7 @@ hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "d4af7096b460aef81f417c5d99fc5a8728ce38fe1edc3b1414f3db23d33b221e"
+hash = "f068923f908ce6079aeecfbf96369f9c110a00ac96d63e847bc71e604d99bef3"
 
 [[files]]
 file = "config/fancytoasts/general.json"
