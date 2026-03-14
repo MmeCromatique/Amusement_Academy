@@ -454,7 +454,7 @@ hash = "a78650b792971bf2540d371ddefc2d2e0811ed7c8226eef5ceb1d80bb8c17df8"
 
 [[files]]
 file = "config/desiredservers/desiredservers.json"
-hash = "e8a35728d116c39873ae06d369d6101d4842b1c6c92e298dbebc6f3711b4249e"
+hash = "0b5648a021cc7978d658c39da052880ba6fd22117eeb6e9b974ca92c183afdc5"
 
 [[files]]
 file = "config/distraction_free_recipes-client.toml"
@@ -38997,6 +38997,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-crosshair.pw.toml"
 hash = "4ac2843a21303aefa4638806c0278e8ef8fbf8cf1475320f4a2c02f88dd235ad"
+metafile = true
+
+[[files]]
+file = "mods/ears.pw.toml"
+hash = "1de39da04f5e8ab4595f4c2cd36710bc29a661311c5616e6af6af270d2506aed"
 metafile = true
 
 [[files]]
