@@ -39458,7 +39458,7 @@ metafile = true
 
 [[files]]
 file = "mods/cobblemon-tim-core.pw.toml"
-hash = "9e73dc663b6e07c0746087c337890b9c0354d05e2d15d51be154a9dac331566c"
+hash = "d4209af3e46ad2c248598c3d09e00325752f05464d43a57b1178669efafb2670"
 metafile = true
 
 [[files]]
@@ -39704,6 +39704,11 @@ metafile = true
 [[files]]
 file = "mods/faux-custom-entity-data.pw.toml"
 hash = "4e4ac4ed93dbfe2bfce81aca79285273798e9d50fdea7be1ffef7b07f8c14892"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "1d5799cd3b6ea714602c18546b99ba894e7511835b77803304792468fb7ee187"
 metafile = true
 
 [[files]]
@@ -40139,6 +40144,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "55ca4c2c03ac1eba3a71a712387c66048d87fc31c81960bf79d6733c3689fe33"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+hash = "509a129f843e72b23f7269fb940bbd757a78716d6f2350f33ebe751c40bb77f8"
 metafile = true
 
 [[files]]
