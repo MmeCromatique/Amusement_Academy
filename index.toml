@@ -39525,11 +39525,6 @@ hash = "c4e9334819e77559441e736c679b8a45593ef4462e923a5ccc0799a8f6a0c1b5"
 metafile = true
 
 [[files]]
-file = "mods/rei.pw.toml"
-hash = "d22546ad55b555931eb527f163b3564e00c12c7dc8101378b87447dfcc8e0652"
-metafile = true
-
-[[files]]
 file = "mods/resource-pack-overrides.pw.toml"
 hash = "589b557788ec235c8d39f7a5462686c6e9703b8a579cb011de658a71ecd1e762"
 metafile = true
