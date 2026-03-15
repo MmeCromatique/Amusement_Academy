@@ -16541,6 +16541,354 @@ file = "datapacks/Journey Mounts/pack.png"
 hash = "d3ea0b9cdfdc95b131cea94343d6e325978cb40e00aa9d56799a11ddf8c27d1e"
 
 [[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-arceus.json"
+hash = "1170e67ec0214f415d675e3492a580835f720a916cd957007f91ea4ee6452039"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-articuno.json"
+hash = "279a7be0875552dbd17e392ed8b7b87b4a0ec6212cc1f8cc7bb7c610fad8f6d9"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-azelf.json"
+hash = "0a44847537ec5e7edf56b628e7ed9a6bc8aa8e5982e44d7c44b1b4f1d870df4d"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-calyrex.json"
+hash = "7d5c909b768ef3177b6759a5b816c74975db22242ed25debdf53bd0e069753fb"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-celebi.json"
+hash = "cb29560fcf4af5f43e76620d0177c8f54b640e70b87235f832d6614b182b8f2f"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-cobalion.json"
+hash = "e48834ce1608ec57aa53620defd02aed0edc7600927c9791cd8041f7fcb74e06"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-cosmog.json"
+hash = "170ff14771c3cd00c6d53455994842c34c5ed3180a1ab1f988b359b6035f8b2a"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-cresselia.json"
+hash = "fc08f396ddc7d7ed84d9c67683cce3127d43dfddbb49f86c57df97e856ce6ed4"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-darkrai.json"
+hash = "2afb40c5a30c97d3d0aadab60f115fa9417e28b761ca8205dce30c468791834a"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-deoxys.json"
+hash = "c3e8d94c9a11c2858e868e260299d0473a71233089d434b4c3209ffaebadb0ae"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-dialga.json"
+hash = "e720190218aff5a3f45100c929577b1b338323e259a3834747d5b2e2c63e50f4"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-diancie.json"
+hash = "45421c6d794347f89805a71c173a26343efae14ee71d511674cc50be1bca683f"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-entei.json"
+hash = "9c63a232564b63a5d7d90888b1b29cdb1404cf0a0c524f120cee2aef4709b4bc"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-eternatus.json"
+hash = "075edb4eecfa70e11e0967268638deac3fc5bae9fbe44f45cc6cdd807bb938fd"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-genesect.json"
+hash = "3af035d3f393dbc2910eeafbb4701c545db1f234344557b7c9c605cf34829e51"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-giratina.json"
+hash = "f9157612c053160f84c8a02db7a345727aae5119b567010702eebbe1469ea6a7"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-glastrier.json"
+hash = "67b101ecbd85ef8a836743c2dff56ff83db1282b7f2a183e3235420b284f5fb2"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-groudon.json"
+hash = "876275c72211befc3099d7f13c80592b4ade1f3a03375b2983cd65c91e8ab96b"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-heatran.json"
+hash = "b5900408868bbef1056621a29dd4c00f9183c1081656c1cbaeb8a7e40c6f7395"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-hooh.json"
+hash = "abcbfcaf8bbab211ec2024f540791d2ebcbc5dbba0e29f76d548339963651e1b"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-hoopa.json"
+hash = "9cd731095126fcdaaf70f091af413e16c32f07811ab112b2ada24da41f1cbb71"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-jirachi.json"
+hash = "e0eb1f8b5f4d430b543730769894a8913db44d4bd3db2080df5acfdf74dd61b7"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-keldeo.json"
+hash = "0190fd4a08a39533dd8e1aa51b79d20a68dfb0c7fa63b49d2611980a12c0da9e"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-koraidon.json"
+hash = "03bc8667cd0cb85f07f806d508164f905e6c2046b7384bc2c2924060c9627449"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-kubfu.json"
+hash = "4eb90a670ef99d95a4a1320176743271a98b9e329f1766cdfec73d59d72e1e2f"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-kyogre.json"
+hash = "f3f977c547da7ab5ce44503ba76a41ea21b5c79e7eb838f9664ef1160debf4e4"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-kyurem.json"
+hash = "dfcc379cf5a3f8edfa63080d3fc4b04d2c5737d537c2fbdbe1ba968a7435bc3d"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-landorus.json"
+hash = "dd5022a1cf6c3b45bddb8a00080cd9d9d8b58149dc2d5ac2cea79a41c777deac"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-latias.json"
+hash = "7cad89fb73e745b81041706ccfa62b9a39313112fbbb7d1c57f9279c120939ed"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-latios.json"
+hash = "da4b1613ae707ce79e50b47d12fe1c355af63201f1dadc7a7c712d33f0cb08eb"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-lugia.json"
+hash = "0b41eb200293cd389d2c70a2e4c938c9462eabbbe440dbedeb34ad389692b9bb"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-lunala.json"
+hash = "6145d2013a3040ead264e8c59fce9453cefc846e7904bedb1ed9a94d4c652983"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-magearna.json"
+hash = "5b5651dd66980c2d6880a23f304846ee56dbb523c488cf2d0b3984ac255afa3c"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-marshadow.json"
+hash = "cb634b01612441fb5eee05561ebca8e04cf60a9be1d95f27f383a760f3634a3c"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-meloetta.json"
+hash = "16551f793ab71f9d2546f241852b0f080271398514c4fb64b619687796f29465"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-meltan.json"
+hash = "78496bef89e1d866c70e53ba530b25c2c849920296dd07623dd9ce6afee95081"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-mesprit.json"
+hash = "6e9535fa736f229133121caead5921c8285529bf6252cf079bb4c78c8d528512"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-mew.json"
+hash = "c54d6327a4f8b7ae70f482b575e1a7209e1435a040a59cdc92141b35169bfa2d"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-mewtwo.json"
+hash = "78f0e260552141355ff001b71b123e4bfd156e87b53a7e465eb308007472ae20"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-miraidon.json"
+hash = "783b968051b6ef90233a3c8f24622eb0f3d27d37dbda3cad3f0eb2d7e442fde7"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-moltres.json"
+hash = "67ed06ca074a652892269a0b16cd5700370b6d1930ef251ebcd978c9362519a6"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-namorus.json"
+hash = "6e99a5e7f399fa87bd30acea2f27dc149f7dceccab49e5061d369ff00fce0900"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-necrozma.json"
+hash = "896381d218847998959f4d9398879b1a004bd58c19ba7402054d1f7ab21b1323"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-ogerpon.json"
+hash = "2fad2a57465658bc9342a3c1653b83241ab8ed16f591e59c745116f97939f3dd"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-palkia.json"
+hash = "1a29a9ce3021a1b7e2b701ade0717590d904c86a54320af91298bc52fe17c4a6"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-pecharunt.json"
+hash = "6efad309f14689ac9e3e094165b5782662038ec60f230c475cc01468a47bc2f6"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-raikou.json"
+hash = "88f65b7ed26be0fa3f25b4e49756fc34a1460dd61d15d94e132959471f569263"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-rayquaza.json"
+hash = "4a15781518544ec070d1019f8def853a57d88ebc73a9a0bb1e75cb0e71bdaff9"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-regice.json"
+hash = "c7a289cebb0971ec96bf39b0b55d8192f728ff7eda6c12741c1a8ef76e0dfd02"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-regidrago.json"
+hash = "b397157d26a01fb5ed811185b28fb1181badfe36507943eb04447365a472906f"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-regieleki.json"
+hash = "fa771723a5f6c468f5d6750985ee21a4465cfa62d2d60379f8bb9b2bc0bd8db6"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-regigigas.json"
+hash = "0c80bf381c1c0513d534fcbe0b20a2b65a05c08ce27d660ad8dabe603037b5bd"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-regirock.json"
+hash = "60b597cba19105cd14d9893f2038eedfa7d64cb54f00d7db31942ad1e4a09c89"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-registeel.json"
+hash = "856bca4306a802b87ad0aa641475ee7c969101aec86a54627624ce3bc1a019e7"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-reshiram.json"
+hash = "b2fb0f58c6216bf7f3b590ed9227e392a29d6fefb5acd09eb6db66bbf7f4997f"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-shaymin.json"
+hash = "e1e37bdf6b0696b9954b14d17551154d645e829bc10e4500d0920ee5074da563"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-solgaleo.json"
+hash = "532ce053548ec52abd37d7cc0d14daa896f9ddd150b1ec6f6e88438cdf6c5537"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-spectrier.json"
+hash = "ae3227b8e2676126020dced11e92d852aa85056a3dc83a0ff12ebb159f50e708"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-suicune.json"
+hash = "136309b51513b504a53938fcb248429d5f2534f625ee394aefd0617a6c485b55"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-tapubulu.json"
+hash = "42019073547b7ecf90ca35684851b5be82362d474e90432db81e2bd9f7bfdbd9"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-tapufini.json"
+hash = "5a05f12ca07c330035e9f234030cda13b7fd5fb64d29fa564b46262555a2d418"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-tapukoko.json"
+hash = "045842f2cc41ff0761e1bd8ced053d46279643815df3e421205645ee84256d0e"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-tapulele.json"
+hash = "4c08215d5b3e559053773f65e6ff96d9bb41af1a4d713ec7302dc055cc48e9b0"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-terapagos.json"
+hash = "643ade8949015bff41e83575966cb48e780ca2fb018de21d61d46cd74f5dc7b6"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-terrakion.json"
+hash = "3c19dfda8e23959be49a0dc13bd51dc797c30f6bf401f53aca1fdba62b853b71"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-thundurus.json"
+hash = "2d6cbc998c0738b5c4a1af60b7454fb8bd91c3b58903ed7178a001517770e9c4"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-tornadus.json"
+hash = "4aa5a6eb2547333e9def0c5689d06fc04bef636a611be410c0aa962b3150bfab"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-typenull.json"
+hash = "679884afffcd98f4cb9ac9548c9f8c23853ccb303f0dc11829e88591383cfadc"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-uxie.json"
+hash = "055aa3c60cf5e96b6164da46ad1b15ddb6e07e707657f6ad6dcf6f80460083a3"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-victini.json"
+hash = "99218b72526e0f80e1a01bcdde7eff99015d4b7a8d5e7ed8b538bf023fbb503d"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-virizion.json"
+hash = "28be52551b5f222f4909896a77361e098a9c147cf90fb06a8d14c7455d30d737"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-volcanion.json"
+hash = "b03bdd534d8f1692709935300c34201042f505eb45d81c6996a2d91f940edfb9"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-xerneas.json"
+hash = "d85b117cc4351edac3ff59c669dae0b5e3ec4dbe2e5354a25cde2df613b93f7b"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-yveltal.json"
+hash = "aa80db6f6b73c89ec4768c93eedef1ad1a280fab352cff1923771530ae9e9767"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zacian.json"
+hash = "70e9ebb98401cc1722ed12cd50e2b9e9149e2791935372f5df14b4acde8887c1"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zamazenta.json"
+hash = "98d27870d955bdd2635ed23475c3767f951608762f6931cca5cbce92b267adea"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zapdos.json"
+hash = "6f0f623fca5ce65f140e09b0424bd5f94e2125ec4ec34609163f5d0e0bdbff84"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zarude.json"
+hash = "798897c8914ad828478d810d6189788120985b6b80f788862416210cf3379ab4"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zekrom.json"
+hash = "d6c07888e7c632cffa77c72edeff146d2ecbb64c1a628e54afe36482badd9e1c"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zeraora.json"
+hash = "acf152f2093c3d4c1e7af3b987e35460dd0301bf755afc6055a971b0784c0e2a"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/spawn_pool_world/mythsandlegends-zygarde100.json"
+hash = "39a3afd23b806fcc51b9b55da58478af9bb6bbdc5235f61a0ee5b9dd60381765"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/species_feature_assignments/meltan_iron_charge.json"
+hash = "0971736f612e01c69c9c8753e419268d92736f07876292e390482add9b32ab1b"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/cobblemon/species_features/meltan_iron_charge.json"
+hash = "de6d5ca1d78c1b3a4bd65d5775ab345ff8e5a320278ba87bbf567eca9f3f9eda"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/species_additions/kubfu_custom_evolutions.json"
+hash = "699633836213db504cfa07e8afbb6e150774659c830dbbf1c63a68b89d054507"
+
+[[files]]
+file = "datapacks/MythAndLegends/data/species_additions/meltan_custom_evolution.json"
+hash = "a170f89625bba9ab929cdc74c342dcad0f19617bc3566355b7bd0e23ea09600c"
+
+[[files]]
+file = "datapacks/MythAndLegends/pack.mcmeta"
+hash = "004198ac525420c3e0020b8513ab77201e445a2bcedeb784ac1d03f59c877d9f"
+
+[[files]]
+file = "datapacks/MythAndLegends/pack.png"
+hash = "a6344f9254db4b64f3732f72607d8975b056b4a9c9255d62883d9a030b2636e4"
+
+[[files]]
 file = "datapacks/Trek 1.21.x B0.4.1/data/minecraft/structure/end_city/base_floor.nbt"
 hash = "7a1492728c617a0f2c1f1e5ba3bb2b619b3741fea88167f46b88bea497d70e9b"
 
@@ -38845,6 +39193,11 @@ hash = "8924f70537405b8bc884504814f8963483268b492bcad4c6d87badde63ee69e5"
 metafile = true
 
 [[files]]
+file = "mods/cobblefurnies.pw.toml"
+hash = "e4017e270ceacfe8dff8cdba6a657b903c002133a3bc88e8dbd54c6f55812b16"
+metafile = true
+
+[[files]]
 file = "mods/cobblemon-academy-integration.pw.toml"
 hash = "4b09f2cd71e33685c855dd6cc6b84144426a4fa77f5ee58b6f13468faf5b5cf3"
 metafile = true
@@ -39507,6 +39860,21 @@ metafile = true
 [[files]]
 file = "mods/radical-cobblemon-trainers-api.pw.toml"
 hash = "68149356da33377ab83d6a3dc328c3ec2722f7e7e00f0f198e001794684eb172"
+metafile = true
+
+[[files]]
+file = "mods/radical-gyms-cobblemon.pw.toml"
+hash = "1f2b2182565e431b5e0c0fa7c6991c2debd6ba89e6905ca6518acfb95df821a8"
+metafile = true
+
+[[files]]
+file = "mods/rctapi.pw.toml"
+hash = "f02ba583f7e666dae9fd2a8aa329022af65f47ed264066b3df0367ed67eed52b"
+metafile = true
+
+[[files]]
+file = "mods/rctmod.pw.toml"
+hash = "8a49f4c1a215d767fb6b00370fc8e294cbde06f9508f8f2196d0a8230ec544cd"
 metafile = true
 
 [[files]]
