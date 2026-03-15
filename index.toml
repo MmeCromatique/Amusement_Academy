@@ -39010,11 +39010,6 @@ hash = "e034e16afa87d646f41b2a099b3b7f27390354b0fb7b4aaaf1475aaf78913709"
 metafile = true
 
 [[files]]
-file = "mods/emi.pw.toml"
-hash = "fd2b924a2fc8518fe0195c8aff7cb75e6e3bb6786402117544a3f5d6a36086e9"
-metafile = true
-
-[[files]]
 file = "mods/emojiful.pw.toml"
 hash = "bb0f5f7c70d75d355d50a35098f61223e71b48b7e93c82186a5a4c4e56321de1"
 metafile = true
