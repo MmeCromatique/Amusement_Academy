@@ -38706,7 +38706,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "39792a11da59cebc770f3918dd0ad53637bcbd206dc19bfa6709392bfd2d1830"
+hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
 metafile = true
 
 [[files]]
@@ -38862,6 +38862,11 @@ metafile = true
 [[files]]
 file = "mods/cobblemon-more-sparkles.pw.toml"
 hash = "5be3f3e7335293d00128ae94797515a84e8e9d7ae44efb0d0395474270b4c30e"
+metafile = true
+
+[[files]]
+file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
+hash = "dcddd73570fb0fdf95b42ed571983ad923612309c723e030b0875ea003fab8f1"
 metafile = true
 
 [[files]]
