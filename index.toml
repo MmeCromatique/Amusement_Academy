@@ -39218,11 +39218,6 @@ hash = "5be3f3e7335293d00128ae94797515a84e8e9d7ae44efb0d0395474270b4c30e"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-myths-and-legends-sidemod.pw.toml"
-hash = "dcddd73570fb0fdf95b42ed571983ad923612309c723e030b0875ea003fab8f1"
-metafile = true
-
-[[files]]
 file = "mods/cobblemon-playerxp.pw.toml"
 hash = "475134187bfc7c8da7026bcd5537e6c51b850190d5ff5fe0b6ede87445309e8f"
 metafile = true
