@@ -39066,7 +39066,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "0e28ba15ba1769864a4af0b2f7ffaa3c90017b49633bef2a843b14a46e9a791d"
+hash = "6ec22733a32cf6e59584fbf2a855e24ea2c05f46026e0799f34f34c0915c8367"
 metafile = true
 
 [[files]]
@@ -39237,6 +39237,11 @@ metafile = true
 [[files]]
 file = "mods/joy-of-painting.pw.toml"
 hash = "e969c54f8b34ce0c793672e47ded8de32b40a71f4e9a73ca0947c5ce6390d63f"
+metafile = true
+
+[[files]]
+file = "mods/just-hammers.pw.toml"
+hash = "6b33a81cc84170b69283501fa48552c892b608a42318cb396322fcac88c52ce3"
 metafile = true
 
 [[files]]
@@ -39620,8 +39625,23 @@ hash = "986f5951bd0caf0b493811276d078e57fa6015245efd43b9229cc0c387b4059f"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-backpacks-(unoffical-fabric-port).pw.toml"
+hash = "a4eebb2bda9daccc5444b8bd2d91f4ee8ce2325dd51436cb785ca33530b98ecd"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
+hash = "693fdc79c18086a2a939b45de97ca918d895d5a4247d2a0bba94bf53661bc705"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-core-unofficial-fabric-port.pw.toml"
 hash = "7e898354f1a7b72b6a40635b91f9826c3273e24d7c19102b9c9c098475b94257"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
+hash = "f2feec4a404ea1ebff1cbc8ef801d074fc8c4a528af064fd9c125f5c9e57c824"
 metafile = true
 
 [[files]]
